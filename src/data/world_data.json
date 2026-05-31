@@ -41,7 +41,7 @@
         "shadow-magic",
         "wanderer"
       ],
-      "img": "",
+      "img": "/images/characters/char-zillian/Zill.png",
       "description": "A wanderer carrying a power with a price — a shadow that drinks blood. He carries no title, but something worse...",
       "sections": [
         {
@@ -95,7 +95,7 @@
         "elder",
         "halwen"
       ],
-      "img": "",
+      "img": "/images/characters/char-garret/Garret.png",
       "description": "An elder of the village of Halwen, carrying the weight of a cursed covenant.",
       "sections": [
         {
@@ -124,7 +124,7 @@
         "mage",
         "investigator"
       ],
-      "img": "",
+      "img": "/images/characters/char-sera/Sera.png",
       "description": "A masked elven woman with an inhuman efficiency in combat, investigating the ruined networks of ancient mages.",
       "sections": [
         {
@@ -146,7 +146,7 @@
     },
     {
       "id": "char-voryn",
-      "category": "characters",
+      "category": "monsters",
       "name": "Voryn",
       "epithet": "The Failed God",
       "type": "Deity / Monster",
@@ -188,7 +188,7 @@
         "founder",
         "legend"
       ],
-      "img": "https://images.unsplash.com/photo-1517457493774-325b306b3f23?q=80&w=300&auto=format&fit=crop",
+      "img": "",
       "description": "The legendary founder of Saltstead and the Saltfurr Clans.",
       "sections": [
         {

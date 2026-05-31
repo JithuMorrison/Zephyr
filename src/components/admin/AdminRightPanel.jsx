@@ -35,6 +35,69 @@ const AdminRightPanel = ({ entity, editMode, setDraftEntity, onNavigate, worldDa
   // Standard fields
   const standardFields = ['type', 'era', 'race', 'location', 'status', 'faction', 'population', 'leader', 'danger_level', 'inhabitants'];
 
+  const [currentImageIdx, setCurrentImageIdx] = React.useState(0);
+
+  // Derive images array
+  const images = React.useMemo(() => {
+    if (!entity) return [];
+    let imgs = [];
+    if (entity.img) imgs.push(entity.img);
+    if (entity.images && Array.isArray(entity.images)) {
+      imgs = [...imgs, ...entity.images];
+    }
+    return [...new Set(imgs)];
+  }, [entity]);
+
+  React.useEffect(() => {
+    setCurrentImageIdx(0);
+  }, [entity?.id]);
+
+  React.useEffect(() => {
+    if (images.length <= 1) return;
+    const timer = setInterval(() => {
+      setCurrentImageIdx(prev => (prev + 1) % images.length);
+    }, 4000);
+    return () => clearInterval(timer);
+  }, [images.length]);
+
+  const handleAddImage = async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    
+    const formData = new FormData();
+    formData.append('image', file);
+    formData.append('entityId', entity.id);
+    formData.append('category', entity.category);
+    
+    try {
+      const res = await fetch('/api/upload-image', { method: 'POST', body: formData });
+      if (res.ok) {
+        const data = await res.json();
+        const currentImages = entity.images || [];
+        setDraftEntity(prev => ({ ...prev, images: [...currentImages, data.imageUrl] }));
+      }
+    } catch (err) {
+      console.error('Failed to upload extra image', err);
+    }
+  };
+
+  const handleRemoveImage = (urlToRemove) => {
+    if (urlToRemove === entity.img) {
+      setDraftEntity(prev => ({ ...prev, img: '' }));
+    } else {
+      setDraftEntity(prev => ({ 
+        ...prev, 
+        images: (prev.images || []).filter(u => u !== urlToRemove) 
+      }));
+    }
+    // Also call delete-image endpoint
+    fetch('/api/delete-image', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ url: urlToRemove })
+    }).catch(console.error);
+  };
+
   return (
     <aside className="right-panel">
       {!editMode && <div className="rp-title">{entity.name}</div>}
@@ -45,8 +108,38 @@ const AdminRightPanel = ({ entity, editMode, setDraftEntity, onNavigate, worldDa
       </div>
       
       <div className="rp-tab-content active">
-        {!editMode && entity.img && entity.category !== 'characters' && (
-          <div className="rp-img" style={{backgroundImage: `url('${entity.img}')`}}></div>
+        {images.length > 0 && (
+          <div className="rp-image-wrap" style={{position:'relative', border:'1px solid var(--border2)', borderRadius:'3px', overflow:'hidden', marginBottom:'1rem'}}>
+            <img src={images[currentImageIdx]} alt={entity.name} style={{width:'100%', display:'block'}} />
+            {images.length > 1 && (
+              <>
+                <button className="rp-img-arrow prev" onClick={(e) => { e.stopPropagation(); setCurrentImageIdx(prev => (prev - 1 + images.length) % images.length); }} style={{position:'absolute', top:'50%', transform:'translateY(-50%)', left:6, background:'rgba(0,0,0,0.5)', border:'none', color:'#fff', width:22, height:22, borderRadius:'50%', cursor:'pointer', display:'flex', alignItems:'center', justifyContent:'center'}}>‹</button>
+                <button className="rp-img-arrow next" onClick={(e) => { e.stopPropagation(); setCurrentImageIdx(prev => (prev + 1) % images.length); }} style={{position:'absolute', top:'50%', transform:'translateY(-50%)', right:6, background:'rgba(0,0,0,0.5)', border:'none', color:'#fff', width:22, height:22, borderRadius:'50%', cursor:'pointer', display:'flex', alignItems:'center', justifyContent:'center'}}>›</button>
+                <div style={{position:'absolute', bottom:'8px', left:0, right:0, display:'flex', justifyContent:'center', gap:'4px'}}>
+                  {images.map((_, i) => (
+                    <div key={i} style={{width:'6px', height:'6px', borderRadius:'50%', background: i === currentImageIdx ? 'var(--gold)' : 'rgba(255,255,255,0.4)'}} />
+                  ))}
+                </div>
+              </>
+            )}
+            {editMode && (
+              <button 
+                onClick={(e) => { e.stopPropagation(); handleRemoveImage(images[currentImageIdx]); }}
+                style={{position:'absolute', top:4, right:4, background:'rgba(200,0,0,0.8)', color:'white', border:'none', padding:'2px 6px', fontSize:'10px', borderRadius:'3px', cursor:'pointer'}}
+              >
+                Delete
+              </button>
+            )}
+          </div>
+        )}
+        
+        {editMode && (
+          <div style={{marginBottom:'1rem', textAlign:'center'}}>
+            <label style={{cursor:'pointer', color:'var(--text2)', background:'var(--surface2)', border:'1px dashed var(--border3)', padding:'4px 8px', borderRadius:'4px', fontSize:'12px', display:'inline-block'}}>
+              + Add Image
+              <input type="file" accept="image/*" style={{display:'none'}} onChange={handleAddImage} />
+            </label>
+          </div>
         )}
 
         {editMode ? (

@@ -296,7 +296,9 @@ const AdminEntityDisplay = ({ entity, editMode, setDraftEntity, onNavigate }) =>
   const inputStyle = { background: 'var(--surface2)', border: '1px dashed var(--border3)', color: 'inherit', font: 'inherit', width: '100%', boxSizing: 'border-box', padding: '2px' };
   const textareaStyle = { ...inputStyle, padding: '8px', minHeight: '120px', resize: 'vertical' };
 
-  if (entity.category === 'characters') {
+  const isCharacter = entity.id ? entity.id.startsWith('char-') : entity.category === 'characters';
+  
+  if (isCharacter) {
     return (
       <div className="page active">
         <div className="char-header">
@@ -464,7 +466,9 @@ const AdminEntityDisplay = ({ entity, editMode, setDraftEntity, onNavigate }) =>
           </div>
         )}
         {entity.img ? (
-          <div className="content-image" style={{backgroundImage: `url('${entity.img}')`}}></div>
+          <div className="content-image" style={{ height: 'auto', border: 'none', background: 'transparent' }}>
+            <img src={entity.img} alt="header" style={{ width: '100%', maxHeight: '400px', objectFit: 'cover', borderRadius: '4px', display: 'block' }} />
+          </div>
         ) : (
           editMode && <div className="content-image" style={{background:'#222', display:'flex', alignItems:'center', justifyContent:'center', color:'#555'}}>No Image</div>
         )}

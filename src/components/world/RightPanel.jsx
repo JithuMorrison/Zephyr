@@ -3,6 +3,31 @@ import worldData from '../../data/world_data.json';
 
 const RightPanel = ({ entity, onNavigate, maxRead }) => {
   const [activeTab, setActiveTab] = useState('info');
+  const [currentImageIdx, setCurrentImageIdx] = useState(0);
+
+  // Derive images array
+  const images = React.useMemo(() => {
+    if (!entity) return [];
+    let imgs = [];
+    if (entity.img) imgs.push(entity.img);
+    if (entity.images && Array.isArray(entity.images)) {
+      imgs = [...imgs, ...entity.images];
+    }
+    // Remove duplicates just in case
+    return [...new Set(imgs)];
+  }, [entity]);
+
+  React.useEffect(() => {
+    setCurrentImageIdx(0);
+  }, [entity?.id]);
+
+  React.useEffect(() => {
+    if (images.length <= 1) return;
+    const timer = setInterval(() => {
+      setCurrentImageIdx(prev => (prev + 1) % images.length);
+    }, 4000);
+    return () => clearInterval(timer);
+  }, [images.length]);
 
   const isVisible = (field) => {
     if (maxRead === undefined) return true;
@@ -43,11 +68,20 @@ const RightPanel = ({ entity, onNavigate, maxRead }) => {
 
       {activeTab === 'info' && (
         <>
-          {entity.img && (
+          {images.length > 0 && (
             <div className="rp-image-wrap">
-              <img src={entity.img} alt={entity.name} />
-              <button className="rp-img-arrow prev">‹</button>
-              <button className="rp-img-arrow next">›</button>
+              <img src={images[currentImageIdx]} alt={entity.name} />
+              {images.length > 1 && (
+                <>
+                  <button className="rp-img-arrow prev" onClick={(e) => { e.stopPropagation(); setCurrentImageIdx(prev => (prev - 1 + images.length) % images.length); }}>‹</button>
+                  <button className="rp-img-arrow next" onClick={(e) => { e.stopPropagation(); setCurrentImageIdx(prev => (prev + 1) % images.length); }}>›</button>
+                  <div style={{position:'absolute', bottom:'8px', left:0, right:0, display:'flex', justifyContent:'center', gap:'4px'}}>
+                    {images.map((_, i) => (
+                      <div key={i} style={{width:'6px', height:'6px', borderRadius:'50%', background: i === currentImageIdx ? 'var(--gold)' : 'rgba(255,255,255,0.4)'}} />
+                    ))}
+                  </div>
+                </>
+              )}
             </div>
           )}
 

@@ -159,7 +159,14 @@ export const EntityDisplay = ({ entity, onNavigate, maxRead }) => {
       )}
 
       {entity.category !== 'characters' && (
-        <h2 className="page-title">{censor('name', entity.name)}</h2>
+        <>
+          <h2 className="page-title">{censor('name', entity.name)}</h2>
+          {entity.img && (
+            <div className="content-image" style={{ height: 'auto', border: 'none', background: 'transparent', marginBottom: '2rem' }}>
+              <img src={entity.img} alt="header" style={{ width: '100%', maxHeight: '400px', objectFit: 'cover', borderRadius: '4px', display: 'block' }} />
+            </div>
+          )}
+        </>
       )}
 
       {entity.description && isVisible('description') && (
