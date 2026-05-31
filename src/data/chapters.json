@@ -1,0 +1,2143 @@
+{
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "title": "The Road Into Nowhere",
+      "arc": "The Village Arc",
+      "arc_number": 1,
+      "setting": {
+        "continent": "Arcaelis",
+        "region": "Solvara",
+        "specific_location": "Solvaran Border Road to Halwen Village outskirts",
+        "time_of_day": "Late afternoon, sun angled low",
+        "weather_conditions": "Overcast, air too still for wind",
+        "era": "Fracture Era"
+      },
+      "summary": {
+        "brief": "Zillian arrives at Halwen, a village sealed in silence, and senses something profoundly wrong beneath its surface.",
+        "detailed": "Zillian walks the forgotten border road into the Solvaran lowlands and crests the hill above Halwen. He surveys the four directions: the canyon-split east, the lightless western woods, the jagged northern peaks, the long empty road south. He enters the village and is met with slamming shutters and averted eyes. The silence is not caution. It is collective dread."
+      },
+      "pov_character": "Zillian",
+      "story_text": "The road into Solvara's eastern lowlands didn't so much end as simply give up.\n\nZillian had walked this stretch for three days — a pale strip of compressed dirt cutting through scrubland, past ruins of relay stations nobody had bothered to repair, past dried creekbeds that hadn't seen water in a generation. The kind of road that forgot why it existed. He walked it anyway, because roads, even forgotten ones, eventually led to people. And people meant food, lodging, information, and occasionally the kind of trouble that kept a man sharp.\n\nHe reached the crest of a low hill just as the sun began its final, sullen descent behind the cloud cover. The valley below spread out in a pocket of geography that felt too enclosed, too hidden — as though the land itself had cupped its hands around it. To the east, the terrain dropped sharply and fractured into the brutal, sheer walls of Vorthal Canyon. A continent-long wound, visible even from here as a dark, ragged line across the horizon, its depths permanently shadowed. Bandits, the old road-travelers said. Organized ones. The kind that picked their moments and vanished back into the stone.\n\nTo the west, a dense wall of forest crowded uncomfortably against the valley's edge. Not picturesque forest — not the gentle kind with birdsong and morning light filtering through canopy. This was the other kind. The kind where the trees leaned inward over the trail entrance like they were listening. Zillian had passed a dozen similar forests across his travels. None of them had ever been empty.\n\nTo the north, the land climbed hard and fast into a range of jagged peaks that looked like they'd been snapped rather than formed. Sharp ridgelines cut the sky in uneven teeth. No pass visible from this angle. Cold came off them even in the lowland warmth, a faint breath of altitude carrying something mineral and old.\n\nAnd south — south was the road he'd come from. Empty. Unbroken. Nobody following.\n\nNestled into the base of the valley - Halwen.\n\nFrom the hilltop it looked manageable. A wooden palisade, weathered but intact. Thirty or forty buildings inside, thatched roofing over stone-and-timber frames. A modest water tower, a cleared center square. Smoke from two chimneys. It looked like a border village doing its quiet, unremarkable best to persist. He had seen hundreds of them.\n\nBut something stopped him from walking immediately.\n\nHe stood on the hilltop for a long moment, watching. No sound rose from the valley. No blacksmith's hammer. No livestock. No children's voices carrying in the afternoon air — and children's voices always carried. There should have been dogs. The absence of dogs was the first thing that truly bothered him. Dogs always made noise when a stranger stood on a hilltop above their home.\n\nHalwen was quiet in the way places were quiet when the people inside them were holding very still.\n\nZillian adjusted the strap of his pack — a worn leather traveler's bag, nothing conspicuous, nothing that rattled — and descended into the valley.\n\nThe village gates were open. Not flung open in welcome, not locked shut in defense — just open, the old wood hanging slightly off-true on a corroded hinge. Nobody guarded them. He stepped through into the main thoroughfare and the first shutter cracked closed to his left. Then another, to the right. He didn't look at them directly. He walked slowly, hands visible at his sides, the way you walked when you wanted to communicate no immediate threat.\n\nA woman in a faded red apron was crossing the lane ahead of him, carrying a basket of winter root vegetables. She saw him and froze. Not the freeze of surprise — the freeze of something clenching in the chest. Her eyes dropped immediately to the ground. She changed direction without a word, angling toward the nearest door, disappearing inside before he'd taken another ten steps.\n\nTwo men seated beside an upturned cart near the well, working leather straps through the axle mount, glanced up, exchanged a compressed wordless look, and both turned their backs.\n\nZillian stopped in the center of the lane.\n\nThe afternoon light was flat and grey, the cloud cover eating the warmth out of it. The dust of the lane was scuffed by recent foot traffic — this wasn't a dead village, wasn't abandoned. People lived here, worked here, moved through these streets daily. But right now, at the arrival of one unarmed traveler, the village had sealed itself shut around him like a fist closing.\n\nHe had been in lawless towns where strangers got knives at the first corner. He had been in paranoid border settlements under siege-readiness who turned away everyone. This was not that. In those places, the fear had a direction — outward, pointed at the stranger.\n\nThe fear in Halwen was pointed inward. These people were afraid of something that already lived here. Something already among them, or waiting to return to them. A stranger on the road was just another shape in a sky already full of wrong things.\n\nZillian looked to the far end of the thoroughfare. A crooked sign read GARRET'S PROVISIONS in hand-lettered paint, the letters slightly uneven as though written by a man who cared more about legibility than beauty. Light leaked from under the door.\n\nHe needed supplies regardless. And if this village carried the particular flavor of fear that it seemed to — he needed information more.\n\nHe walked toward the light.",
+      "characters_present": [
+        {
+          "id": "zillian",
+          "name": "Zillian",
+          "role_in_chapter": "Sole POV character, arriving traveler",
+          "first_appearance": true,
+          "status": "alive",
+          "emotional_state": "Cautious, observant, controlled curiosity",
+          "power_level": "Unknown",
+          "goals_this_chapter": [
+            "Reach village",
+            "Assess surroundings",
+            "Find shelter and supplies"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "order": 1,
+          "type": "travel",
+          "description": "Zillian surveys the four directions surrounding Halwen from the hill crest.",
+          "characters_involved": [
+            "Zillian"
+          ],
+          "location": "Solvaran Border Road hilltop",
+          "importance": "setup"
+        },
+        {
+          "order": 2,
+          "type": "arrival",
+          "description": "Zillian enters Halwen and is met with collective, inward-facing fear from all villagers.",
+          "characters_involved": [
+            "Zillian"
+          ],
+          "location": "Halwen Village gate and main thoroughfare",
+          "importance": "major"
+        }
+      ],
+      "combat_scenes": [],
+      "power_developments": [],
+      "world_building": {
+        "new_locations_introduced": [
+          "Halwen Village",
+          "Vorthal Canyon (visible east)",
+          "Western Forest",
+          "Northern Peaks"
+        ],
+        "lore_revealed": [],
+        "races_introduced": [
+          "Humans"
+        ],
+        "political_developments": [],
+        "secrets_hinted": [
+          "The village fear is directed inward, not at the stranger — something already lives here"
+        ],
+        "secrets_revealed": []
+      },
+      "relationships": {
+        "new_connections": [],
+        "relationship_changes": []
+      },
+      "items_artifacts": [],
+      "foreshadowing": [
+        {
+          "hint": "No dogs. No children's voices. A silence that belongs to people holding still.",
+          "relates_to": "The child tribute and the village's paralysis under fear",
+          "subtlety": "subtle"
+        }
+      ],
+      "themes": [
+        "Isolation",
+        "Hidden dread",
+        "The geography of fear"
+      ],
+      "cliffhanger": {
+        "has_cliffhanger": false,
+        "description": ""
+      },
+      "chapter_metadata": {
+        "word_count": 1520,
+        "status": "final",
+        "notes": "",
+        "connections_to_previous": "",
+        "setup_for_next": "Zillian walks toward Garret's Provisions — setting up the shopkeeper encounter."
+      }
+    },
+    {
+      "chapter_id": 2,
+      "title": "What Garret Knows",
+      "arc": "The Village Arc",
+      "arc_number": 1,
+      "setting": {
+        "continent": "Arcaelis",
+        "region": "Solvara",
+        "specific_location": "Garret's Provisions, Halwen Village",
+        "time_of_day": "Late afternoon",
+        "weather_conditions": "Overcast",
+        "era": "Fracture Era"
+      },
+      "summary": {
+        "brief": "Zillian enters Garret's shop, buys supplies, and draws out the local legend of the wolf-god Voryn from the nervous shopkeeper.",
+        "detailed": "Garret is old, sharp-eyed, and hiding something behind deliberate warmth. He gives Zillian supplies but steers conversation away from the village. Zillian presses, and Garret shares the legend of Voryn — the great wolf that sleeps in the earth and protects those who revere it. The legend carries reverence and dread in equal measure. Before more can be said, hoofbeats arrive outside."
+      },
+      "pov_character": "Zillian",
+      "story_text": "The bell above Garret's door rang with a bright, solitary clang that sounded absurdly cheerful given the atmosphere outside.\n\nThe shop was compact and crammed with the particular organized chaos of a man who knew exactly where everything was. Dried herbs in bundled rows hung from the ceiling beams. Shelves ran floor to ceiling along two walls — preserved meats, candles, rope, waterskins, oil flasks, leather patches, iron nails sorted by size into clay pots. The smell was layered: dried sage, tallow, leather, the faint sweet rot of old wood. A small charcoal brazier in the corner pushed warmth into the air. It was the most comfortable Zillian had felt in three days.\n\nBehind the counter, an old man with white hair pulled back in a loose tail looked up from his ledger. He had a twice-broken nose, spectacles perched on the counter beside him rather than worn, and the kind of eyes that took in the whole room in a single glance and filed everything quietly away.\n\nThe shopkeeper smiled. Warm enough to seem genuine, but Garret had the look of a man who had been running a border town shop long enough to smile at almost anything.\n\nGarret: \"Traveler. Road-worn if I'm reading you right. What can I get you?\"\n\nZillian set two silver coins on the counter. Not flashy, not hesitant.\n\nZillian: \"Trail rations. Four days. Full waterskin. Lamp oil if you have it.\"\n\nGarret moved immediately, scooping up the coins and turning toward his shelves. He worked fast — too fast. Not efficiency. Urgency wearing efficiency's face.\n\nGarret: \"Road east is rough going this season. Canyon fog rolls in before noon most days. Makes the trail near the river treacherous if you don't know the markers. I'd recommend the southern route around the canyon mouth if you're heading toward Aurelios.\"\n\nZillian: \"I'll keep that in mind. How long has the village been this quiet?\"\n\nGarret paused — barely anything, a hesitation in the motion of filling the canvas bag — and then continued. Garret: \"It's always quiet. Border village. Nothing unusual.\"\n\nZillian: \"There's quiet and there's quiet. The kind I walked into out there — that's the second kind.\"\n\nThe old man set the bag on the counter and looked at him properly for the first time. The practiced warmth shifted, replaced by something more considered. He was measuring Zillian the way a man measured something he wasn't sure was a threat yet.\n\nGarret: \"You've got sharp eyes for a road traveler.\"\n\nZillian: \"Sharp enough.\"\n\nGarret let out a long breath and leaned forward on the counter, lowering his voice out of habit even though they were alone.\n\nGarret: \"There's an old legend in this valley. Most border settlements have one — the local color you get when you live far enough from a city that nobody comes to correct your superstitions. They say something lives in the earth beneath this valley. Something old. The farmers who settled here two hundred years back called it Voryn.\"\n\nZillian: \"What is it?\"\n\nGarret: \"A wolf. Not the kind you see in the forests. Not a beast at all, really, or not only a beast. They say it's enormous — they say the ridgeline to the north shifts sometimes when it turns over in its sleep. They say its body is wrapped in the bedrock itself, that its breath is what makes the hot springs three miles east run warm even in winter. A sleeping god. The kind that doesn't wake for small things.\"\n\nZillian watched him. \n\nZillian: \"And what keeps it asleep?\"\n\nGarret: \"Reverence. That's what the legend says. Voryn protects the valley from harm — the worst of the canyon raiders never reach the village, the forest things stay at the tree line, the storms split around us — but only as long as Halwen holds the old ways. Small offerings at the valley's four stones. Festival nights with flame. The kind of tradition that costs you nothing and feels like everything. The village has kept those ways for as long as anyone's been alive to remember them. And the protection held. Whatever that means.\"\n\nZillian: \"You're not sure you believe it.\"\n\nGarret looked at him with the eyes of a man who had been running that exact question through his head for a very long time. \n\nGarret: \"I believe in what I've seen. And I've seen the bandits from the canyon ride past this valley for thirty years without once turning through those gates. I've seen the western forest go dark and strange and never reach past the tree line. So. Believe what you like about legends. Results are results.\"\n\nZillian picked up the bag. \n\nZillian: \"You said the legend is old. But the fear in this village isn't old. It's recent. A year, maybe two. Something changed.\"\n\nGarret's jaw tightened. The warmth left his face entirely for just a moment — replaced by something raw and tired.\n\nBefore he could answer, the sound came from outside.\n\nHooves. Multiple. Heavy, measured, and unhurried in the way that things were unhurried when they had no reason to rush because everyone moved aside for them.\n\nGarret straightened. His face closed like a shutter.\n\nGarret: \"Stay inside. Don't go near the door. And whatever you see — keep your hands still.\"\n\nZillian said nothing. He stepped sideways, away from the door, into the shadow between two tall shelving units, and watched.",
+      "characters_present": [
+        {
+          "id": "zillian",
+          "name": "Zillian",
+          "role_in_chapter": "Traveler drawing out information",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Observant, measured",
+          "power_level": "Unknown",
+          "goals_this_chapter": [
+            "Buy supplies",
+            "Extract information about the village's fear"
+          ]
+        },
+        {
+          "id": "garret",
+          "name": "Garret",
+          "role_in_chapter": "Shopkeeper, reluctant informant",
+          "first_appearance": true,
+          "status": "alive",
+          "emotional_state": "Nervous warmth hiding deep dread",
+          "power_level": "Civilian",
+          "goals_this_chapter": [
+            "Serve the traveler quickly",
+            "Avoid revealing too much"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "order": 1,
+          "type": "dialogue",
+          "description": "Zillian buys provisions and draws out the legend of Voryn from Garret.",
+          "characters_involved": [
+            "Zillian",
+            "Garret"
+          ],
+          "location": "Garret's Provisions",
+          "importance": "major"
+        },
+        {
+          "order": 2,
+          "type": "arrival",
+          "description": "Heavy hoofbeats approach — the Valorian emissaries arrive.",
+          "characters_involved": [],
+          "location": "Outside Garret's Provisions",
+          "importance": "major"
+        }
+      ],
+      "combat_scenes": [],
+      "power_developments": [],
+      "world_building": {
+        "new_locations_introduced": [
+          "Garret's Provisions"
+        ],
+        "lore_revealed": [
+          "Voryn — the wolf-god of Halwen Valley: an enormous ancient wolf sleeping in the bedrock, whose passive protection keeps the canyon bandits and forest creatures at bay. Appeased by reverence and tradition."
+        ],
+        "races_introduced": [],
+        "political_developments": [],
+        "secrets_hinted": [
+          "Something changed in the village recently — the fear is too fresh to be ancient tradition"
+        ],
+        "secrets_revealed": []
+      },
+      "relationships": {
+        "new_connections": [
+          {
+            "character_a": "Zillian",
+            "character_b": "Garret",
+            "relationship_type": "neutral",
+            "description": "Cautious first meeting — Garret measures Zillian as potential threat or ally"
+          }
+        ],
+        "relationship_changes": []
+      },
+      "items_artifacts": [],
+      "foreshadowing": [
+        {
+          "hint": "Garret's careful avoidance of what changed",
+          "relates_to": "The child tribute tradition that started years ago",
+          "subtlety": "moderate"
+        },
+        {
+          "hint": "The hoofbeats approaching — measured, unhurried",
+          "relates_to": "The arrival of the emissaries",
+          "subtlety": "obvious"
+        }
+      ],
+      "themes": [
+        "Sinister folklore",
+        "Ominous warnings",
+        "The weight of secrets"
+      ],
+      "cliffhanger": {
+        "has_cliffhanger": true,
+        "description": "Heavy hoofbeats outside. Garret tells Zillian to stay back and keep still."
+      },
+      "chapter_metadata": {
+        "word_count": 1480,
+        "status": "final",
+        "notes": "",
+        "connections_to_previous": "Continues directly from Ch.1 — Zillian enters the shop he spotted at the end of the lane.",
+        "setup_for_next": "The Valorian emissaries arrive to make their announcement."
+      }
+    },
+    {
+      "chapter_id": 3,
+      "title": "Men from Valoris",
+      "arc": "The Village Arc",
+      "arc_number": 1,
+      "setting": {
+        "continent": "Arcaelis",
+        "region": "Solvara",
+        "specific_location": "Garret's Provisions and Halwen village square",
+        "time_of_day": "Late afternoon",
+        "weather_conditions": "Cloud cover thickening",
+        "era": "Fracture Era"
+      },
+      "summary": {
+        "brief": "A procession of men from the city of Valoris arrives and makes a public announcement demanding a child tribute. Garret physically stops Zillian from going out.",
+        "detailed": "Six men on horseback in Valorian livery ride to the village square. Their lead administrator announces that Halwen must present one child, age eight to twelve, to the Valorian Institute within four days. The announcement is clipped, formal, and utterly devoid of explanation. The village stands in the square like stone. When Zillian moves to interfere, Garret grabs his arm — silent, firm, shaking with genuine terror."
+      },
+      "pov_character": "Zillian",
+      "story_text": "Through the gap in the shuttered window, Zillian watched them ride in.\n\nSix horses. Not warhorses — they were too well-groomed for actual campaigning, built for presentation rather than battle. The riders matched their mounts: men in deep burgundy coats trimmed with gilt thread at the collar, leather riding gloves that had never seen hard labor, boots polished to a mirrored sheen despite the road. They rode in a double column, their formation tight enough to convey discipline without suggesting threat. The man at the front was older, heavy-jawed, with a silver chain of office hanging across his chest.\n\nThey were not soldiers. Soldiers had a different posture — watchful, coiled. These men had the posture of people accustomed to being obeyed. Officials. Administrators. The kind of authority that operated through paperwork and precedent rather than sword edges, but carried the implicit knowledge that sword edges were available, somewhere, if the paperwork failed.\n\nThe village had come out for them. That was the thing that struck Zillian — not the arrival of the men themselves, but the way the village appeared in response. Doors opened. People emerged, singly and in small clusters, and gathered in the square with the mechanical compliance of a thing rehearsed too many times. Not welcoming. Not protesting. Just appearing, because they were supposed to appear, because that was what had happened before.\n\nAbout forty people. Mostly adults. Zillian scanned them and noted what was absent: the very young. No children in the square. He filed that quietly.\n\nThe lead administrator drew his horse to a stop and surveyed the gathered villagers with the flat, cataloguing expression of a man checking items off a list.\n\nValorian Administrator: \"People of Halwen. The city of Valoris extends its continued protection to this settlement under the terms of the existing compact. In return, as previously established, Halwen will provide one child of sound health, between the ages of eight and twelve, to the custody of the Valorian Institute within four days of this notification. The child will be received at the eastern waypost by mid-morning on the fourth day.\"\n\nHe paused.\n\nNobody in the square moved.\n\nValorian Administrator: \"Compliance with this arrangement ensures the continuation of protection services. Non-compliance will result in the suspension of those services, with immediate effect. Are there any questions?\"\n\nThere were no questions.\n\nZillian had taken three steps toward the door before Garret's hand closed around his forearm.\n\nThe old man's grip was stronger than it had any right to be. Zillian looked down at the hand, then up at Garret's face. The shopkeeper was not looking at him — he was looking at the shuttered window, his jaw set, his eyes the eyes of a man using every remaining resource to maintain stillness.\n\nGarret: \"No.\"\n\nZillian held his position. He read the room — not just the immediate, but the context beneath it. The administrator was still speaking in the square, something about documentation requirements. The villagers stood like carved figures. A woman near the well had both hands pressed flat against her thighs, pressing down hard, the physical act of containing something she was not allowed to release.\n\nGarret's hand was shaking.\n\nZillian let the door stay closed.\n\nThe announcement concluded in under four minutes. The six riders formed back into their double column with practiced efficiency, turned their horses, and rode out through the village gate at the same measured pace they had arrived. Not hurrying. There was no need to hurry. The work was done.\n\nThe village square stood silent for a long moment after the sound of hooves faded.\n\nThen, one by one, the people went back inside. Not talking. Not clustering in doorways to whisper. Just retreating, closing doors, disappearing behind wood and stone. The only difference was that some of them, as they turned away, had the particular stiffness of people fighting to keep their faces from doing something they had decided they could not afford to do.\n\nGarret released Zillian's arm. He turned back toward his counter and stood with both hands flat on the wooden surface, staring at nothing.\n\nZillian watched him for a moment. Then he set his pack down against the shelf behind him and settled in to wait.\n\nSometimes people needed to be stopped from doing something impulsive, and the act of stopping them opened something up — a debt, an obligation, a crack in the careful walls they had been maintaining. Garret had grabbed his arm to protect him. Or to protect the village from what Zillian might do. Either way, there was now an explanation owed.\n\nZillian: \"The Valorian Institute.\"\n\nGarret didn't look up. Garret: \"Close the shutters, will you? The ones over the door.\"\n\nZillian did.\n\nGarret: \"Sit down. This will take a minute. And then you're going to wish you'd taken the road south when you had the chance.\"",
+      "characters_present": [
+        {
+          "id": "zillian",
+          "name": "Zillian",
+          "role_in_chapter": "Witness, restrained from interfering",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Cold fury, controlled",
+          "power_level": "Unknown",
+          "goals_this_chapter": []
+        },
+        {
+          "id": "garret",
+          "name": "Garret",
+          "role_in_chapter": "Physically stops Zillian, begins to open up",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Terrified, resolute",
+          "power_level": "Civilian",
+          "goals_this_chapter": [
+            "Keep Zillian from interfering",
+            "Protect the village"
+          ]
+        },
+        {
+          "id": "valorian_administrator",
+          "name": "Valorian Administrator",
+          "role_in_chapter": "Delivers the child tribute announcement",
+          "first_appearance": true,
+          "status": "alive",
+          "emotional_state": "Detached, bureaucratic",
+          "power_level": "Civilian (Political power)",
+          "goals_this_chapter": [
+            "Deliver the edict"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "order": 1,
+          "type": "arrival",
+          "description": "Six Valorian officials ride into the village square in formation.",
+          "characters_involved": [
+            "Valorian Administrator"
+          ],
+          "location": "Halwen Village Square",
+          "importance": "major"
+        },
+        {
+          "order": 2,
+          "type": "political",
+          "description": "The administrator announces the child tribute demand — one child aged 8-12 within four days.",
+          "characters_involved": [
+            "Valorian Administrator"
+          ],
+          "location": "Halwen Village Square",
+          "importance": "critical"
+        },
+        {
+          "order": 3,
+          "type": "confrontation",
+          "description": "Garret physically prevents Zillian from going outside to confront the officials.",
+          "characters_involved": [
+            "Zillian",
+            "Garret"
+          ],
+          "location": "Garret's Provisions",
+          "importance": "major"
+        }
+      ],
+      "combat_scenes": [],
+      "power_developments": [],
+      "world_building": {
+        "new_locations_introduced": [
+          "City of Valoris",
+          "Valorian Institute",
+          "Eastern Waypost"
+        ],
+        "lore_revealed": [
+          "Valoris demands one child aged 8-12 annually in exchange for protection services."
+        ],
+        "races_introduced": [],
+        "political_developments": [
+          "The compact between Valoris and Halwen — protection in exchange for children"
+        ],
+        "secrets_hinted": [
+          "The tribute is specifically children aged 8-12",
+          "The protection is transactional — Valoris's protection, not Voryn's",
+          "The village's compliance is total and rehearsed"
+        ],
+        "secrets_revealed": []
+      },
+      "relationships": {
+        "new_connections": [],
+        "relationship_changes": [
+          {
+            "character_a": "Zillian",
+            "character_b": "Garret",
+            "change": "Garret's act of restraining Zillian creates an unspoken debt — an explanation is now owed",
+            "reason": "Garret grabbed Zillian's arm to prevent interference"
+          }
+        ]
+      },
+      "items_artifacts": [],
+      "foreshadowing": [
+        {
+          "hint": "No children visible in the square during the announcement",
+          "relates_to": "The missing children — four already taken",
+          "subtlety": "subtle"
+        }
+      ],
+      "themes": [
+        "Oppression",
+        "Cold bureaucratic horror",
+        "Pragmatism vs Idealism"
+      ],
+      "cliffhanger": {
+        "has_cliffhanger": true,
+        "description": "Garret tells Zillian to sit down — what he is about to share will make him regret not leaving."
+      },
+      "chapter_metadata": {
+        "word_count": 1500,
+        "status": "final",
+        "notes": "",
+        "connections_to_previous": "Continues from the hoofbeats cliffhanger at the end of Ch.2.",
+        "setup_for_next": "Garret is about to reveal the full truth about the compact and the children."
+      }
+    },
+    {
+      "chapter_id": 4,
+      "title": "The Weight of What They're Keeping",
+      "arc": "The Village Arc",
+      "arc_number": 1,
+      "setting": {
+        "continent": "Arcaelis",
+        "region": "Solvara",
+        "specific_location": "Garret's Provisions back room",
+        "time_of_day": "Evening",
+        "weather_conditions": "Overcast, dusk settling",
+        "era": "Fracture Era"
+      },
+      "summary": {
+        "brief": "Garret reveals the full truth: Valoris has been taking one child every year for four years under the pretense of protecting Halwen from bandits and the wrath of Voryn.",
+        "detailed": "Garret explains the compact — four years ago, Valorian scholars arrived claiming they had discovered signs of Voryn awakening and could prevent catastrophe through research at the Institute. In exchange for their protection from both bandits and the god's wrath, Halwen provides one child per year. The village has no soldiers, no mages, no recourse. Garret doesn't know what the Institute does with the children. No letters come back. Nobody returns. Meanwhile, a faction led by the grieving mother Osla is meeting tonight to vote on refusing."
+      },
+      "pov_character": "Zillian",
+      "story_text": "Garret's back room smelled of old paper and dried lavender. He kept a small table there, two mismatched chairs, a shelf of ledgers going back decades, and a locked chest that Zillian noted but did not ask about. The old man lit a tallow candle against the falling dark and sat across from him with the posture of a man finally setting down something heavy he had been carrying alone for too long.\n\nGarret: \"Four years ago. That's when they first came.\"\n\nHe had been behind this same counter, he said. A different group — not administrators then, but men with the look of scholars, robed rather than liveried, carrying instruments Garret didn't recognize and speaking in technical language he couldn't follow. They had requested access to the valley's geology records. Halwen didn't have geology records — it was a farming village — so they settled for interviewing the oldest residents about ground tremors, about the hot springs, about changes in the soil. They were polite. They paid in good silver.\n\nThey left after three days and returned in a month with the administrator and the compact.\n\nGarret: \"They said they'd found something in the rock beneath the valley. Something in the deep earth that was showing signs of — I remember the word — activity. They wouldn't say more than that. But they told us that whatever was down there was old and dangerous, and that their Institute had the knowledge and equipment to monitor it. To prevent it from becoming a problem.\"\n\nZillian: \"And the cost of that monitoring.\"\n\nGarret: \"One child per year. Healthy, between eight and twelve. They said the work required young subjects. They said the children would be cared for. Educated. Trained. That it was a privilege. They said if we refused, they couldn't guarantee what the entity in the earth would do. And that without their escorts, the canyon raiders would find the village undefended within a season.\"\n\nZillian said nothing.\n\n\"The village elder at the time — Maren, she died last winter — she had seen the canyon raids before. Thirty years prior, when the valley was first settled, three other communities in this region were destroyed. Burned. Looted. Everyone either killed or taken.\" Garret touched the edge of his ledger. \"Halwen survived because of what the villagers believed about Voryn's protection. Because the raiders never came here. And now here were men with official seals and technical language telling her that protection was fragile and they could make it permanent. For a price.\"\n\nZillian: \"She agreed.\"\n\nGarret: \"She agreed. And the village agreed with her, because what choice was there? We have forty-three adults here. No trained fighters. The nearest garrison is three days' ride on good roads, and they don't patrol borders, they protect cities. We are not a city. We are forty-three adults and — and somewhat fewer children than we had four years ago.\"\n\nZillian felt something cold and precise settle behind his sternum. Zillian: \"How many have they taken?\"\n\nGarret: \"Four. One each year, as agreed. Three boys and a girl. Bramwell's son was the first. Osla's daughter last year. You'll have seen Osla when you walked in — the woman with the basket near the well. She's the one who convinced the others this year to — \"\n\nHe stopped.\n\nZillian: \"To what?\"\n\nGarret was quiet for a long moment. Outside, the village had gone fully dark. No lights through the window crack. Everyone behind closed doors, sealed in the specific silence of people who had decided something dangerous.\n\nGarret: \"There's a meeting tonight. After dark. Some of the families. Osla's been talking to people for the last two months. Building to it. She's going to try to convince the village to refuse.\"\n\nZillian looked at him steadily. Zillian: \"And what happens if they refuse?\"\n\nGarret: \"The administrator said it plainly in the first year. Protection suspended. Immediately. And the canyon routes — the bandits out there know this valley exists. They know its size, its resources, its defenses. Because someone told them. Because that information is what Valoris uses to keep us compliant.\"\n\nHe did not need to say the rest. Zillian understood the architecture of it perfectly: a trap built from the village's own helplessness, reinforced by manufactured dependency, maintained with the quiet bureaucratic efficiency he had watched in the square that afternoon.\n\nHe sat with that for a moment.\n\nThen: Zillian: \"What does the Institute actually want the children for?\"\n\nGarret shook his head. Garret: \"I don't know. No one does. The scholars mentioned something that first visit — about resonance. About certain people in early development being sensitive to energies in the earth. They use words that mean nothing to me. But no child has come home. Not one letter. Not one message.\"\n\nThe candle burned between them. Outside, somewhere in the dark village, people were gathering in a room and making a decision that would change everything.\n\nZillian thought about what he had seen in the square — the woman pressing her hands flat against her thighs. Containing something.\n\nZillian: \"Which house is the meeting in?\"",
+      "characters_present": [
+        {
+          "id": "zillian",
+          "name": "Zillian",
+          "role_in_chapter": "Listener, beginning to engage",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Cold precision, controlled anger",
+          "power_level": "Unknown",
+          "goals_this_chapter": [
+            "Understand the full situation"
+          ]
+        },
+        {
+          "id": "garret",
+          "name": "Garret",
+          "role_in_chapter": "Primary revealer, exhausted confessor",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Broken, guilty, relieved to finally speak",
+          "power_level": "Civilian",
+          "goals_this_chapter": [
+            "Tell the truth"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "order": 1,
+          "type": "revelation",
+          "description": "Garret reveals the full history of the Valorian compact — four years of children taken, no communication, no returns.",
+          "characters_involved": [
+            "Zillian",
+            "Garret"
+          ],
+          "location": "Garret's back room",
+          "importance": "critical"
+        },
+        {
+          "order": 2,
+          "type": "revelation",
+          "description": "Garret reveals that Osla is organizing a meeting tonight to vote on refusing the tribute.",
+          "characters_involved": [
+            "Garret"
+          ],
+          "location": "Garret's back room",
+          "importance": "major"
+        }
+      ],
+      "combat_scenes": [],
+      "power_developments": [],
+      "world_building": {
+        "new_locations_introduced": [],
+        "lore_revealed": [
+          "The child tribute compact: four years, four children taken. Valoris offers protection from both bandits and Voryn's supposed waking in exchange.",
+          "The scholars' language: they mentioned resonance and early-development sensitivity to earth energies — hinting at experimentation related to Voryn."
+        ],
+        "races_introduced": [],
+        "political_developments": [
+          "Manufactured dependency — Valoris controls the bandit information to keep Halwen compliant"
+        ],
+        "secrets_hinted": [
+          "The Institute is experimenting on something in the earth — implied to be Voryn itself",
+          "A faction of villagers is planning to refuse this year's tribute"
+        ],
+        "secrets_revealed": [
+          "Four children have been taken over four years — none have returned or communicated"
+        ]
+      },
+      "relationships": {
+        "new_connections": [],
+        "relationship_changes": [
+          {
+            "character_a": "Zillian",
+            "character_b": "Garret",
+            "change": "Garret fully opens up — the relationship shifts from cautious to confessional",
+            "reason": "The weight of years of secrecy and the approaching crisis"
+          }
+        ]
+      },
+      "items_artifacts": [],
+      "foreshadowing": [
+        {
+          "hint": "The scholars mentioned resonance — children sensitive to energies in the earth",
+          "relates_to": "The Institute's experiments on Voryn using children as conduits",
+          "subtlety": "moderate"
+        },
+        {
+          "hint": "Osla's meeting tonight — the village is about to refuse",
+          "relates_to": "The refusal and its consequences — protection revoked, bandits unleashed",
+          "subtlety": "obvious"
+        }
+      ],
+      "themes": [
+        "Sacrifice",
+        "Manufactured helplessness",
+        "The architecture of oppression"
+      ],
+      "cliffhanger": {
+        "has_cliffhanger": true,
+        "description": "Zillian asks which house the meeting is in — he's going."
+      },
+      "chapter_metadata": {
+        "word_count": 1500,
+        "status": "final",
+        "notes": "",
+        "connections_to_previous": "Follows directly from Ch.3's cliffhanger — Garret explains everything.",
+        "setup_for_next": "The village meeting where they vote to refuse."
+      }
+    },
+    {
+      "chapter_id": 5,
+      "title": "The Night They Said No",
+      "arc": "The Village Arc",
+      "arc_number": 1,
+      "setting": {
+        "continent": "Arcaelis",
+        "region": "Solvara",
+        "specific_location": "Halwen — the miller's house, then the village square, then the eastern road",
+        "time_of_day": "Night, then four days later — midmorning",
+        "weather_conditions": "Cold night, then grey morning of reckoning",
+        "era": "Fracture Era"
+      },
+      "summary": {
+        "brief": "The village meets and votes to refuse. Four days later, they do not appear at the waypost. The Valorian administrator returns and revokes protection.",
+        "detailed": "Zillian attends the village meeting and watches Osla make her case — grief-raw and terrifyingly articulate. The vote is narrow but it passes. The next four days carry a terrible waiting quality. On the morning of the deadline, no one goes to the waypost. That afternoon, the administrator returns alone, delivers the revocation in the same flat voice, and rides away."
+      },
+      "pov_character": "Zillian",
+      "story_text": "The miller's house was the largest in Halwen, which still meant it was not large. Twenty-three adults squeezed into a room built for a family of six, standing shoulder to shoulder in the dark with a single lantern turned low. Zillian stood at the back near the door — not invited, not excluded, occupying the uncertain space of a stranger who had made himself useful enough not to be asked to leave.\n\nOsla was already speaking when he arrived.\n\nShe was a small woman, shorter than most in the room, with the particular physical presence that came not from size but from absolute stillness. She was not shouting. She was not crying. She had, Zillian thought, arrived somewhere past the point where either of those things was available to her. What she had instead was clarity — the sharp, terrible clarity of a person who had spent a year with a grief they could not metabolize and had finally converted it into something else entirely.\n\nOsla: \"My daughter's name was Lira. She was nine years old. She collected smooth river stones. She was afraid of the dark and always left a candle burning by her bed. She has been in the Valorian Institute for eleven months. I have received no word. Not one letter. Not one message brought by a trader. Nothing.\"\n\nThe room held its collective breath.\n\nOsla: \"Bramwell's son has been there for four years. Hallen's boy, three years. Senna's daughter before that. None of them have come home. None of their families have heard from them. We have been told this is normal. We have been told to trust the process.\"\n\nShe paused.\n\nOsla: \"This year's child is Tovin. He's eight. He likes to catch frogs by the hot springs. His mother came to me yesterday. She can't sleep. She said she keeps having the same dream — that she goes to the waypost and there's nothing there. Just an empty road.\"\n\nThe room shifted.\n\nOsla: \"I am not telling you there is no risk. I know what the administrator said. I know about the canyon. I know what happened to the settlements before this one. I am asking you whether what we are currently doing is actually different from what happened to those settlements. We are losing our children. Slowly and with paperwork.\"\n\nThere was arguing after that — frightened arguing, the kind that came from people who wanted very much to be convinced but could not yet abandon the shape of the deal they had been living inside. The elder Corvan said they needed to consider the raider threat. Garret said the raiders had patterns and he had been tracking their movements through trader talk for two years and there had been no increase. Another woman said they couldn't make this decision for the whole village.\n\nOsla waited through all of it. Osla: \"We are the whole village.\"\n\nThe vote was seventeen to six.\n\nIn the four days that followed, Halwen transformed into a held breath. People still did their morning work — animals needed feeding, the mill needed running, the baker's ovens needed firing — but everything happened slightly too carefully, the way people moved when they were trying not to disturb something.\n\nOn the morning of the fourth day, Tovin's mother Pera stood at the door of her house for a long time, looking toward the eastern road, and then went back inside and closed the door.\n\nThe waypost stayed empty.\n\nThe administrator came back in the early afternoon — alone this time, no column, just a single rider on a brown horse. He stopped at the gate and did not enter the village. He spoke loudly enough to be heard by anyone near the wall.\n\nValorian Administrator: \"The compact between Halwen and Valoris is hereby suspended pending review. Protection services are discontinued effective immediately. Valoris assumes no responsibility for any harm occurring to Halwen settlement and its residents during the suspension period. We look forward to renewed cooperation at your earliest convenience.\"\n\nHe turned his horse and left.\n\nThat night, sitting on the front step of Garret's shop with a cooling cup of tea, Zillian listened to the canyon in the distance — the wind moving through it, the way the rock formations created harmonics that traveled surprisingly far in still air. He had been listening to it for three nights now. He knew what it sounded like when it was just the wind.\n\nTonight it sounded like something else.\n\nHe sat with that for a while. Then he went inside and checked that his blades were sharp and placed his pack against the wall next to the door.",
+      "characters_present": [
+        {
+          "id": "zillian",
+          "name": "Zillian",
+          "role_in_chapter": "Observer, quietly preparing",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Watchful, resolved",
+          "power_level": "Unknown",
+          "goals_this_chapter": [
+            "Observe the meeting",
+            "Prepare for consequences"
+          ]
+        },
+        {
+          "id": "osla",
+          "name": "Osla",
+          "role_in_chapter": "Voice of refusal — mother who lost Lira",
+          "first_appearance": true,
+          "status": "alive",
+          "emotional_state": "Grief converted to crystalline clarity",
+          "power_level": "Civilian",
+          "goals_this_chapter": [
+            "Convince the village to refuse"
+          ]
+        },
+        {
+          "id": "garret",
+          "name": "Garret",
+          "role_in_chapter": "Supporting the refusal vote",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Fearful but supportive",
+          "power_level": "Civilian",
+          "goals_this_chapter": []
+        },
+        {
+          "id": "valorian_administrator",
+          "name": "Valorian Administrator",
+          "role_in_chapter": "Delivers the revocation",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Flat, procedural",
+          "power_level": "Civilian (Political power)",
+          "goals_this_chapter": [
+            "Revoke protection"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "order": 1,
+          "type": "political",
+          "description": "Osla delivers her case at the village meeting — grief-raw and terrifyingly articulate.",
+          "characters_involved": [
+            "Osla"
+          ],
+          "location": "Miller's house",
+          "importance": "critical"
+        },
+        {
+          "order": 2,
+          "type": "political",
+          "description": "The village votes seventeen to six to refuse the tribute.",
+          "characters_involved": [
+            "Osla",
+            "Garret"
+          ],
+          "location": "Miller's house",
+          "importance": "critical"
+        },
+        {
+          "order": 3,
+          "type": "political",
+          "description": "The administrator returns alone and revokes protection with immediate effect.",
+          "characters_involved": [
+            "Valorian Administrator"
+          ],
+          "location": "Halwen gate",
+          "importance": "critical"
+        }
+      ],
+      "combat_scenes": [],
+      "power_developments": [],
+      "world_building": {
+        "new_locations_introduced": [
+          "Miller's house"
+        ],
+        "lore_revealed": [
+          "The four missing children: Bramwell's son, Hallen's boy, Senna's daughter, Osla's daughter Lira — none have returned or communicated."
+        ],
+        "races_introduced": [],
+        "political_developments": [
+          "The village votes to refuse the tribute",
+          "Valoris revokes protection immediately"
+        ],
+        "secrets_hinted": [
+          "Zillian hears something in the canyon wind that is not wind — something large and patient beginning to move"
+        ],
+        "secrets_revealed": []
+      },
+      "relationships": {
+        "new_connections": [],
+        "relationship_changes": []
+      },
+      "items_artifacts": [],
+      "foreshadowing": [
+        {
+          "hint": "Zillian quietly sharpens his blades and places his pack by the door",
+          "relates_to": "The bandit attack coming",
+          "subtlety": "moderate"
+        },
+        {
+          "hint": "The canyon wind sounds like something else tonight",
+          "relates_to": "Bandits already mobilizing",
+          "subtlety": "subtle"
+        }
+      ],
+      "themes": [
+        "Defiance",
+        "Grief and quiet courage",
+        "Consequences"
+      ],
+      "cliffhanger": {
+        "has_cliffhanger": true,
+        "description": "Zillian hears something wrong in the canyon wind and prepares his weapons."
+      },
+      "chapter_metadata": {
+        "word_count": 1500,
+        "status": "final",
+        "notes": "",
+        "connections_to_previous": "The meeting Garret mentioned in Ch.4.",
+        "setup_for_next": "The bandit attack — protection is gone, and the canyon has noticed."
+      }
+    },
+    {
+      "chapter_id": 6,
+      "title": "The Canyon Comes to Halwen",
+      "arc": "The Village Arc",
+      "arc_number": 1,
+      "setting": {
+        "continent": "Arcaelis",
+        "region": "Solvara",
+        "specific_location": "Halwen Village, eastern approach and main gate",
+        "time_of_day": "Two nights after protection revoked, late night",
+        "weather_conditions": "Moonless, thin cloud cover",
+        "era": "Fracture Era"
+      },
+      "summary": {
+        "brief": "The bandits attack. Zillian is the only one who can respond — and for the first time, something moves inside him that he calls out into the world.",
+        "detailed": "Two nights after the revocation, torchlight appears on the eastern road. Seventeen bandits — clearly notified quickly by Valoris — approach the decaying gate. When it breaks open, Zillian steps forward. He doesn't reach for a conventional weapon. From the shadows around him, something pulls itself together — a form built of darkness, massive, four-legged, unmistakably a tiger. It stands between the village and the bandits, burning with shadow-light."
+      },
+      "pov_character": "Zillian",
+      "story_text": "The torchlight appeared at the canyon road's turn at the second hour past midnight.\n\nZillian had not slept. He had sat cross-legged on the step of Garret's shop with his eyes on the eastern approach, and when the first orange pinprick appeared in the dark he was already standing. By the time there were six torches visible, he was at the gate. By the time there were twelve, Garret was behind him, and then Corvan, and then four of the other village men who had had the same instinct — that the administrator had not ridden far before sending a message, and that the message had reached people who moved quickly.\n\nSeventeen riders. He counted them as they came down the road with the unhurried confidence of people who had done this many times and expected the outcome to be the same as always. They were not soldiers — their formation was loose, opportunistic, the kind of grouping that formed naturally around men who had spent years making violence practical and efficient rather than martial. The weapons visible in the torchlight were functional: heavy blades, bows, a short spear or two. Working tools.\n\nCorvan: \"Bar the gate.\"\n\nZillian: \"The post is rotten. It'll hold for maybe four minutes if they push seriously.\"\n\nGarret: \"That's not long.\"\n\nZillian: \"No.\"\n\nThe riders slowed as they reached the gate, spreading into a semicircle — practiced, efficient, sealing off the visible approaches before committing. Their leader was a broad man on a grey horse, with a face that Zillian read quickly: calculating, not cruel. Not a man who enjoyed this particular work, but also not a man who had ever seriously considered stopping it.\n\nBandit Leader: \"Open the gate. We're here for provisions and tribute. Make this fast and nobody gets hurt.\"\n\nBehind Zillian, he could hear the sound of the village waking — doors cracking open, hushed voices, the particular quality of forty people who had heard those words before.\n\nBandit Leader: \"Nobody gets hurt.\"\n\nZillian put his hand on the gate bar.\n\nHe felt it then. The thing he always felt when the edge came close enough — that particular tautness, the sense of a line drawn between what existed and what was about to exist. He had felt it before. He had always controlled it before. Kept it down, kept it contained, kept it from doing what it wanted to do.\n\nHe thought about Osla's face in the miller's house. Level. Past breaking. He thought about the woman pressing her hands flat against her thighs, containing something she had not allowed herself to release.\n\nHe let go.\n\nIt was not a thought, exactly. More like an unclenching — the release of something that had been held for a very long time. He felt the shadows around him shift. Not the normal movement of shadows in response to torchlight and wind. Something deeper. The darkness itself becoming attentive.\n\nFrom the shadow of the gate post, something moved.\n\nIt built itself slowly at first — edges resolving out of the dark, solid where shadow met shadow, then denser, then unmistakably real. Four legs hit the ground with weight that the earth responded to. The shape of it was a tiger, enormous, longer than a man was tall and proportioned with the particular weight of something that existed to be the last thing seen. Its surface was not black — it was the absence of light given texture, like looking into depth itself. Its eyes were two points of cold amber fire.\n\nIt stepped forward between Zillian and the gate and it turned its head toward the riders.\n\nThe horses noticed before the men did.\n\nThe lead horse screamed — pure animal terror bypassing all the training the animal had received — and reared hard, nearly unseating its rider. The bandits to the sides broke immediately, not from cowardice but from the simple fact that frightened horses do not respond to human decisions. Within ten seconds the neat semicircle was a chaos of wheeling, panicking mounts.\n\nThe leader got his horse under minimal control and looked at the shadow tiger for a full two seconds with the expression of a man reassessing every assumption he had walked here with.\n\nThen the leader drew his sword and shouted something at his men.\n\nZillian stepped through the gate.",
+      "characters_present": [
+        {
+          "id": "zillian",
+          "name": "Zillian",
+          "role_in_chapter": "First time using his power — shadow tiger manifest",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Resolved, releasing control",
+          "power_level": "High (first revelation)",
+          "goals_this_chapter": [
+            "Defend the village"
+          ]
+        },
+        {
+          "id": "garret",
+          "name": "Garret",
+          "role_in_chapter": "Present, witness",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Terrified",
+          "power_level": "Civilian",
+          "goals_this_chapter": []
+        },
+        {
+          "id": "bandit_leader",
+          "name": "Bandit Leader",
+          "role_in_chapter": "Antagonist, commands the attack",
+          "first_appearance": true,
+          "status": "alive",
+          "emotional_state": "Calculating, then shocked",
+          "power_level": "Moderate (skilled fighter)",
+          "goals_this_chapter": [
+            "Raid Halwen"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "order": 1,
+          "type": "arrival",
+          "description": "Seventeen bandits approach the village gate with torches.",
+          "characters_involved": [
+            "Bandit Leader"
+          ],
+          "location": "Eastern approach",
+          "importance": "major"
+        },
+        {
+          "order": 2,
+          "type": "revelation",
+          "description": "Zillian manifests the shadow tiger for the first time — his power revealed.",
+          "characters_involved": [
+            "Zillian"
+          ],
+          "location": "Halwen gate",
+          "importance": "critical"
+        }
+      ],
+      "combat_scenes": [],
+      "power_developments": [
+        {
+          "character": "Zillian",
+          "power_type": "Shadow manifestation",
+          "previous_level": "Suppressed",
+          "new_level": "First active use",
+          "technique_learned": "Shadow Tiger summoning",
+          "trigger": "Emotional release — choosing to protect the village"
+        }
+      ],
+      "world_building": {
+        "new_locations_introduced": [],
+        "lore_revealed": [
+          "Zillian's power — the shadow tiger: he can manifest a physical entity of pure shadow, enormous, capable of independent action."
+        ],
+        "races_introduced": [],
+        "political_developments": [],
+        "secrets_hinted": [],
+        "secrets_revealed": [
+          "Zillian possesses shadow manifestation abilities — first time revealed"
+        ]
+      },
+      "relationships": {
+        "new_connections": [],
+        "relationship_changes": []
+      },
+      "items_artifacts": [],
+      "foreshadowing": [
+        {
+          "hint": "The shadow tiger's amber eyes",
+          "relates_to": "Voryn's eyes — the parallel between shadow-beast and wolf-god",
+          "subtlety": "subtle"
+        }
+      ],
+      "themes": [
+        "Hidden power",
+        "Release",
+        "Protection"
+      ],
+      "cliffhanger": {
+        "has_cliffhanger": true,
+        "description": "The bandit leader draws his sword. Zillian steps forward through the gate into the open."
+      },
+      "chapter_metadata": {
+        "word_count": 1500,
+        "status": "final",
+        "notes": "",
+        "connections_to_previous": "The bandits Zillian heard in the canyon wind at the end of Ch.5.",
+        "setup_for_next": "The full combat sequence — shadow tiger vs bandits, Zillian vs the leader."
+      }
+    },
+    {
+      "chapter_id": 7,
+      "title": "Shadow and Steel",
+      "arc": "The Village Arc",
+      "arc_number": 1,
+      "setting": {
+        "continent": "Arcaelis",
+        "region": "Solvara",
+        "specific_location": "Eastern approach outside Halwen gate",
+        "time_of_day": "Deep night",
+        "weather_conditions": "Moonless, still air",
+        "era": "Fracture Era"
+      },
+      "summary": {
+        "brief": "The shadow tiger moves through the bandit group while Zillian faces their leader in a close, extraordinary fight that ends with the raiders broken and fleeing.",
+        "detailed": "The shadow tiger engages the mounted bandits with terrifying efficiency — not killing but overwhelming, moving between horses and men with a physicality that should not belong to shadow. Simultaneously, Zillian fights the bandit leader, who is genuinely skilled and nearly takes him twice. The leader is fast and powerful, using a heavy technique Zillian has not encountered before. Zillian wins narrowly, and when the leader falls, the remaining bandits retreat."
+      },
+      "pov_character": "Zillian",
+      "story_text": "The shadow tiger moved like water through the gap between the lead riders and the cluster behind them — not charging, nothing as direct as a charge. It moved the way a very large predator moved when it was not hunting yet, just positioning, and the positioning itself was a form of violence. The nearest horse wheeled left trying to escape the space it occupied and crashed sideways into the horse beside it, both animals screaming, their riders gone to basic survival instinct instead of battle training.\n\nZillian watched it handle three riders simultaneously in the span of two heartbeats — a shoulder checked against one horse's flank with a crack of impact that turned the animal ninety degrees, a tail sweep that knocked a dismounted man flat before he could raise his blade, a single low-register sound from its chest that emptied the lungs of the nearest bandit as thoroughly as a punch to the solar plexus. It was not killing. It was displacement — systematic, almost methodical, the tiger working through the group the way something much larger would clear underbrush.\n\nThe leader took this in for approximately one second and then came at Zillian directly.\n\nGood decision, Zillian thought. Deal with the problem.\n\nThe leader fought with a broad-bladed sword and the technique of a man who had won most of his fights at the first exchange, because his first exchange was devastating. The blade came in on the high diagonal with his full body weight behind it — not elegant, not complicated, just the overwhelming application of mass and speed at a single point. A soldier would have parried. Zillian sidestepped left, turning his hip, letting the blade cut through the space where he had been, and was already rotating into the countermovement before the leader had begun his recovery.\n\nHis knife caught the leader across the back of the sword hand. Not deep. Enough to sting, enough to alter grip, enough to buy one second.\n\nThe leader was better than he looked. He adjusted his grip mid-motion, absorbed the hit to his hand, and brought the sword back in a short hooking arc that came within a thumb's width of Zillian's chin. Zillian felt the displaced air. That was closer than he liked.\n\nBack. Two steps. Let him read the retreat as fear.\n\nThe leader advanced — exactly as Zillian wanted — and committed his weight forward into a thrust that was technically excellent. Center of mass behind it, extension controlled, designed to catch a retreating opponent. Zillian dropped to one knee and let the blade pass overhead and drove his shoulder up into the leader's extended arm, forcing the weapon line wide, and then they were inside each other's range where the big sword became a problem for the man holding it rather than the man facing it.\n\nElbow to the jaw. Not his hardest — he was at an awkward angle — but enough. The leader's head snapped sideways. His knees softened for half a second and Zillian took the sword from his grip before the softness passed, reversed it, and held the pommel against the man's temple.\n\nZillian: \"Down.\"\n\nThe leader looked at him. His jaw was already beginning to swell. He looked at the shadow tiger, which had reduced the seventeen riders to seven horses still on their feet and a scatter of men who were now thinking very seriously about the road back to the canyon. He looked at Zillian's face.\n\nHe sat down.\n\nZillian stepped back and let his focus expand back to the full picture. The tiger had stopped moving — it stood in the middle of the eastern road like something permanently placed there, its amber eyes tracking each bandit in turn with a patience that communicated clearly: I know exactly where you are. The remaining mounted riders were not attacking. They were having the particular experience of men whose model of what was possible had been structurally revised in the last three minutes.\n\nOne of them — a younger man with a hand pressed to a bleeding scalp — looked at the tiger and then at Zillian and said, quietly, Bandit: \"What is that thing?\"\n\nZillian had an answer to that. He chose not to share it.\n\nZillian: \"Take your people. Take the horses that are still running. Leave the canyon road past this valley and don't come back to it.\"\n\nWhen he looked back a minute later, the eastern road was empty except for scattered torches burned down into the dirt.\n\nHe let the tiger go.\n\nIt did not disappear so much as become less — the edges softening, the density thinning, pulling back toward him like something breathing out after a long held breath. He felt it settle back into the place it had come from, and the night around him went back to being ordinary dark.\n\nHe was bleeding from a cut on his forearm he had not noticed during the fight. He looked at it in the light of a dropped torch. Shallow. He had had worse.\n\nBehind him, through the gate, he could hear the village starting to breathe again.",
+      "characters_present": [
+        {
+          "id": "zillian",
+          "name": "Zillian",
+          "role_in_chapter": "Combatant — shadow tiger and direct fight",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Cold precision, tactical",
+          "power_level": "High",
+          "goals_this_chapter": [
+            "Defeat the bandits",
+            "Protect the village"
+          ]
+        },
+        {
+          "id": "bandit_leader",
+          "name": "Bandit Leader",
+          "role_in_chapter": "Primary opponent",
+          "first_appearance": false,
+          "status": "alive (defeated)",
+          "emotional_state": "Shocked, pragmatic surrender",
+          "power_level": "Moderate",
+          "goals_this_chapter": [
+            "Kill Zillian"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "order": 1,
+          "type": "combat",
+          "description": "The shadow tiger systematically displaces seventeen mounted bandits without killing.",
+          "characters_involved": [
+            "Zillian"
+          ],
+          "location": "Eastern approach",
+          "importance": "critical"
+        },
+        {
+          "order": 2,
+          "type": "combat",
+          "description": "Zillian fights the bandit leader in close combat — a narrow, skilled victory.",
+          "characters_involved": [
+            "Zillian",
+            "Bandit Leader"
+          ],
+          "location": "Eastern approach",
+          "importance": "critical"
+        }
+      ],
+      "combat_scenes": [
+        {
+          "combatants": [
+            "Zillian (Shadow Tiger)",
+            "17 mounted bandits"
+          ],
+          "power_system_used": "mixed",
+          "techniques_used": [
+            "Shadow Tiger displacement",
+            "Physical displacement"
+          ],
+          "outcome": "Victory — bandits routed",
+          "injuries": [
+            "Zillian: shallow cut on forearm"
+          ],
+          "significance": "First real combat use of Zillian's shadow power"
+        },
+        {
+          "combatants": [
+            "Zillian",
+            "Bandit Leader"
+          ],
+          "power_system_used": "aura",
+          "techniques_used": [
+            "Knife work",
+            "Close combat grappling",
+            "Weight redirection"
+          ],
+          "outcome": "Victory — leader disarmed and forced to submit",
+          "injuries": [
+            "Bandit Leader: cut on sword hand, jaw blow"
+          ],
+          "significance": "Demonstrates Zillian's physical skill independent of shadow power"
+        }
+      ],
+      "power_developments": [
+        {
+          "character": "Zillian",
+          "power_type": "Shadow manifestation",
+          "previous_level": "First use",
+          "new_level": "Demonstrated control — can direct the tiger, then dismiss it",
+          "technique_learned": "Tiger dismissal — reabsorption",
+          "trigger": "Combat necessity"
+        }
+      ],
+      "world_building": {
+        "new_locations_introduced": [],
+        "lore_revealed": [
+          "Shadow Tiger mechanics: physically real enough to displace horses and pin men. Acts semi-independently. When dismissed it reabsorbs into Zillian. Sustaining it costs blood — the cut on Zillian's arm opened during the exertion."
+        ],
+        "races_introduced": [],
+        "political_developments": [],
+        "secrets_hinted": [],
+        "secrets_revealed": []
+      },
+      "relationships": {
+        "new_connections": [],
+        "relationship_changes": []
+      },
+      "items_artifacts": [],
+      "foreshadowing": [
+        {
+          "hint": "The tiger's methodical clearing — displacement rather than killing",
+          "relates_to": "Zillian's later attempt to displace and absorb Voryn — same instinct, vastly larger scale",
+          "subtlety": "subtle"
+        }
+      ],
+      "themes": [
+        "Mastery",
+        "Cold precision",
+        "Controlled power"
+      ],
+      "cliffhanger": {
+        "has_cliffhanger": false,
+        "description": ""
+      },
+      "chapter_metadata": {
+        "word_count": 1500,
+        "status": "final",
+        "notes": "Core action chapter — the fight choreography establishes Zillian's combat philosophy.",
+        "connections_to_previous": "Direct continuation of Ch.6's cliffhanger.",
+        "setup_for_next": "The aftermath — the village processes what they witnessed."
+      }
+    },
+    {
+      "chapter_id": 8,
+      "title": "The Weight of a Name",
+      "arc": "The Village Arc",
+      "arc_number": 1,
+      "setting": {
+        "continent": "Arcaelis",
+        "region": "Solvara",
+        "specific_location": "Halwen Village — square, then Garret's back room",
+        "time_of_day": "Dawn, following morning",
+        "weather_conditions": "Clear sky for the first time — thin amber light",
+        "era": "Fracture Era"
+      },
+      "summary": {
+        "brief": "The morning after. The village processes what they witnessed. Zillian rests and is asked — for the first time — who he actually is.",
+        "detailed": "At dawn, the village finds Zillian at the gate, arm bandaged. They are stunned, grateful, frightened, and full of questions he does not answer. Pera brings him porridge without a word. Garret sits beside him on the ground and asks directly: who are you? Zillian gives almost nothing. But in what he does not say, Garret hears something significant. He asks Zillian to stay a few days."
+      },
+      "pov_character": "Zillian",
+      "story_text": "The sky lightened from black to grey to the pale, hesitant blue of early winter morning. The clouds that had been permanent fixtures since Zillian's arrival had thinned overnight, leaving a band of clear sky to the east that turned the color of pale amber as the sun crested the ridgeline.\n\nHe sat at the base of the gate post with his back against the wood, his injured arm resting across one knee, and watched the light come. The arm was fine — he had cleaned it with water from the well and wrapped it from a strip cut from the hem of his coat. The tiredness was more significant. Not physical exhaustion — he had rested through worse — but the particular hollowness that came after he had called the tiger out. Like something essential had been temporarily lent out and had not fully returned yet.\n\nHe was still sitting there when Pera came out of her house.\n\nTovin's mother stopped in her doorway, looking at the eastern road, and he watched her see the evidence of the night in pieces: the dark scorched spots where the dropped torches had burned down, the churned earth of panicked hoofbeats, the dropped blade lying in the dust thirty feet from the gate. She looked at all of it for a long moment, and then she looked at Zillian.\n\nHe nodded once at her. Nothing more than that.\n\nShe went back inside and came out a minute later with a bowl of something warm — grain porridge with dried fruit. She set it down beside him without speaking and went back to her doorway and stood there watching the road.\n\nOthers emerged gradually. The men who had been at the gate came first, then the rest, in twos and threes, the whole village eventually gathered in loose clusters, speaking in low voices and looking at Zillian with the expression that people wore when they had just seen something that rearranged their understanding of what was possible.\n\nHe was aware of being looked at and said nothing about it. He ate the porridge. It was good.\n\nThe questions, when they came, came from children first — because children had not yet learned to frame their curiosity as polite avoidance.\n\nA boy of about ten stood three feet in front of him and said, without preamble: Boy: \"Was that a real animal?\"\n\nZillian: \"Yes.\"\n\nBoy: \"Where did it go?\"\n\nZillian: \"It went home.\"\n\nThe boy considered this with the seriousness it deserved. Boy: \"Where's home?\"\n\nZillian looked at his own bandaged forearm for a moment. Zillian: \"Somewhere safe.\"\n\nGarret came last. He brought two cups of something that was not quite tea and sat down beside Zillian on the ground — not on the step, not in a chair, on the ground — which Zillian noted as a deliberate choice. The old man set one cup within Zillian's reach and held his own and looked at the amber strip of sky to the east.\n\nGarret: \"I'm going to ask you a question.\"\n\nZillian: \"I'll answer what I can.\"\n\nGarret: \"That's fair. Who are you?\"\n\nZillian drank from the cup. It tasted of dried bark and something faintly bitter. Not bad. He looked at the sky.\n\nZillian: \"A traveler.\"\n\nGarret: \"With a shadow tiger.\"\n\nZillian: \"Sometimes.\"\n\nGarret was quiet for a moment. Garret: \"I've traded with merchants from Aurelios for thirty years. I've heard stories from road-travelers going back before that. I've heard about mages from Velmora who can reshape the air around them. I've heard about things in the canyon that don't have names. I have never, in my life, heard of anyone who could do what you did last night.\"\n\nZillian said nothing.\n\nGarret: \"That's not a demand for information. I'm not asking you to explain yourself. I've seen enough of the world to know there are things in it that don't explain themselves, and that demanding they do is mostly just a way of making yourself feel more comfortable with the inexplicable. I'm just saying — it's real. Whatever it was. It saved this village. And you're sitting here eating Pera's porridge with a cut on your arm and you look like you spent the night moving furniture, which I think is the most reassuring part of all of it.\"\n\nZillian almost smiled at that. Not quite.\n\nGarret: \"Stay a few days. You don't have to tell me anything. Just stay a few days.\"\n\nZillian looked east. The amber sky was brightening, the clear strip widening. For the first time he could see the canyon's eastern wall clearly in daylight — the sheer stone face, the shadow in the depths, and a strange faint shimmer above it that might have been heat haze or might have been something else entirely.\n\nHe thought about the next road. The things pointing him east. The weight of the journey still ahead.\n\nZillian: \"A few days.\"",
+      "characters_present": [
+        {
+          "id": "zillian",
+          "name": "Zillian",
+          "role_in_chapter": "Recovering, reveals almost nothing",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Hollow, cautiously warm",
+          "power_level": "High",
+          "goals_this_chapter": [
+            "Rest",
+            "Decide whether to stay"
+          ]
+        },
+        {
+          "id": "garret",
+          "name": "Garret",
+          "role_in_chapter": "Asks the question, accepts the non-answer",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Grateful, curious, respectful",
+          "power_level": "Civilian",
+          "goals_this_chapter": [
+            "Understand Zillian",
+            "Convince him to stay"
+          ]
+        },
+        {
+          "id": "pera",
+          "name": "Pera",
+          "role_in_chapter": "Tovin's mother — quiet gratitude",
+          "first_appearance": true,
+          "status": "alive",
+          "emotional_state": "Quiet gratitude",
+          "power_level": "Civilian",
+          "goals_this_chapter": []
+        }
+      ],
+      "events": [
+        {
+          "order": 1,
+          "type": "dialogue",
+          "description": "Garret asks Zillian who he is. Zillian gives almost nothing.",
+          "characters_involved": [
+            "Zillian",
+            "Garret"
+          ],
+          "location": "Halwen gate",
+          "importance": "major"
+        }
+      ],
+      "combat_scenes": [],
+      "power_developments": [],
+      "world_building": {
+        "new_locations_introduced": [],
+        "lore_revealed": [],
+        "races_introduced": [],
+        "political_developments": [],
+        "secrets_hinted": [],
+        "secrets_revealed": []
+      },
+      "relationships": {
+        "new_connections": [
+          {
+            "character_a": "Zillian",
+            "character_b": "Pera",
+            "relationship_type": "ally",
+            "description": "Wordless gratitude — Pera brings porridge without speaking"
+          }
+        ],
+        "relationship_changes": [
+          {
+            "character_a": "Zillian",
+            "character_b": "Garret",
+            "change": "Relationship deepens to mutual respect and earned trust",
+            "reason": "Garret sits on the ground beside him — a deliberate gesture of equality"
+          }
+        ]
+      },
+      "items_artifacts": [],
+      "foreshadowing": [
+        {
+          "hint": "The strange shimmer above the canyon wall in clear morning light",
+          "relates_to": "The experiment at the Institute and Voryn's growing disturbance beneath the earth",
+          "subtlety": "subtle"
+        },
+        {
+          "hint": "Zillian has somewhere to go — east — something pointing him there",
+          "relates_to": "His larger journey and the artifacts he carries",
+          "subtlety": "moderate"
+        }
+      ],
+      "themes": [
+        "Earned breath",
+        "Careful hope",
+        "The weight of identity"
+      ],
+      "cliffhanger": {
+        "has_cliffhanger": false,
+        "description": ""
+      },
+      "chapter_metadata": {
+        "word_count": 1480,
+        "status": "final",
+        "notes": "Decompression chapter — emotional payoff after the combat.",
+        "connections_to_previous": "Morning after the bandit fight in Ch.7.",
+        "setup_for_next": "Zillian stays to investigate — the offering stones and the tremors."
+      }
+    },
+    {
+      "chapter_id": 9,
+      "title": "Fault Lines",
+      "arc": "The Village Arc",
+      "arc_number": 1,
+      "setting": {
+        "continent": "Arcaelis",
+        "region": "Solvara",
+        "specific_location": "Halwen Village and surrounding valley",
+        "time_of_day": "Over three days, various",
+        "weather_conditions": "Unseasonably cold, ground fog in mornings",
+        "era": "Fracture Era"
+      },
+      "summary": {
+        "brief": "Three days of uneasy peace. Zillian walks the valley edges, finds the four offering stones of Voryn's reverence, and begins to sense something shifting underground.",
+        "detailed": "Over three quiet days, Zillian moves through the village and learns its rhythms. He finds the four ancient offering stones at the valley's compass points and discovers something Garret's legend did not mention: the stones are warm. He begins tracking a low-frequency vibration in the earth that increases by day three. Meanwhile, Garret reports that Valoris has gone strangely silent — no escalation after the bandits failed — and that trader reports speak of unusual activity at the Institute. The picture of the experiment becomes clearer and darker."
+      },
+      "pov_character": "Zillian",
+      "story_text": "The south stone was half-buried under decades of creeping moss and the advance guard of an invasive root system from the treeline. But it was there — a flat-topped granite marker about the height of a man's knee, with a shallow bowl shape worn into its surface over generations of use. The bowl held rainwater and the faint oily residue of old offerings — grain fat, flower oil, something that might once have been blood, long since broken down into organic shadow in the stone's pores.\n\nZillian pressed his palm flat against the surface.\n\nWarm.\n\nNot sun-warmed — the stone sat in full shade this time of year. Not geothermally warm in the way that sometimes happened near underground water. This was different. A warmth with rhythm to it, very faint, the way you could sometimes feel a heartbeat through a wrist if you pressed carefully enough in exactly the right place.\n\nHe checked the other three. The east stone, buried under the exposed roots of a lightning-struck tree at the canyon edge. The north stone, half-sunk into the hillside. The west stone, standing in tall grass at the forest border, its top worn smooth and clean as if someone still tended it. All of them warm. All of them pulsing with that same faint, rhythmic quality.\n\nHe did not mention this to Garret immediately. He filed it and watched.\n\nThe three days were quiet in the way that the space between events was quiet — not peaceful, but inactive. The village had reorganized itself around the new reality with the pragmatic efficiency of people who had been surviving difficult things for a long time. The gate was repaired. A rotation of watchers was established. Children were back outside in supervised groups, their laughter the first genuine sound Zillian had heard from Halwen since he arrived.\n\nOsla came to Garret's shop on the second afternoon and stood for a while in front of the supplies shelf without really looking at anything, then turned to Zillian and said, simply: Osla: \"Thank you.\"\n\nHe noticed the vibration in the earth for the first time on the second morning, standing at the well. A faint tremor — not an earthquake — but a subsurface movement, the kind that traveled through bedrock rather than through the loose earth layer above it. By the third day it was more frequent.\n\nZillian: \"Has the ground ever moved here?\"\n\nThe old man looked at him with the expression of someone confirming a private suspicion. Garret: \"Hot springs run about three miles east. Always been minor tremors — maybe once a season. You're feeling something?\"\n\nZillian: \"Something.\"\n\nGarret was quiet. Then: Garret: \"I've had two traders pass through in the last two days. Word of mouth from the direction of Valoris. Nothing official. But both of them mentioned that the city has been unusual lately. Restricted districts. Lights in the Institute buildings at all hours. One of them said there was a smell. Coming from the lower levels of the city. Like ozone and something animal, he said.\"\n\nZillian turned this over. Ozone — the smell of mana discharge, of energy processes happening at scale. Animal — something alive and large and not caged easily.\n\nZillian: \"How long has the Institute been operating?\"\n\nGarret: \"They arrived four years ago.\"\n\nZillian: \"And Voryn — what does the legend actually say about the wolf's nature? Not the protection aspect. What is it?\"\n\nGarret thought. Garret: \"Ancient. Pre-settlement. Something that existed when the land formed. Not hostile by nature. More like — indifferent. It sleeps because the world as it currently exists doesn't interest it enough to wake for.\"\n\nZillian: \"And if something woke it?\"\n\nThe old man looked at him for a long moment.\n\nGarret: \"The legend doesn't address that scenario with optimism.\"\n\nZillian nodded. He looked toward the east — toward the canyon, toward the distant city, toward the Institute that had arrived four years ago with scholars and instruments and an interest in what lived in the deep earth of this valley.\n\nHe thought about the children.\n\nHe thought about resonance — the word the scholars had used. Certain people in early development being sensitive to energies in the earth.\n\nHe thought about four years of children with a connection to Voryn's sleeping presence, delivered systematically to a facility that smelled of ozone and something large and animal.\n\nThe picture that assembled itself was not a good one.\n\nZillian: \"I'm going to stay a little longer.\"",
+      "characters_present": [
+        {
+          "id": "zillian",
+          "name": "Zillian",
+          "role_in_chapter": "Investigator, sensing building disaster",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Methodical dread",
+          "power_level": "High",
+          "goals_this_chapter": [
+            "Investigate the offering stones",
+            "Track the earth tremors",
+            "Piece together the experiment"
+          ]
+        },
+        {
+          "id": "garret",
+          "name": "Garret",
+          "role_in_chapter": "Information source, growing alarm",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Quietly alarmed",
+          "power_level": "Civilian",
+          "goals_this_chapter": []
+        }
+      ],
+      "events": [
+        {
+          "order": 1,
+          "type": "travel",
+          "description": "Zillian finds the four offering stones — all warm and pulsing with a heartbeat rhythm.",
+          "characters_involved": [
+            "Zillian"
+          ],
+          "location": "Valley compass points",
+          "importance": "major"
+        },
+        {
+          "order": 2,
+          "type": "revelation",
+          "description": "Garret shares trader reports about unusual activity at the Institute — ozone and animal smells.",
+          "characters_involved": [
+            "Zillian",
+            "Garret"
+          ],
+          "location": "Garret's Provisions",
+          "importance": "major"
+        }
+      ],
+      "combat_scenes": [],
+      "power_developments": [],
+      "world_building": {
+        "new_locations_introduced": [
+          "The four offering stones at the valley's compass points"
+        ],
+        "lore_revealed": [
+          "The four offering stones: ancient granite markers warm and pulsing, connected to something alive beneath the earth.",
+          "The experiment's nature becomes clearer: children sensitive to Voryn's energy, taken to an Institute now smelling of ozone and something large and alive."
+        ],
+        "races_introduced": [],
+        "political_developments": [],
+        "secrets_hinted": [
+          "The Institute has been using children's resonance as an instrument to interface with — and likely alter — Voryn"
+        ],
+        "secrets_revealed": []
+      },
+      "relationships": {
+        "new_connections": [],
+        "relationship_changes": []
+      },
+      "items_artifacts": [],
+      "foreshadowing": [
+        {
+          "hint": "Ground tremors increasing in frequency by day three",
+          "relates_to": "Voryn's awakening as the experiment destabilizes",
+          "subtlety": "moderate"
+        }
+      ],
+      "themes": [
+        "Dread assembling piece by piece",
+        "The weight of knowledge",
+        "Investigation"
+      ],
+      "cliffhanger": {
+        "has_cliffhanger": false,
+        "description": ""
+      },
+      "chapter_metadata": {
+        "word_count": 1500,
+        "status": "final",
+        "notes": "Investigative chapter — the mystery crystallizes.",
+        "connections_to_previous": "Follows the rest period established in Ch.8.",
+        "setup_for_next": "The experiment's catastrophic failure."
+      }
+    },
+    {
+      "chapter_id": 10,
+      "title": "Something Breaks in Valoris",
+      "arc": "The Village Arc",
+      "arc_number": 1,
+      "setting": {
+        "continent": "Arcaelis",
+        "region": "Solvara",
+        "specific_location": "Halwen Village, then the eastern road approach",
+        "time_of_day": "Dawn — Zillian has just packed to leave",
+        "weather_conditions": "Unseasonably warm, air pressure dropping fast",
+        "era": "Fracture Era"
+      },
+      "summary": {
+        "brief": "Zillian is packed and ready to leave when the horizon to the east explodes — and the earth of Halwen begins to split.",
+        "detailed": "On the fifth morning, Zillian has his pack on and is saying a brief farewell to Garret when a distant explosion blooms over the canyon walls — a column of orange-white light followed by a concussive wave. Not combat. Not a mana storm. Something under enormous pressure releasing when the seal failed. Then the valley's offering stones all crack simultaneously. And below Halwen, deep in the bedrock, something that has been sleeping for longer than anyone in the village has been alive begins to move for the first time."
+      },
+      "pov_character": "Zillian",
+      "story_text": "He had his pack on his back and one hand on the door handle.\n\nFive days had stretched from the promised four because of the tremors and the trader information. Now it was morning, and the tremors had not stopped, but there was a difference between not stopped and actively worsening, and last night had brought five hours of complete stillness after the worst of the shaking. He had chosen to believe the pressure had released naturally.\n\nHe had been wrong before.\n\nGarret: \"You're going east.\"\n\nZillian: \"East road south around the canyon mouth. As you suggested when I first arrived.\"\n\nGarret: \"Sensible. Don't forget the river markers if you're going through the canyon road section at all.\"\n\nZillian: \"I won't. Thank you for the room.\"\n\nGarret: \"Thank you for the gate. And for everything else.\"\n\nZillian nodded once. He opened the door and stepped into the morning air.\n\nThe first thing he noticed was the temperature. Wrong — not cold, which was what early winter mornings in this valley should be, but warm. A damp, pressured warmth coming from below, as if the ground itself were breathing out heat. The air pressure had dropped enough that he felt it in his ears as a faint tightness, the way it felt before a significant storm.\n\nHe stopped on the shop step and looked east.\n\nThe explosion came without warning.\n\nNot sound first — light. An orange-white column, massive, rising from somewhere beyond the canyon wall in the direction of Valoris, climbing into the grey sky for a full three seconds before the sound arrived: a deep, low concussion that he felt in his chest and in the ground beneath his feet simultaneously. Not thunder. Not mana backfire. This was venting. Something under enormous pressure releasing at a single point, the way a sealed container released when the seal failed catastrophically.\n\nThe column faded. A cloud of dark smoke replaced it, spreading horizontally on a wind that had not existed ten seconds ago.\n\nBehind him, in the shop, he heard a crash — Garret's cups, the whole shelf, rattled loose by the concussion wave.\n\nThe second explosion was smaller. More like an exhalation than an eruption. The same direction, a minute later.\n\nThen silence.\n\nHe was still standing on the step, reading the sky, when the crack reached him. Not from the east — from everywhere. A sound like the valley itself had fissured, four separate sharp reports in rapid succession from the compass points. He turned — the north stone had split cleanly down the middle. East stone the same. He did not need to check the others.\n\nAll four.\n\nIn the following silence, nothing moved. The village had gone from sleep to alert between one heartbeat and the next, doors opening, faces appearing. Garret stood in the shop doorway with broken cup shards at his feet and a face that had gone the color of old ash.\n\nZillian put his pack down.\n\nHe felt it begin three seconds later — not a tremor, not a vibration. A pressure, rising through the soles of his feet, through his legs, through his chest. The pressure of something very large moving through solid stone. Moving upward. Not quickly. But moving.\n\nZillian: \"Garret. Get everyone inside. Solid-wall buildings. Now.\"\n\nThe old man looked at him for one long second.\n\nThen he started shouting.",
+      "characters_present": [
+        {
+          "id": "zillian",
+          "name": "Zillian",
+          "role_in_chapter": "On the verge of leaving when everything breaks",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Cold shock becoming resolve",
+          "power_level": "High",
+          "goals_this_chapter": [
+            "Leave (failed)",
+            "Protect the village"
+          ]
+        },
+        {
+          "id": "garret",
+          "name": "Garret",
+          "role_in_chapter": "Witness, immediately obeys",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Ash-grey terror",
+          "power_level": "Civilian",
+          "goals_this_chapter": [
+            "Get everyone to safety"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "order": 1,
+          "type": "action",
+          "description": "A catastrophic explosion erupts in the direction of Valoris — the Institute experiment fails.",
+          "characters_involved": [],
+          "location": "Visible from Halwen",
+          "importance": "critical"
+        },
+        {
+          "order": 2,
+          "type": "revelation",
+          "description": "All four offering stones crack simultaneously — the ancient compact is broken.",
+          "characters_involved": [
+            "Zillian"
+          ],
+          "location": "Halwen Valley compass points",
+          "importance": "critical"
+        },
+        {
+          "order": 3,
+          "type": "revelation",
+          "description": "Something enormous begins moving upward through the bedrock.",
+          "characters_involved": [
+            "Zillian"
+          ],
+          "location": "Beneath Halwen",
+          "importance": "critical"
+        }
+      ],
+      "combat_scenes": [],
+      "power_developments": [],
+      "world_building": {
+        "new_locations_introduced": [],
+        "lore_revealed": [
+          "The Institute's experiment fails catastrophically — a venting event visible from the valley. The offering stones cracking simultaneously signals the break in the protective compact."
+        ],
+        "races_introduced": [],
+        "political_developments": [],
+        "secrets_hinted": [],
+        "secrets_revealed": [
+          "The experiment has failed — something enormous is waking beneath Halwen"
+        ]
+      },
+      "relationships": {
+        "new_connections": [],
+        "relationship_changes": []
+      },
+      "items_artifacts": [],
+      "foreshadowing": [
+        {
+          "hint": "The pressure rising through the soles of Zillian's feet — something enormous moving upward through bedrock",
+          "relates_to": "Voryn's emergence in the next chapter",
+          "subtlety": "obvious"
+        }
+      ],
+      "themes": [
+        "Inevitable disaster",
+        "Sudden rupture",
+        "Consequences of human arrogance"
+      ],
+      "cliffhanger": {
+        "has_cliffhanger": true,
+        "description": "Something enormous is moving up through the bedrock toward the surface."
+      },
+      "chapter_metadata": {
+        "word_count": 1480,
+        "status": "final",
+        "notes": "The pivot point — everything changes.",
+        "connections_to_previous": "The tremors tracked in Ch.9 reach their breaking point.",
+        "setup_for_next": "Voryn emerges."
+      }
+    },
+    {
+      "chapter_id": 11,
+      "title": "Voryn",
+      "arc": "The Village Arc",
+      "arc_number": 1,
+      "setting": {
+        "continent": "Arcaelis",
+        "region": "Solvara",
+        "specific_location": "Halwen Valley — the ground opens north of the village",
+        "time_of_day": "Mid-morning",
+        "weather_conditions": "Air pressure extreme, smell of earth and ozone, fog rising from new fissures",
+        "era": "Fracture Era"
+      },
+      "summary": {
+        "brief": "Voryn emerges — and it is not what the legend described.",
+        "detailed": "The valley floor north of the village ruptures. From the fissure comes Voryn — but not the ancient sleeping guardian of legend. Four years of the Institute's experiments have warped it: a wolf the size of a hill, its fur matted with a pulsing bioluminescent substance like visible disease. Extra limbs, partially formed, jut from its shoulders. Its eyes — when they open — are ruined. Not the old gold of the legend, but red-veined white, blinded and in agony. It is not hostile. It is in pain. And pain on that scale has the same effect as hostility."
+      },
+      "pov_character": "Zillian",
+      "story_text": "The valley floor broke open like old bread.\n\nNorth of the village — close enough that Zillian felt the vibration in his teeth as the ground fractured along a line that ran parallel to the base of the hillside — the earth peeled back in sections, stone slabs the size of houses tilting and sliding as something forced its way through from below. Geysers of super-heated steam shot upward along the fault line, carrying the mineral smell of deep rock and something organic underneath it, animal-warm and wrong.\n\nThe process took ninety seconds. Ninety seconds during which Zillian stood at the village's northern edge and watched, because running would not have helped and understanding what was coming mattered.\n\nThe first thing to emerge was the paw.\n\nIt was the size of a boat. Stone-grey fur packed with earth and minerals, claws that carved fresh channels into the valley floor as it planted and gripped and pulled. A second paw followed — then the forelegs, the chest, the impossibility of scale resolving slowly as the creature heaved itself free of the rock that had held it for centuries. Methodical. Exhausted.\n\nVoryn was the size of a hill that was also a wolf.\n\nIts body, as it cleared the earth, was wrong in ways that no legend would have described, because no legend had been written about this version of the creature. The fur that should have been slate-grey was shot through with luminescent threads — pale yellow-green, pulsing in irregular rhythms, the color of something biological that had been introduced to the animal's system and taken hold the way infections took hold. Along its shoulders, partially extruded, were additional limb formations: not fully grown, not functional, twisted at wrong angles against the creature's main body mass. They moved slightly. Involuntarily.\n\nThe experiments had not been merely testing Voryn's energy. They had been feeding it something. Introducing something into the organism of an ancient being that its biology had no framework to process. And now that something was visible, growing, changing the architecture of a creature that had existed since before humans arrived in this valley.\n\nThe eyes opened last.\n\nThey should have been gold. The hot springs east of the valley ran warm because of this creature's warmth, and warmth on that scale, at that age, read gold in the legend. Instead: white. Filmed. The whites of the eyes were threaded with red-black veins that spread from the pupils outward like cracks in old ceramic. The pupils themselves were blown wide despite the morning light.\n\nBlind. Or nearly blind. The experiments had taken that too.\n\nThe creature lifted its head — slowly, with the deliberate movement of something managing tremendous pain in every motion — and made a sound.\n\nIt was not a howl. It was the sound a howl made when the animal making it had forgotten, momentarily, why it was howling, or what howling was for. Low and continuous and carrying a quality that Zillian could only describe as bewildered. Ancient and bewildered.\n\nBehind him, inside solid stone walls, forty-three adults and their children were very quiet.\n\nThe wolf god of the valley of Halwen turned its ruined eyes toward the village. Not seeing it — not clearly. But orienting. Smelling, perhaps, or sensing the mana disturbance of a cluster of living things. Something drawing it toward them in the absence of the sensory direction it had lost.\n\nThe ground shook with each of its breaths.\n\nZillian stood in the space between the creature and the village wall. He was aware, with clear and useful precision, of exactly how small he was. He was also aware of the hollow place in his chest where the tiger lived, and the warmth there, and the faint amber light at the very edge of his vision when he turned his head.\n\nHe thought about the methodology of the last fight. Displacement rather than killing. The principle of finding the thing underneath the threat.\n\nVoryn was not the threat.\n\nVoryn was the outcome of a threat.\n\nHe reached into his coat and drew his knife. He pressed the edge against his left palm — not deeply, just enough — and felt the warmth of blood meeting cold air. The shadow behind him stirred.",
+      "characters_present": [
+        {
+          "id": "zillian",
+          "name": "Zillian",
+          "role_in_chapter": "Standing between the village and Voryn",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Awe, resolve, no fear",
+          "power_level": "High",
+          "goals_this_chapter": [
+            "Understand the threat",
+            "Protect the village"
+          ]
+        },
+        {
+          "id": "voryn",
+          "name": "Voryn",
+          "role_in_chapter": "The ancient wolf-god, emerged and mutated by the Institute's experiments",
+          "first_appearance": true,
+          "status": "alive (mutated, in pain)",
+          "emotional_state": "Bewildered, in agony",
+          "power_level": "Legendary (mutated beyond normal)",
+          "goals_this_chapter": []
+        }
+      ],
+      "events": [
+        {
+          "order": 1,
+          "type": "revelation",
+          "description": "Voryn emerges from the earth — mutated, blinded, in tremendous pain.",
+          "characters_involved": [
+            "Voryn"
+          ],
+          "location": "North of Halwen Village",
+          "importance": "critical"
+        }
+      ],
+      "combat_scenes": [],
+      "power_developments": [],
+      "world_building": {
+        "new_locations_introduced": [],
+        "lore_revealed": [
+          "Voryn's true state: the god-wolf is enormous, ancient, and has been fundamentally altered by the Institute's experiments. Additional limb formations growing from its body. Eyes ruined. In pain.",
+          "The experiment's mechanism revealed: the bioluminescent substance threading through Voryn's fur is the result of years of experimental introduction — the children's resonance was used as a conduit."
+        ],
+        "races_introduced": [],
+        "political_developments": [],
+        "secrets_hinted": [],
+        "secrets_revealed": [
+          "Voryn is real — not just legend",
+          "The Institute was experimenting directly on the wolf-god"
+        ]
+      },
+      "relationships": {
+        "new_connections": [],
+        "relationship_changes": []
+      },
+      "items_artifacts": [],
+      "foreshadowing": [],
+      "themes": [
+        "Scale horror",
+        "Tragic monster",
+        "The consequences of hubris"
+      ],
+      "cliffhanger": {
+        "has_cliffhanger": true,
+        "description": "Zillian cuts his palm and the shadow behind him stirs — he's about to face the wolf-god."
+      },
+      "chapter_metadata": {
+        "word_count": 1500,
+        "status": "final",
+        "notes": "The reveal chapter — Voryn's emergence is meant to inspire awe and horror in equal measure.",
+        "connections_to_previous": "The pressure rising through the ground at the end of Ch.10.",
+        "setup_for_next": "The fight against Voryn — shadow tiger vs wolf-god."
+      }
+    },
+    {
+      "chapter_id": 12,
+      "title": "Against Something That Moves Mountains",
+      "arc": "The Village Arc",
+      "arc_number": 1,
+      "setting": {
+        "continent": "Arcaelis",
+        "region": "Solvara",
+        "specific_location": "Halwen Valley, north of the village",
+        "time_of_day": "Late morning",
+        "weather_conditions": "Ground fog from fissures, steam columns, air thick with mineral dust",
+        "era": "Fracture Era"
+      },
+      "summary": {
+        "brief": "Zillian fights Voryn — and discovers that the rules of power he knows do not fully apply to something this old and this large.",
+        "detailed": "The shadow tiger emerges and for the first time faces something that does not panic in response to it. Voryn barely registers it as a threat. The tiger's displacement tactics, which cleared seventeen armed humans in minutes, have no traction against a creature whose minimum physical response is geological in scale. Zillian switches approach — instead of attacking, he begins trying to reach through the pain to Voryn's core. He discovers three seconds of connection that changes everything: the part of Voryn that existed before the experiments can be reached."
+      },
+      "pov_character": "Zillian",
+      "story_text": "The tiger came out fast this time — faster than the careful emergence against the bandits. Zillian's bleeding palm pressed against his side and the shadow pulled itself together with a speed born of urgency, arriving at its full size between him and the wolf-god in three heartbeats.\n\nVoryn noticed it.\n\nThis was already different. The horses had felt the tiger's presence as pure predator-signal, bypassing cognition entirely. Voryn turned one ruined eye toward the tiger with the movement of something very old evaluating something unexpected, and there was in that half-blind assessment a quality that was not fear and was not aggression. More like attention. The way something large and solitary attended briefly to a sound it had not categorized yet.\n\nThe tiger pressed forward, circling left, using the movement that had crumpled the bandit formation in seconds. At full circle pace it moved like liquid darkness, low and fast and absolutely committed.\n\nVoryn raised one paw and set it down.\n\nThe ground beneath the tiger's left flank compressed and shifted from the impact — not from a strike, just from placement of weight — and the tiger's footing broke. It recovered, but the second it spent recovering was the second Voryn used to lower its head toward the ground and exhale.\n\nThe breath came out as a concussive wave of earth-heat and mineral-charged air that Zillian felt from forty feet behind the tiger as a wall of pressure against his chest. The tiger dispersed at the wave's contact — not destroyed, he felt it still, but scattered, fragmented.\n\nZillian moved left. Running, actually running, because the alternative was standing still while Voryn turned its attention toward him and he had seen what attention looked like on that scale.\n\nHe needed higher ground.\n\nHe ran for the sloped hillside to the north, scrambling up through the scrub growth and loose shale, gaining twelve feet of altitude before the ground around him shuddered from Voryn shifting weight below. A partial collapse of the fissure's edge sent a shockwave through the slope that knocked Zillian flat and sent him sliding six feet before he caught himself on an exposed root.\n\nHe hung there for a moment, grass and shale in his teeth, and looked down at Voryn.\n\nFrom above, the scale was somehow worse. He could see the full extent of the mutation now — six additional limb formations across the shoulders, each at a different stage of growth, the most developed nearly reaching the ground when the creature moved. He could see the pulse of the bioluminescent threads clearly: irregular, arrhythmic, the pattern of something the body was actively fighting even while it spread.\n\nThe creature was not attacking. He needed to be precise about that. It had not made a directed attack on the village or on him. It was moving, and its movement was catastrophic, but what was driving the movement was not aggression. It was confusion. The pain-driven need to find something, reach something, resolve the pressure that four years of invasive experimentation had built inside its body. It was oriented toward the village because the village was associated with the energy it was seeking — the old reverence, the offerings, the connection that predated all of this.\n\nIt was coming home. In the most broken, terrible way possible, it was trying to come home.\n\nZillian pressed his cut palm against the hillside and felt the shadow tiger reform beside him on the slope. He could not fight this. Not in the way he had fought the bandits — not with displacement and position and the intelligent application of the tiger's presence. Voryn's minimum physical response was geological. Each step was a structural event.\n\nBut there had been a moment, early in the encounter, when the wolf had directed attention toward the tiger with something other than aggression. A quality of recognition, almost. Something like it.\n\nHe thought about the offering stones. About the warm pulse in them that matched the creature's frequency.\n\nHe thought about what Garret had said: reverenced. It protects those who offer it reverence.\n\nNot worship. Not fear. Reverence — the quality of being known and acknowledged. Of a thing being seen for what it actually was.\n\nHe pressed his cut palm flat against the hillside earth and put his full concentration into the shadow-sense — the part of his awareness that the tiger lived in — and directed it downward. Into the rock. Toward the frequency that was pulsing up through everything.\n\nI see you, he thought. Not in words exactly. In presence.\n\nVoryn stopped moving.\n\nNot permanently. Not even for long. But for three full seconds the creature became completely still, its head tilting at an angle that exposed the line of its jaw, and there was in that stillness a quality of listening that Zillian felt in his bones as surely as he felt the stone beneath his hand.\n\nThree seconds.\n\nThen the pain reasserted itself — the arrhythmic pulse spiking — and the creature's head dropped and the ground shook and it moved again toward the wall.\n\nThree seconds was not enough to do anything with. But it meant something was in there that could be reached.",
+      "characters_present": [
+        {
+          "id": "zillian",
+          "name": "Zillian",
+          "role_in_chapter": "Discovering the limits of his approach and the beginning of a different one",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Desperation becoming insight",
+          "power_level": "High",
+          "goals_this_chapter": [
+            "Stop Voryn",
+            "Find a way to reach its core"
+          ]
+        },
+        {
+          "id": "voryn",
+          "name": "Voryn",
+          "role_in_chapter": "Tragic, pain-driven antagonist",
+          "first_appearance": false,
+          "status": "alive (mutated)",
+          "emotional_state": "Pain, confusion, brief moment of listening",
+          "power_level": "Legendary",
+          "goals_this_chapter": []
+        }
+      ],
+      "events": [
+        {
+          "order": 1,
+          "type": "combat",
+          "description": "Shadow tiger engages Voryn — is scattered by the creature's exhaled breath wave.",
+          "characters_involved": [
+            "Zillian",
+            "Voryn"
+          ],
+          "location": "North of Halwen",
+          "importance": "major"
+        },
+        {
+          "order": 2,
+          "type": "revelation",
+          "description": "Zillian directs his shadow-sense through the earth and achieves three seconds of contact with Voryn's core consciousness.",
+          "characters_involved": [
+            "Zillian",
+            "Voryn"
+          ],
+          "location": "Hillside north of Halwen",
+          "importance": "critical"
+        }
+      ],
+      "combat_scenes": [
+        {
+          "combatants": [
+            "Zillian (Shadow Tiger)",
+            "Voryn"
+          ],
+          "power_system_used": "mixed",
+          "techniques_used": [
+            "Shadow Tiger assault",
+            "Earth-sense contact"
+          ],
+          "outcome": "Stalemate — combat approach fails, but contact is established",
+          "injuries": [
+            "Shadow tiger scattered (reforms)",
+            "Zillian: shale cuts, blood loss from palm"
+          ],
+          "significance": "Reveals that Voryn cannot be fought — only reached"
+        }
+      ],
+      "power_developments": [
+        {
+          "character": "Zillian",
+          "power_type": "Shadow-sense through stone",
+          "previous_level": "Shadow manifestation only",
+          "new_level": "Can direct shadow-awareness through earth and stone",
+          "technique_learned": "Earth-sense contact — projecting presence through stone to reach Voryn",
+          "trigger": "Desperation and insight about the offering stones"
+        }
+      ],
+      "world_building": {
+        "new_locations_introduced": [],
+        "lore_revealed": [
+          "Voryn reads through the earth-sense: the creature reads living things through ground-resonance, the same frequency as the offering stones.",
+          "Zillian's shadow-sense through stone: he can direct his shadow-awareness through stone and earth."
+        ],
+        "races_introduced": [],
+        "political_developments": [],
+        "secrets_hinted": [],
+        "secrets_revealed": []
+      },
+      "relationships": {
+        "new_connections": [],
+        "relationship_changes": []
+      },
+      "items_artifacts": [],
+      "foreshadowing": [
+        {
+          "hint": "Three seconds of stillness when Zillian projects presence through the earth",
+          "relates_to": "The absorption of Voryn into shadow in chapter fourteen",
+          "subtlety": "moderate"
+        }
+      ],
+      "themes": [
+        "Awe and desperation",
+        "The limits of force",
+        "Connection over combat"
+      ],
+      "cliffhanger": {
+        "has_cliffhanger": true,
+        "description": "Three seconds of contact — something in Voryn can be reached, but the pain reasserts and it moves toward the village again."
+      },
+      "chapter_metadata": {
+        "word_count": 1500,
+        "status": "final",
+        "notes": "The fight teaches Zillian that force won't work — only connection.",
+        "connections_to_previous": "Direct continuation of Ch.11's cliffhanger.",
+        "setup_for_next": "Zillian commits to reaching Voryn through the offering stones."
+      }
+    },
+    {
+      "chapter_id": 13,
+      "title": "Blood in the Stone",
+      "arc": "The Village Arc",
+      "arc_number": 1,
+      "setting": {
+        "continent": "Arcaelis",
+        "region": "Solvara",
+        "specific_location": "Halwen Valley, hillside and the cracked offering stones",
+        "time_of_day": "Late morning into early afternoon",
+        "weather_conditions": "Ground continuing to crack, steam vents opening, dust fog",
+        "era": "Fracture Era"
+      },
+      "summary": {
+        "brief": "Zillian attempts to reach Voryn's core consciousness through the offering stones — and the blood cost escalates beyond what he expected.",
+        "detailed": "Understanding that attack is useless, Zillian commits to contact. He reopens his palm and presses his blood into the earth at the cracked offering stone's base, using the stones as a conduit — the same way the villagers' reverence moved through them for generations. The shadow-sense expands through the stone and reaches Voryn beneath the pain. The creature stills longer — ten seconds, then fifteen. But the pull of the connection and the scale of what Zillian is reaching into means the blood cost escalates. His vision greys at the edges. He has to make a decision: deeper, at greater cost, or retreat and watch Voryn break through the village wall."
+      },
+      "pov_character": "Zillian",
+      "story_text": "The east offering stone had cracked down its center when the valley fractured, but both halves were still standing, leaning against each other at the fault line like exhausted travelers. The bowl on top was split too, but the hollow was deep enough that it still held its shape.\n\nZillian reached the stone at a run, sliding the last three feet on the loose earth as the ground shook from another of Voryn's steps. He put both hands on the split surfaces — one on each half — and felt the old pulse immediately. Not dead, not gone, just fractured in the same way the stone was fractured. Damaged but continuous.\n\nHe opened his left palm further with the knife. More than a cut this time — a proper opening, enough that blood came fast and heavy and ran immediately into the bowl and down through the cracks in the stone into the earth below.\n\nThe shadow-sense expanded.\n\nThrough the stone, through the root systems of the valley, through the mineral channels that had carried the ancient warmth of Voryn's body heat to the surface for centuries. It moved the way he had sent it through the hillside earlier, but this time with the stone as an amplifier — the offering stone carrying his presence through its own deep memory of contact, the accumulated weight of generations of reverence acting as a path.\n\nHe found Voryn's consciousness the way you found a fire in a dark room: by moving toward the heat.\n\nIt was not language. It was not image. It was the overwhelming presence of something that had existed long enough that its emotional state was geological — fear and pain and confusion layered over each other like sediment, compressed into a kind of wordless crisis that radiated in all directions. Zillian pushed through it the way he would push through a physical obstruction, not fighting, just moving, following the heat, looking for the core underneath.\n\nVoryn stopped moving.\n\nThis time for longer than three seconds. Ten. Fifteen. The creature's head dropped to the ground — not collapsed, not fallen, but set down with intention, the way something very tired laid itself to rest. From the village wall, Zillian heard a sound like every person inside exhaling simultaneously.\n\nDeeper. He pushed deeper.\n\nThe blood running from his palm was no longer a trickle. He could feel it leaving — a progressive warmth becoming progressive cold, the specific lightheadedness that came when the body began to object to the rate of loss. He registered it the way he registered obstacles: as information to work with rather than a command to stop.\n\nHe found what he was looking for in the deep core of it. Underneath the pain, underneath the confusion, underneath four years of violation: the original thing. The sleeping warmth that had protected this valley because the valley's warmth and the valley's people's presence were simply pleasant to it — not devotion, not worship, just the comfortable fact of being known and acknowledged by small warm things going about their small warm lives in the bedrock above.\n\nA creature that had slept content for centuries because it had somewhere it belonged.\n\nI know, Zillian told it, through blood and stone and the shadow-sense pushing deep. I know what was done to you. I know what you're looking for.\n\nThe bioluminescent threads pulsed hard, sharp, fighting the contact.\n\nVoryn lifted its head and made the sound again: the low, continuous, bewildered note. But this time the bewilderment had a slightly different quality to it. Less purely lost. Something in it reaching back.\n\nZillian's vision greyed at the edges. He was aware of both hands pressed fully against the cracked stone, blood running freely from the left, his knees on the hard ground, his body beginning to make its objections known through increasingly insistent channels. His shirt was wet against his side.\n\nHe thought: this is the decision point.\n\nHe looked at the village wall, fifty feet away. He could see the gap in the palisade where the gate had been repaired — the new post, the fresh rope lashing. He thought about Garret's cup crashing off the shelf. He thought about Pera and Tovin and Osla and the whole complicated, frightened, courageous weight of forty-three people who had voted to refuse and were now paying for it.\n\nHe pressed deeper.\n\nThe blood came faster. His left hand was numb now — not the pain of a cut, the absence that meant something more systemic. He watched the grey spreading in his vision with clinical attention, measuring how much further he had, rationing the remaining clarity like water in a desert crossing.\n\nVoryn's head came up. Its ruined eyes found him — not through sight, through the stone-sense, the resonance following his blood into the earth and back up through his connection to it. The creature turned toward him with an attention that was different from what it had been when it emerged. Not confusion. Something more focused.\n\nMore present.\n\nZillian held its gaze with the only thing he had left to offer: his complete, undivided acknowledgment of what it was. Ancient. Injured. Robbed of something essential. Trying to find its way home.\n\nThe bioluminescent pulse in Voryn's fur slowed. Irregular, then less irregular, then settling toward something almost like a rhythm.\n\nThe shadow behind Zillian began to move on its own.",
+      "characters_present": [
+        {
+          "id": "zillian",
+          "name": "Zillian",
+          "role_in_chapter": "Using the offering stone as conduit, losing blood at serious rate",
+          "first_appearance": false,
+          "status": "alive (critically weakened)",
+          "emotional_state": "Transcendent focus, clinical acceptance of cost",
+          "power_level": "High (at physical limit)",
+          "goals_this_chapter": [
+            "Reach Voryn's core consciousness",
+            "Stop the creature"
+          ]
+        },
+        {
+          "id": "voryn",
+          "name": "Voryn",
+          "role_in_chapter": "Beginning to still, the core consciousness becoming accessible",
+          "first_appearance": false,
+          "status": "alive (mutated, beginning to respond)",
+          "emotional_state": "Pain receding, presence emerging",
+          "power_level": "Legendary",
+          "goals_this_chapter": []
+        }
+      ],
+      "events": [
+        {
+          "order": 1,
+          "type": "action",
+          "description": "Zillian presses his blood into the cracked offering stone, using it as a conduit to reach Voryn's consciousness.",
+          "characters_involved": [
+            "Zillian"
+          ],
+          "location": "East offering stone",
+          "importance": "critical"
+        },
+        {
+          "order": 2,
+          "type": "revelation",
+          "description": "Zillian reaches the core of Voryn — the original sleeping presence beneath the pain and mutation.",
+          "characters_involved": [
+            "Zillian",
+            "Voryn"
+          ],
+          "location": "Through the stone network",
+          "importance": "critical"
+        }
+      ],
+      "combat_scenes": [],
+      "power_developments": [
+        {
+          "character": "Zillian",
+          "power_type": "Blood-amplified stone conduit",
+          "previous_level": "Basic earth-sense contact",
+          "new_level": "Deep consciousness contact through offering stone network",
+          "technique_learned": "Using the offering stones as an amplifier for shadow-sense — blood as signal",
+          "trigger": "Desperation and the decision to go deeper despite the cost"
+        }
+      ],
+      "world_building": {
+        "new_locations_introduced": [],
+        "lore_revealed": [
+          "The offering stones as conduits: they were never just ritual objects — actual physical conduits between the village's living energy and Voryn's sleeping presence.",
+          "Zillian's blood as signal: his specific blood carries something that travels through the earth-channels more effectively than ordinary contact."
+        ],
+        "races_introduced": [],
+        "political_developments": [],
+        "secrets_hinted": [
+          "The nature of Zillian's blood — why it works as signal is not explained"
+        ],
+        "secrets_revealed": []
+      },
+      "relationships": {
+        "new_connections": [],
+        "relationship_changes": []
+      },
+      "items_artifacts": [],
+      "foreshadowing": [],
+      "themes": [
+        "Crisis and commitment",
+        "Desperation becoming transcendence",
+        "The cost of connection"
+      ],
+      "cliffhanger": {
+        "has_cliffhanger": true,
+        "description": "The shadow behind Zillian begins to move on its own — the absorption is about to begin."
+      },
+      "chapter_metadata": {
+        "word_count": 1500,
+        "status": "final",
+        "notes": "The blood cost escalates — this is Zillian's most desperate moment.",
+        "connections_to_previous": "The three-second contact from Ch.12 becomes a sustained connection.",
+        "setup_for_next": "The shadow absorption of Voryn."
+      }
+    },
+    {
+      "chapter_id": 14,
+      "title": "Into Shadow",
+      "arc": "The Village Arc",
+      "arc_number": 1,
+      "setting": {
+        "continent": "Arcaelis",
+        "region": "Solvara",
+        "specific_location": "Halwen Valley, the fractured ground north of the village",
+        "time_of_day": "Early afternoon",
+        "weather_conditions": "Steam clearing, ground settling, the specific silence after catastrophe",
+        "era": "Fracture Era"
+      },
+      "summary": {
+        "brief": "Zillian pulls Voryn into shadow — an act of will and blood and the recognition of one wounded thing by another.",
+        "detailed": "With the connection fully established, the shadow expands out of Zillian and into the earth and moves through and around Voryn. Not attacking. Enveloping — slowly, with the quality of something being recognized rather than captured. Voryn, reached in its core through the offering stone conduit, meets the shadow with something that reads as relief. The absorption is not instantaneous — it takes time and more blood. When it completes, Zillian falls sideways in the ruined valley. The village wall is intact. The wolf-god is gone. And Zillian is barely breathing, with a darkness pulsing under his skin that was not there before."
+      },
+      "pov_character": "Zillian",
+      "story_text": "The shadow moved without him directing it.\n\nHe felt the moment it became something other than his — not uncontrolled, not separated, but operating on a principle he had not consciously initiated. It moved from his position the way tide moved, the way things with sufficient weight and pull moved: inevitably, thoroughly, occupying the space between stones and between grains of earth, rising through the offering stone's conduit network and spreading outward along the valley's floor in the direction of the pulsing warmth that was Voryn.\n\nZillian watched through the failing grey of his vision and held the connection in the stone and put everything that remained into the contact with the core of the old creature. Not a command. Not a pull. An invitation — the specific quality of one thing saying to another: here is a place you can rest.\n\nVoryn lowered its head to the earth a second time.\n\nThe shadow reached it at the forepaws first — moving along the creature's enormous frame like dark water finding level, threading through the channels that Voryn's own body-resonance had carved in the earth around it. The bioluminescent threads in its fur flared once — a full-body pulse, bright enough that Zillian saw it through closed eyelids — and then began to dim.\n\nThe additional limb formations on the creature's shoulders went still. For the first time since it emerged, they stopped their involuntary movement. The left one folded inward slowly, as though finding a natural resting position it had not had access to before.\n\nVoryn made a sound. Not the low, bewildered note from before. Something shorter. Quieter. The kind of sound an animal made when it was finally, after a very long time, allowed to stop fighting.\n\nThe shadow moved through the wolf's body the way water moved through soil — thoroughly, slowly, filling every space that the creature's presence occupied. And Voryn — the ancient, terrible, injured creature that had slept in this bedrock for longer than the village had existed — moved into it the way something exhausted moved toward rest.\n\nNot death. Not capture. Recognition.\n\nZillian had to give the rest of his blood to complete it.\n\nHe was aware of this with the particular clarity of someone operating at the outer edge of their body's capability — the way consciousness became very precise and very simple at that point, stripped of anything that was not immediately essential. He turned his left hand fully open against the cracked stone and felt the last of the warmth leave it. The grey in his vision became a deeper grey, and then a very comfortable, very quiet dark.\n\nThe last thing he felt before the dark completed was the shadow returning — vast, far heavier than it had left, carrying something inside it that breathed with the slow rhythm of something old and deeply at rest.\n\nHome, he thought, at the edge of it. You're home.\n\nHe fell sideways in the dust.\n\n---\n\nThe valley settled.\n\nThe steam columns from the fissures thinned and dissipated as the ground's internal pressure equalized. The earth around the fractured north edge cooled gradually, the exposed stone contracting, the immediate danger of further collapse subsiding into the steady, manageable quiet of aftermath. The offering stones remained cracked. The four halves stood in their valley-compass positions, split and cooling, emptied of the pulse they had carried for centuries.\n\nGarret found him twenty minutes later, following the path of destruction with the careful footing of a man moving through a landscape that had recently reorganized itself. He found Zillian on his side next to the east stone's broken halves with one hand still flat against the base and the blood from his palm dried brown-black into the earth.\n\nBreathing. Pale as winter stone, but breathing.\n\nGarret sat down on the ground beside him. He looked at the north valley where the fissures ran their ragged lines across the earth. He looked at the empty air where something hill-sized had been standing thirty minutes ago.\n\nHe sat with that for a long time.\n\nThen he put his old hand on Zillian's shoulder and kept it there, and waited for him to wake.\n\nWhen Zillian opened his eyes, an hour later, the first thing he noticed was that the darkness in his chest had a different quality than before. Heavier. Warmer. Something in it that breathed in the slow, deep rhythms of something very old, safely asleep.\n\nThe second thing he noticed was Garret, sitting cross-legged beside him with two cups of bark-tea going cold, watching the valley with the expression of a man who had seen everything and still was not sure he had seen all of this.\n\n\"Still alive,\" Garret said.\n\n\"Still alive,\" Zillian confirmed. His voice came out rough.\n\n\"Good.\" The old man handed him one of the cold cups. \"Then drink this. And then I'm going to ask you some questions. And I think this time,\" he said carefully, \"you might answer a few more of them.\"",
+      "characters_present": [
+        {
+          "id": "zillian",
+          "name": "Zillian",
+          "role_in_chapter": "Absorbs Voryn into shadow — barely survives",
+          "first_appearance": false,
+          "status": "alive (barely)",
+          "emotional_state": "At the edge of consciousness, then quiet relief",
+          "power_level": "Very High (carrying Voryn)",
+          "goals_this_chapter": [
+            "Complete the absorption",
+            "Survive"
+          ]
+        },
+        {
+          "id": "garret",
+          "name": "Garret",
+          "role_in_chapter": "Finds Zillian, holds vigil",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Awe, relief, concern",
+          "power_level": "Civilian",
+          "goals_this_chapter": [
+            "Find Zillian",
+            "Keep watch"
+          ]
+        },
+        {
+          "id": "voryn",
+          "name": "Voryn",
+          "role_in_chapter": "Absorbed into Zillian's shadow — at rest, no longer a physical threat",
+          "first_appearance": false,
+          "status": "alive (dormant in shadow)",
+          "emotional_state": "Relief, rest",
+          "power_level": "Legendary (dormant)",
+          "goals_this_chapter": []
+        }
+      ],
+      "events": [
+        {
+          "order": 1,
+          "type": "action",
+          "description": "The shadow moves autonomously through the earth and envelops Voryn — not as capture, but as invitation.",
+          "characters_involved": [
+            "Zillian",
+            "Voryn"
+          ],
+          "location": "Halwen Valley",
+          "importance": "critical"
+        },
+        {
+          "order": 2,
+          "type": "revelation",
+          "description": "Voryn accepts the shadow and is absorbed — the wolf-god now rests within Zillian's shadow.",
+          "characters_involved": [
+            "Zillian",
+            "Voryn"
+          ],
+          "location": "East offering stone",
+          "importance": "critical"
+        },
+        {
+          "order": 3,
+          "type": "action",
+          "description": "Garret finds Zillian unconscious but alive beside the cracked offering stone.",
+          "characters_involved": [
+            "Garret",
+            "Zillian"
+          ],
+          "location": "East offering stone",
+          "importance": "major"
+        }
+      ],
+      "combat_scenes": [
+        {
+          "combatants": [
+            "Zillian",
+            "Voryn"
+          ],
+          "power_system_used": "mixed",
+          "techniques_used": [
+            "Shadow absorption",
+            "Blood conduit through offering stone",
+            "Earth-sense consciousness contact"
+          ],
+          "outcome": "Victory — Voryn absorbed into shadow through invitation, not force",
+          "injuries": [
+            "Zillian: severe blood loss, unconsciousness"
+          ],
+          "significance": "First shadow absorption of a legendary entity — changes Zillian fundamentally"
+        }
+      ],
+      "power_developments": [
+        {
+          "character": "Zillian",
+          "power_type": "Shadow absorption",
+          "previous_level": "Shadow manifestation and earth-sense",
+          "new_level": "Can absorb living things of significant power into his shadow through consciousness contact",
+          "technique_learned": "Shadow absorption — enveloping and housing a willing or reached entity",
+          "trigger": "Blood sacrifice and deep consciousness contact with Voryn"
+        }
+      ],
+      "world_building": {
+        "new_locations_introduced": [],
+        "lore_revealed": [
+          "Voryn in shadow: the wolf-god now exists within Zillian's shadow, dormant, at rest. The bioluminescent substance dimmed. The extra limbs stilled.",
+          "Zillian's absorption capacity: he can absorb living things of significant power into his shadow if contact is established correctly. The cost is blood and consciousness margin."
+        ],
+        "races_introduced": [],
+        "political_developments": [],
+        "secrets_hinted": [],
+        "secrets_revealed": [
+          "Zillian can absorb entities into his shadow — Voryn now lives within him"
+        ]
+      },
+      "relationships": {
+        "new_connections": [
+          {
+            "character_a": "Zillian",
+            "character_b": "Voryn",
+            "relationship_type": "ally",
+            "description": "Voryn rests within Zillian's shadow — not captured but sheltered"
+          }
+        ],
+        "relationship_changes": []
+      },
+      "items_artifacts": [],
+      "foreshadowing": [],
+      "themes": [
+        "Earned quiet",
+        "Sacred weight",
+        "Recognition over conquest"
+      ],
+      "cliffhanger": {
+        "has_cliffhanger": false,
+        "description": ""
+      },
+      "chapter_metadata": {
+        "word_count": 1500,
+        "status": "final",
+        "notes": "The arc's climactic resolution — Voryn is saved, not defeated.",
+        "connections_to_previous": "Direct continuation of Ch.13 — the shadow begins to move.",
+        "setup_for_next": "Recovery, revelation, and departure."
+      }
+    },
+    {
+      "chapter_id": 15,
+      "title": "The Road East",
+      "arc": "The Village Arc",
+      "arc_number": 1,
+      "setting": {
+        "continent": "Arcaelis",
+        "region": "Solvara",
+        "specific_location": "Halwen Village, then the eastern road",
+        "time_of_day": "Three days later, morning",
+        "weather_conditions": "Clear sky, cold clean air, frost on the valley grass",
+        "era": "Fracture Era"
+      },
+      "summary": {
+        "brief": "Three days of recovery. Then Zillian leaves — carrying more than he arrived with, in every sense.",
+        "detailed": "Three quiet days of recovery. He tells Garret three honest things — almost everything. The village begins repairing the fissures and re-establishing the offering stones. On the morning of departure, Zillian eats Pera's porridge one last time, says brief goodbyes, and walks the eastern road. The story closes with him at the canyon road's edge, feeling the weight of Voryn breathing in his shadow, the crystal shard pointing east, and the questions still ahead — including what the Institute was truly doing, and where the four taken children are now."
+      },
+      "pov_character": "Zillian",
+      "story_text": "He told Garret three things.\n\nFirst: that the shadow was a power he had had since he was young, that it had grown as he grew, and that he did not fully understand it yet.\n\nSecond: that the thing inside his shadow now was not a prisoner. It was resting in the only place he had been able to offer that was safe from the substance the Institute had introduced to it. Whether that was permanent, he did not know.\n\nThird: that the Institute in Valoris was conducting experiments on something that should not be experimented on, and that the four children they had taken were almost certainly part of the mechanism by which they had been doing it, and that finding out what had happened to those children was not his problem but he suspected it was about to become many people's problem.\n\nGarret listened to all three things with the stillness of a man who had long since calibrated his idea of the possible and was now recalibrating it once more.\n\nGarret: \"The children.\"\n\nZillian: \"I don't know where they are. I don't know what they did to them or what the process required from them. I know the Institute is compromised — whatever happened in that explosion will not have gone unnoticed by Valoris's governing structure. Someone will investigate. Whether they investigate honestly is a different question.\"\n\nGarret looked at the table for a long time. Garret: \"Someone should tell the families.\"\n\nZillian: \"Yes. Someone should.\"\n\nThe old man nodded slowly. He was already thinking about how — working out the logistics of taking the information to the right people, the kind of steady, methodical work that a man like Garret had been doing his whole life. He would not find it dramatic. He would find it necessary, which was the more reliable motivator.\n\nGarret: \"And you. Where east are you going?\"\n\nZillian thought about the crystal shard in his pack, the way it pulled its point consistently toward the eastern horizon. He thought about the coin with the marking he had not found on any map or in any record he had located. He thought about the shimmer he had seen over the canyon wall in the first clear morning after the bandits.\n\nZillian: \"I'm following something. It's been pointing east for some time.\"\n\nGarret: \"Something you're looking for?\"\n\nZillian: \"Something that may know things I need to know.\"\n\nGarret seemed to accept this in the spirit in which it was offered — as honest within its limits. He refilled both cups and they drank them in companionable silence, which was, Zillian thought, as good a farewell as any.\n\n---\n\nThe morning of departure was cold and clear. Frost had settled on the valley grass overnight, and the fissures in the north ground were silvered with it — the new geometry of the terrain catching light in unfamiliar angles. The offering stones had been reset in the three days: fresh-cut granite brought from the hillside by the miller and three other men, carved into roughly the right dimensions and placed at the four compass points. They were not the originals. But Garret had pressed his hand against the new east stone the previous evening and said, quietly, that it was already warm.\n\nZillian was not surprised.\n\nPera had porridge waiting on the step of her house when he passed, as though she had known without being told. He ate it standing, the way you ate food when you were about to leave. She watched from the doorway with Tovin standing beside her — the boy Zillian had never formally met, the child who had been this year's intended tribute and was not. Eight years old. Wide eyes. The kind of solemn that children got when they understood something significant had happened to them without fully understanding what.\n\nZillian looked at him over the empty bowl.\n\nZillian: \"Catch any frogs lately?\"\n\nTovin thought about this with appropriate seriousness. Tovin: \"The cold weather makes them slow. Easier to catch in winter, actually. But you have to go early before the frost gets them.\"\n\nZillian: \"Smart.\" He handed the bowl back to Pera and nodded once. She pressed her lips together and nodded back, which was the full vocabulary of that particular exchange, and both of them understood it completely.\n\nGarret walked him to the gate.\n\nGarret: \"If you ever come through this way again.\"\n\nZillian: \"I'll stop in for bark-tea.\"\n\nGarret: \"It's not bark. It's dried fennel root. It's better than it sounds.\"\n\nZillian: \"I know what it is. I just didn't want you to feel self-conscious about it.\"\n\nGarret made a sound that might, in a different man, have been a laugh. He gripped Zillian's forearm with his shopkeeper's improbable strength, and then stepped back through the gate.\n\nZillian walked east.\n\nThe road was empty and long and cold and the frost burned off the valley grass slowly as the sun rose. He walked the way he always walked — measured, steady, the pack balanced just right, breathing adjusted to the pace. After an hour the village was no longer visible behind him and the canyon road began its first real descent toward the east.\n\nHe paused at the top of the descent and stood for a moment.\n\nIn his shadow, something breathed in the long, slow rhythms of something old and deep at rest. He was aware of it the way he was aware of his own heartbeat — constant, background, part of the system now. The weight of it was real. He had not yet determined if carrying it would become a difficulty.\n\nHe thought about four children who had been delivered to a facility in Valoris and not returned. He thought about a man called an administrator who had spoken in a flat, professional voice about protection services being suspended. He thought about what an Institute that could reach Voryn might want if it survived the explosion that had destroyed its primary subject. About what other old things lived in the deep earth of this continent.\n\nHe pressed his thumb against the flat of the crystal shard through the leather of his pack. East, the pull said. East.\n\nHe walked east.\n\nBehind him, in the valley, the new offering stones sat at their compass points in the frost-bright morning and were warm.",
+      "characters_present": [
+        {
+          "id": "zillian",
+          "name": "Zillian",
+          "role_in_chapter": "Departing, carrying Voryn, looking east",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Quiet resolve, warmth",
+          "power_level": "Very High (carrying Voryn)",
+          "goals_this_chapter": [
+            "Recover",
+            "Say goodbye",
+            "Continue east"
+          ]
+        },
+        {
+          "id": "garret",
+          "name": "Garret",
+          "role_in_chapter": "Farewell",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Grateful, resolute",
+          "power_level": "Civilian",
+          "goals_this_chapter": [
+            "Learn the truth",
+            "Say goodbye"
+          ]
+        },
+        {
+          "id": "pera",
+          "name": "Pera",
+          "role_in_chapter": "Farewell — wordless gratitude",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "Quiet gratitude",
+          "power_level": "Civilian",
+          "goals_this_chapter": []
+        },
+        {
+          "id": "tovin",
+          "name": "Tovin",
+          "role_in_chapter": "The child who was not given — final grounding moment",
+          "first_appearance": true,
+          "status": "alive",
+          "emotional_state": "Solemn wonder",
+          "power_level": "Civilian",
+          "goals_this_chapter": []
+        }
+      ],
+      "events": [
+        {
+          "order": 1,
+          "type": "dialogue",
+          "description": "Zillian tells Garret three honest things about himself, his power, and the Institute.",
+          "characters_involved": [
+            "Zillian",
+            "Garret"
+          ],
+          "location": "Garret's back room",
+          "importance": "major"
+        },
+        {
+          "order": 2,
+          "type": "travel",
+          "description": "Zillian says goodbye to the village and walks east.",
+          "characters_involved": [
+            "Zillian",
+            "Garret",
+            "Pera",
+            "Tovin"
+          ],
+          "location": "Halwen Village to eastern road",
+          "importance": "major"
+        }
+      ],
+      "combat_scenes": [],
+      "power_developments": [],
+      "world_building": {
+        "new_locations_introduced": [],
+        "lore_revealed": [
+          "The new offering stones placed by the village are already warm — Voryn's connection to the valley persists through Zillian's shadow."
+        ],
+        "races_introduced": [],
+        "political_developments": [],
+        "secrets_hinted": [
+          "The Institute may have survived and will not have given up its research objectives",
+          "The crystal shard pointing east — something specific still ahead",
+          "The four children are still unaccounted for — their fate remains an open thread",
+          "What other old things live in the deep earth of this continent"
+        ],
+        "secrets_revealed": []
+      },
+      "relationships": {
+        "new_connections": [],
+        "relationship_changes": [
+          {
+            "character_a": "Zillian",
+            "character_b": "Garret",
+            "change": "Parting with earned mutual respect and warmth",
+            "reason": "Everything they've been through together"
+          }
+        ]
+      },
+      "items_artifacts": [
+        {
+          "name": "Crystal Shard",
+          "type": "artifact",
+          "description": "A shard that consistently pulls its point toward the eastern horizon — guiding Zillian's journey.",
+          "owner": "Zillian",
+          "significance": "Primary navigation artifact, pointing toward his larger mission"
+        },
+        {
+          "name": "Unmarked Coin",
+          "type": "artifact",
+          "description": "A coin with a marking not found on any map or record.",
+          "owner": "Zillian",
+          "significance": "Mystery artifact — relates to Zillian's unresolved quest"
+        }
+      ],
+      "foreshadowing": [
+        {
+          "hint": "What other old things live in the deep earth of this continent",
+          "relates_to": "Future encounters with ancient powers connected to the Fracture Era",
+          "subtlety": "moderate"
+        },
+        {
+          "hint": "The crystal shard pulling east — consistent and specific",
+          "relates_to": "Zillian's larger mission and the artifacts he carries",
+          "subtlety": "moderate"
+        },
+        {
+          "hint": "The new offering stones are already warm",
+          "relates_to": "Voryn at rest in Zillian's shadow — the connection between the god and its valley persists",
+          "subtlety": "subtle"
+        }
+      ],
+      "themes": [
+        "Earned farewell",
+        "Open horizon",
+        "The weight of what we carry"
+      ],
+      "cliffhanger": {
+        "has_cliffhanger": false,
+        "description": ""
+      },
+      "chapter_metadata": {
+        "word_count": 1500,
+        "status": "final",
+        "notes": "Arc Finale. The story closes with forward momentum — unresolved threads pointing to the next arc.",
+        "connections_to_previous": "Recovery after the events of Ch.14.",
+        "setup_for_next": "Zillian walks east — the crystal shard, the missing children, the Institute's surviving agenda."
+      }
+    }
+  ],
+  "arcs": [
+    {
+      "arc_number": 1,
+      "arc_name": "The Village Arc",
+      "continent_focus": "Arcaelis",
+      "chapter_range": {
+        "start": 1,
+        "end": 15
+      },
+      "main_conflict": "Zillian arrives at the isolated border village of Halwen and is drawn into its darkest secret — a yearly tribute of children demanded by emissaries of a neighboring city. When the villagers finally refuse, bandits descend, forcing Zillian to use his power for the first time. But the true horror emerges when the city's forbidden experiment collapses — unleashing the mutated god the village once revered.",
+      "arc_theme": "The architecture of oppression, the cost of connection, and the weight of what we carry forward.",
+      "key_characters": [
+        "Zillian",
+        "Garret",
+        "Osla",
+        "Voryn",
+        "Valorian Administrator",
+        "Bandit Leader",
+        "Pera",
+        "Tovin"
+      ],
+      "resolution": "Zillian absorbs the mutated wolf-god Voryn into his shadow through an act of recognition rather than conquest, nearly dying in the process. He departs Halwen carrying the god's weight in his shadow, walking east toward the answers the crystal shard is pointing him toward."
+    }
+  ],
+  "timeline": [
+    {
+      "chapter_id": 1,
+      "in_world_date": "Day 1",
+      "days_elapsed_from_start": 0,
+      "major_event": "Zillian arrives at Halwen Village"
+    },
+    {
+      "chapter_id": 2,
+      "in_world_date": "Day 1",
+      "days_elapsed_from_start": 0,
+      "major_event": "Zillian enters Garret's shop, learns the legend of Voryn"
+    },
+    {
+      "chapter_id": 3,
+      "in_world_date": "Day 1",
+      "days_elapsed_from_start": 0,
+      "major_event": "Valorian emissaries arrive and demand a child tribute"
+    },
+    {
+      "chapter_id": 4,
+      "in_world_date": "Day 1 (evening)",
+      "days_elapsed_from_start": 0,
+      "major_event": "Garret reveals the full truth about the compact and the missing children"
+    },
+    {
+      "chapter_id": 5,
+      "in_world_date": "Day 1 (night) to Day 5",
+      "days_elapsed_from_start": 4,
+      "major_event": "Village votes to refuse; protection revoked on Day 5"
+    },
+    {
+      "chapter_id": 6,
+      "in_world_date": "Day 7 (late night)",
+      "days_elapsed_from_start": 6,
+      "major_event": "Bandits attack; Zillian manifests the shadow tiger for the first time"
+    },
+    {
+      "chapter_id": 7,
+      "in_world_date": "Day 7 (deep night)",
+      "days_elapsed_from_start": 6,
+      "major_event": "Shadow tiger routs bandits; Zillian defeats the bandit leader"
+    },
+    {
+      "chapter_id": 8,
+      "in_world_date": "Day 8 (dawn)",
+      "days_elapsed_from_start": 7,
+      "major_event": "Morning after — Garret asks who Zillian is; Zillian agrees to stay"
+    },
+    {
+      "chapter_id": 9,
+      "in_world_date": "Days 8-11",
+      "days_elapsed_from_start": 10,
+      "major_event": "Zillian investigates the offering stones; earth tremors intensify"
+    },
+    {
+      "chapter_id": 10,
+      "in_world_date": "Day 12 (dawn)",
+      "days_elapsed_from_start": 11,
+      "major_event": "The Institute explodes; offering stones crack; Voryn begins to rise"
+    },
+    {
+      "chapter_id": 11,
+      "in_world_date": "Day 12 (mid-morning)",
+      "days_elapsed_from_start": 11,
+      "major_event": "Voryn emerges — mutated, blinded, in pain"
+    },
+    {
+      "chapter_id": 12,
+      "in_world_date": "Day 12 (late morning)",
+      "days_elapsed_from_start": 11,
+      "major_event": "Shadow tiger fails against Voryn; Zillian achieves 3 seconds of consciousness contact"
+    },
+    {
+      "chapter_id": 13,
+      "in_world_date": "Day 12 (late morning to early afternoon)",
+      "days_elapsed_from_start": 11,
+      "major_event": "Zillian uses blood and the offering stones to deeply reach Voryn's core"
+    },
+    {
+      "chapter_id": 14,
+      "in_world_date": "Day 12 (early afternoon)",
+      "days_elapsed_from_start": 11,
+      "major_event": "Zillian absorbs Voryn into his shadow; collapses"
+    },
+    {
+      "chapter_id": 15,
+      "in_world_date": "Day 15 (morning)",
+      "days_elapsed_from_start": 14,
+      "major_event": "Zillian departs Halwen, walking east with Voryn in his shadow"
+    }
+  ],
+  "global_entities": {
+    "characters": {
+      "Zillian": "zillian",
+      "Garret": "garret",
+      "Osla": "osla",
+      "Pera": "pera",
+      "Tovin": "tovin",
+      "Voryn": "voryn",
+      "Valorian Administrator": "valorian_administrator",
+      "Bandit Leader": "bandit_leader"
+    },
+    "locations": {
+      "Halwen": "halwen",
+      "Halwen Village": "halwen",
+      "Vorthal Canyon": "vorthal_canyon",
+      "Solvara": "solvara",
+      "Arcaelis": "arcaelis",
+      "Valoris": "valoris",
+      "City of Valoris": "valoris",
+      "Valorian Institute": "valorian_institute",
+      "Eastern Waypost": "eastern_waypost",
+      "Garret's Provisions": "garrets_provisions",
+      "Miller's House": "millers_house",
+      "Western Forest": "western_forest",
+      "Northern Peaks": "northern_peaks"
+    },
+    "races": {
+      "Humans": "humans"
+    },
+    "others": {
+      "Bandits": "bandits",
+      "Shadow Tiger": "shadow_tiger",
+      "Voryn (Wolf-God)": "voryn",
+      "Offering Stones": "offering_stones",
+      "Crystal Shard": "crystal_shard",
+      "Unmarked Coin": "unmarked_coin"
+    }
+  }
+}

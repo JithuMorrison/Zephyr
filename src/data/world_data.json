@@ -1,0 +1,609 @@
+{
+  "categories": [
+    {
+      "id": "characters",
+      "label": "Characters",
+      "icon": "👤"
+    },
+    {
+      "id": "factions",
+      "label": "Factions",
+      "icon": "⚑"
+    },
+    {
+      "id": "locations",
+      "label": "Locations",
+      "icon": "🗺"
+    },
+    {
+      "id": "history",
+      "label": "History",
+      "icon": "📜"
+    },
+    {
+      "id": "monsters",
+      "label": "Monsters",
+      "icon": "🐙"
+    }
+  ],
+  "entries": [
+    {
+      "id": "char-zillian",
+      "category": "characters",
+      "name": "Zillian",
+      "epithet": "The Shadow Bearer",
+      "type": "Protagonist",
+      "race": "Human",
+      "status": "Active",
+      "era": "Current",
+      "tags": [
+        "protagonist",
+        "shadow-magic",
+        "wanderer"
+      ],
+      "img": "",
+      "description": "A wanderer carrying a power with a price — a shadow that drinks blood. He carries no title, but something worse...",
+      "sections": [
+        {
+          "heading": "Biography",
+          "content": "Zillian is the protagonist of Shadow Covenant. He bears the curse of the Shadow Tiger and must balance its hunger against his humanity.",
+          "layout": "2-col",
+          "imgRight": "/images/characters/ChatGPT Image May 20, 2026, 09_48_31 PM.png",
+          "blocksRight": [],
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Zillian is the protagonist of Shadow Covenant. He bears the curse of the Shadow Tiger and must balance its hunger against his humanity.",
+              "visibility": 1
+            }
+          ]
+        },
+        {
+          "heading": "Powers",
+          "content": "Shadow Tiger — a massive shadow beast summoned through blood sacrifice. His power is linked to the shadow domain, one that requires a heavy toll."
+        }
+      ],
+      "links": [
+        {
+          "id": "loc-halwen",
+          "label": "Location",
+          "relationship": "Visited"
+        },
+        {
+          "id": "char-garret",
+          "label": "Character",
+          "relationship": "Acquaintance"
+        },
+        {
+          "id": "char-sera",
+          "label": "Character",
+          "relationship": "Traveling companion"
+        }
+      ],
+      "location": "Halwen"
+    },
+    {
+      "id": "char-garret",
+      "category": "characters",
+      "name": "Garret",
+      "epithet": "Village Elder",
+      "type": "NPC",
+      "race": "Human",
+      "status": "Active",
+      "era": "Current",
+      "tags": [
+        "elder",
+        "halwen"
+      ],
+      "img": "",
+      "description": "An elder of the village of Halwen, carrying the weight of a cursed covenant.",
+      "sections": [
+        {
+          "heading": "Biography",
+          "content": "Garret is the pragmatic leader of Halwen. He orchestrated the deal with Baron Doren to protect the village from the corrupt god Voryn, even if it meant paying a heavy price."
+        }
+      ],
+      "links": [
+        {
+          "id": "loc-halwen",
+          "label": "Location",
+          "relationship": "Resident"
+        }
+      ]
+    },
+    {
+      "id": "char-sera",
+      "category": "characters",
+      "name": "Sera",
+      "epithet": "The Green Mask",
+      "type": "NPC",
+      "race": "Elf",
+      "status": "Active",
+      "era": "Current",
+      "tags": [
+        "mage",
+        "investigator"
+      ],
+      "img": "",
+      "description": "A masked elven woman with an inhuman efficiency in combat, investigating the ruined networks of ancient mages.",
+      "sections": [
+        {
+          "heading": "Biography",
+          "content": "Sera arrives in Halwen just before the raid. She understands the geometry of combat and magic. She is tracing the path of Erica, the mage who built the god-tethers."
+        }
+      ],
+      "links": [
+        {
+          "id": "char-zillian",
+          "label": "Character",
+          "relationship": "Traveling companion"
+        }
+      ],
+      "visibility": {
+        "epithet": 2,
+        "race": 4
+      }
+    },
+    {
+      "id": "char-voryn",
+      "category": "characters",
+      "name": "Voryn",
+      "epithet": "The Failed God",
+      "type": "Deity / Monster",
+      "race": "Spirit/God",
+      "status": "Corrupted",
+      "era": "Ancient",
+      "tags": [
+        "god",
+        "corrupted",
+        "forest"
+      ],
+      "img": "",
+      "description": "A vast 30-meter corrupted wolf-god, cracked with leaking divine energy, unable to distinguish friend from foe.",
+      "sections": [
+        {
+          "heading": "History",
+          "content": "Voryn was once the protector of the valley. Driven mad and failing, the mage Erica attempted to heal him via an underground tether."
+        }
+      ],
+      "links": [
+        {
+          "id": "loc-halwen",
+          "label": "Location",
+          "relationship": "Former Protector"
+        }
+      ]
+    },
+    {
+      "id": "char-gfuru",
+      "category": "characters",
+      "name": "Furu Saltfurr",
+      "epithet": "The Founder",
+      "type": "Historical Figure",
+      "race": "Tabaxi",
+      "status": "Deceased",
+      "era": "The Founding",
+      "tags": [
+        "tabaxi",
+        "founder",
+        "legend"
+      ],
+      "img": "https://images.unsplash.com/photo-1517457493774-325b306b3f23?q=80&w=300&auto=format&fit=crop",
+      "description": "The legendary founder of Saltstead and the Saltfurr Clans.",
+      "sections": [
+        {
+          "heading": "Biography",
+          "content": "Gfuru led the Tabaxi away from the mainland conflicts to establish a neutral port in the Crystal Waters. His vision was a haven for outcasts and merchants alike."
+        },
+        {
+          "heading": "Legacy",
+          "content": "His name is invoked in every major treaty signed in Saltstead. The clan he founded remains the dominant political force in the region."
+        }
+      ],
+      "links": [
+        {
+          "id": "loc-saltstead",
+          "label": "Location",
+          "relationship": "Founded"
+        },
+        {
+          "id": "faction-saltfurr",
+          "label": "Faction",
+          "relationship": "Affiliated Faction"
+        },
+        {
+          "id": "char-tora",
+          "label": "Character",
+          "relationship": "Daughter"
+        }
+      ]
+    },
+    {
+      "id": "char-tora",
+      "category": "characters",
+      "name": "Tora Saltfurr",
+      "epithet": "Current Port Master",
+      "type": "NPC",
+      "race": "Tabaxi",
+      "status": "Active",
+      "era": "Current",
+      "tags": [
+        "tabaxi",
+        "port-master",
+        "merchant"
+      ],
+      "img": "https://images.unsplash.com/photo-1543852786-1cf6624b9987?q=80&w=300&auto=format&fit=crop",
+      "description": "Daughter of Gfuru and the current Port Master of Saltstead.",
+      "sections": [
+        {
+          "heading": "Notes",
+          "content": "Tora is known for her shrewd business acumen and her refusal to bend to mainland political pressure. She maintains the neutrality her father established."
+        }
+      ],
+      "links": [
+        {
+          "id": "char-gfuru",
+          "label": "Character",
+          "relationship": "Father"
+        },
+        {
+          "id": "loc-saltstead",
+          "label": "Location",
+          "relationship": "Port Master"
+        }
+      ]
+    },
+    {
+      "id": "faction-saltfurr",
+      "category": "factions",
+      "name": "Saltfurr Clans",
+      "type": "Trading Syndicate",
+      "location": "Saltstead",
+      "tags": [
+        "tabaxi",
+        "merchants",
+        "neutral"
+      ],
+      "description": "The dominant political and economic force in the Crystal Waters, originally formed by Tabaxi refugees.",
+      "sections": [
+        {
+          "heading": "Overview",
+          "content": "The Saltfurr Clans operate as a loose syndicate of merchant families. They control the shipyards, the tariff offices, and the primary trade routes running through the archipelago."
+        },
+        {
+          "heading": "Culture",
+          "content": "A culture built on debt, favor, and contract. A Saltfurr promise is considered more binding than steel."
+        }
+      ],
+      "links": [
+        {
+          "id": "char-gfuru",
+          "label": "Character",
+          "relationship": "Founder"
+        },
+        {
+          "id": "loc-saltstead",
+          "label": "Location",
+          "relationship": "Headquarters"
+        }
+      ]
+    },
+    {
+      "id": "faction-tabaxi",
+      "category": "factions",
+      "name": "Tabaxi",
+      "type": "Race / Culture",
+      "location": "Various",
+      "tags": [
+        "race",
+        "feline",
+        "nomads"
+      ],
+      "description": "A feline humanoid race known for their agility, curiosity, and merchant skills.",
+      "sections": [
+        {
+          "heading": "Overview",
+          "content": "Originally from the deep southern jungles of the mainland, the Tabaxi were largely displaced during the early expansion wars. Many took to the seas, becoming exceptional navigators."
+        },
+        {
+          "heading": "Culture",
+          "content": "They value stories and unique experiences over pure gold, though they are certainly not opposed to accumulating wealth."
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "loc-saltstead",
+      "category": "locations",
+      "name": "Saltstead",
+      "type": "Colony / Port City",
+      "location": "Crystal Waters archipelago",
+      "tags": [
+        "port",
+        "neutral",
+        "tabaxi"
+      ],
+      "img": "https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?q=80&w=800&auto=format&fit=crop",
+      "description": "A thriving neutral port city built on a series of interconnected atolls.",
+      "sections": [
+        {
+          "heading": "Description",
+          "content": "Saltstead is a marvel of maritime engineering. The city is a maze of wooden boardwalks, floating docks, and stone foundations built directly into the coral reefs."
+        },
+        {
+          "heading": "Economy",
+          "content": "Driven almost entirely by maritime trade, tariffs, and ship repair."
+        }
+      ],
+      "links": [
+        {
+          "id": "char-gfuru",
+          "label": "Character",
+          "relationship": "Founder"
+        },
+        {
+          "id": "faction-saltfurr",
+          "label": "Faction",
+          "relationship": "Ruling Body"
+        }
+      ],
+      "inhabitants": "Tabaxi, Humans",
+      "port_details": {
+        "master": "Tora Saltfurr",
+        "berths": 120,
+        "primary_goods": "Spices, Timber, Information",
+        "tariff": "5% Standard"
+      }
+    },
+    {
+      "id": "loc-crystal",
+      "category": "locations",
+      "name": "Crystal Waters",
+      "type": "Region",
+      "location": "Aegir Ocean",
+      "tags": [
+        "ocean",
+        "archipelago"
+      ],
+      "description": "A massive archipelago known for its unnaturally clear waters and treacherous submerged reefs.",
+      "sections": [
+        {
+          "heading": "Overview",
+          "content": "The waters are so clear that the seabed is often visible at depths of fifty feet. Navigating the reefs requires specialized local pilots."
+        }
+      ],
+      "links": [
+        {
+          "id": "loc-saltstead",
+          "label": "Location",
+          "relationship": "Major Settlement"
+        }
+      ]
+    },
+    {
+      "id": "loc-aegir",
+      "category": "locations",
+      "name": "Aegir Ocean",
+      "type": "Ocean",
+      "location": "Eastern Hemisphere",
+      "tags": [
+        "ocean",
+        "vast"
+      ],
+      "description": "The largest body of water in the known world.",
+      "sections": [
+        {
+          "heading": "Overview",
+          "content": "The Aegir separates the western continents from the unknown east. It is home to massive sea beasts and unpredictable magical storms."
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "loc-thibis",
+      "category": "locations",
+      "name": "Thibis",
+      "type": "City-State",
+      "location": "Mainland Coast",
+      "tags": [
+        "mainland",
+        "city"
+      ],
+      "description": "A powerful militaristic city-state on the mainland coast.",
+      "sections": [
+        {
+          "heading": "Overview",
+          "content": "Thibis is known for its rigid caste system and its aggressive expansionist policies, which originally drove the Tabaxi to flee to the Crystal Waters."
+        }
+      ],
+      "links": []
+    },
+    {
+      "id": "loc-halwen",
+      "category": "locations",
+      "name": "Halwen",
+      "type": "Village",
+      "location": "Solvara, Arcaelis",
+      "tags": [
+        "village",
+        "cursed",
+        "arcaelis"
+      ],
+      "description": "A secluded village in a valley that 'breathes wrong'.",
+      "sections": [
+        {
+          "heading": "Overview",
+          "content": "Halwen was secretly subjected to a protection racket managed by Baron Doren, using a corrupted god as leverage."
+        }
+      ],
+      "links": [
+        {
+          "id": "char-garret",
+          "label": "Character",
+          "relationship": "Elder"
+        },
+        {
+          "id": "loc-solvara",
+          "label": "Location",
+          "relationship": "Region"
+        }
+      ]
+    },
+    {
+      "id": "loc-solvara",
+      "category": "locations",
+      "name": "Solvara",
+      "type": "Region",
+      "location": "Arcaelis",
+      "tags": [
+        "region",
+        "arcaelis"
+      ],
+      "description": "A diverse region on the continent of Arcaelis.",
+      "sections": [
+        {
+          "heading": "Overview",
+          "content": "The setting for much of the early conflicts in Zephyr."
+        }
+      ],
+      "links": [
+        {
+          "id": "loc-halwen",
+          "label": "Location",
+          "relationship": "Contains"
+        }
+      ]
+    },
+    {
+      "id": "event-redwaters",
+      "category": "history",
+      "name": "War of the Red Waters",
+      "type": "Conflict",
+      "location": "Crystal Waters",
+      "tags": [
+        "war",
+        "naval"
+      ],
+      "description": "A brutal three-year naval conflict between the Saltfurr Clans and the Thibis Armada.",
+      "sections": [
+        {
+          "heading": "Overview",
+          "content": "Thibis attempted to annex Saltstead to control the archipelago's trade routes. The Tabaxi, using their superior knowledge of the reefs and light, maneuverable catamarans, lured the heavy Thibian galleons into the shallow coral mazes. The resulting slaughter gave the war its name."
+        }
+      ],
+      "links": [
+        {
+          "id": "loc-saltstead",
+          "label": "Location",
+          "relationship": "Defender"
+        },
+        {
+          "id": "loc-thibis",
+          "label": "Location",
+          "relationship": "Aggressor"
+        }
+      ]
+    },
+    {
+      "id": "monster-craben",
+      "category": "monsters",
+      "name": "Craben Lurker",
+      "type": "Deep-sea Predator",
+      "location": "Aegir Ocean",
+      "tags": [
+        "monster",
+        "aquatic",
+        "crustacean"
+      ],
+      "description": "A massive, heavily armored crustacean that hunts in the twilight zones of the reef drop-offs.",
+      "sections": [
+        {
+          "heading": "Description",
+          "content": "Growing up to twenty feet across, they remain motionless for weeks, disguised as coral outcroppings, before striking with claws capable of snapping a mainmast in half."
+        }
+      ],
+      "links": [
+        {
+          "id": "loc-crystal",
+          "label": "Location",
+          "relationship": "Habitat"
+        }
+      ]
+    },
+    {
+      "id": "character-mir",
+      "name": "Mir",
+      "category": "characters",
+      "description": "A Swordsman",
+      "type": "Support",
+      "epithet": "Swords master",
+      "race": "Human",
+      "visibility": {
+        "race": 3,
+        "era": 3,
+        "name": 3,
+        "epithet": 5,
+        "tags": 3,
+        "description": 3,
+        "type": 3,
+        "location": 3
+      },
+      "era": "Current",
+      "tags": [
+        "Swordsmaster"
+      ],
+      "location": "Halwen"
+    }
+  ],
+  "world": {
+    "name": "Zephyr",
+    "description": "Three dominions shape the known world. Magic, Aura, and Primal Essence form the foundation of power across the continents.",
+    "continents": [
+      {
+        "name": "Arcaelis",
+        "title": "The Mana Dominion",
+        "energy": "Mana",
+        "motto": "Knowledge is the purest currency",
+        "description": "A continent deeply developed with ancient ruins, high magic, and diverse races including Elves, Dwarves, and Necromancers."
+      },
+      {
+        "name": "Valkryn",
+        "title": "The Aura Dominion",
+        "energy": "Aura",
+        "description": "A harsh continent ruled by strength, sects, and martial prowess."
+      },
+      {
+        "name": "Thrynthal",
+        "title": "The Primal Wilds",
+        "energy": "Primal Essence",
+        "description": "An untamed land of beastmen, shapeshifters, and pure instinctual energy."
+      }
+    ],
+    "energies": [
+      {
+        "name": "Mana",
+        "domain": "Magic & Knowledge",
+        "continent": "Arcaelis",
+        "description": "The energy of the mind and arcane shaping."
+      },
+      {
+        "name": "Aura",
+        "domain": "Physical Enhancement",
+        "continent": "Valkryn",
+        "description": "The energy of the body and martial might."
+      },
+      {
+        "name": "Qi",
+        "domain": "Internal Energy",
+        "continent": "Valkryn",
+        "description": "The flow of life force."
+      },
+      {
+        "name": "Primal Essence",
+        "domain": "Nature & Instinct",
+        "continent": "Thrynthal",
+        "description": "The chaotic, powerful energy of the wild."
+      }
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "title": "",
+      "arc": "",
+      "arc_number": 1,
+
+      "setting": {
+        "continent": "",
+        "region": "",
+        "specific_location": "",
+        "time_of_day": "",
+        "weather_conditions": "",
+        "era": ""
+      },
+
+      "summary": {
+        "brief": "",
+        "detailed": ""
+      },
+
+      "pov_character": "",
+
+      "characters_present": [
+        {
+          "id": "",
+          "name": "",
+          "role_in_chapter": "",
+          "first_appearance": false,
+          "status": "alive",
+          "emotional_state": "",
+          "power_level": "",
+          "goals_this_chapter": []
+        }
+      ],
+
+      "events": [
+        {
+          "order": 1,
+          "type": "action | dialogue | flashback | revelation | combat | travel | training | political",
+          "description": "",
+          "characters_involved": [],
+          "location": "",
+          "importance": "major | minor | setup"
+        }
+      ],
+
+      "combat_scenes": [
+        {
+          "combatants": [],
+          "power_system_used": "mana | aura | qi | primal_essence | mixed",
+          "techniques_used": [],
+          "outcome": "",
+          "injuries": [],
+          "significance": ""
+        }
+      ],
+
+      "power_developments": [
+        {
+          "character": "",
+          "power_type": "",
+          "previous_level": "",
+          "new_level": "",
+          "technique_learned": "",
+          "trigger": ""
+        }
+      ],
+
+      "world_building": {
+        "new_locations_introduced": [],
+        "lore_revealed": [],
+        "races_introduced": [],
+        "political_developments": [],
+        "secrets_hinted": [],
+        "secrets_revealed": []
+      },
+
+      "relationships": {
+        "new_connections": [
+          {
+            "character_a": "",
+            "character_b": "",
+            "relationship_type": "ally | enemy | mentor | student | rival | love_interest | neutral",
+            "description": ""
+          }
+        ],
+        "relationship_changes": [
+          {
+            "character_a": "",
+            "character_b": "",
+            "change": "",
+            "reason": ""
+          }
+        ]
+      },
+
+      "items_artifacts": [
+        {
+          "name": "",
+          "type": "weapon | armor | artifact | consumable | relic | material",
+          "description": "",
+          "owner": "",
+          "significance": ""
+        }
+      ],
+
+      "foreshadowing": [
+        {
+          "hint": "",
+          "relates_to": "",
+          "subtlety": "obvious | moderate | subtle | hidden"
+        }
+      ],
+
+      "themes": [],
+
+      "cliffhanger": {
+        "has_cliffhanger": false,
+        "description": ""
+      },
+
+      "chapter_metadata": {
+        "word_count": 0,
+        "status": "outline | draft | revision | final",
+        "notes": "",
+        "connections_to_previous": "",
+        "setup_for_next": ""
+      }
+    }
+  ],
+
+  "arcs": [
+    {
+      "arc_number": 1,
+      "arc_name": "",
+      "continent_focus": "",
+      "chapter_range": { "start": 1, "end": null },
+      "main_conflict": "",
+      "arc_theme": "",
+      "key_characters": [],
+      "resolution": ""
+    }
+  ],
+
+  "timeline": [
+    {
+      "chapter_id": 1,
+      "in_world_date": "",
+      "days_elapsed_from_start": 0,
+      "major_event": ""
+    }
+  ]
+}

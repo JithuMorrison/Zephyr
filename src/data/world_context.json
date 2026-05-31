@@ -1,0 +1,1720 @@
+{
+  "world": {
+    "name": "Zephyr",
+    "description": "A world where three fundamental energies shape existence: Mana, Aura/Qi, and Primal Essence.",
+    "fundamental_energies": [
+      {
+        "id": "mana",
+        "name": "Mana",
+        "domain": "Magic",
+        "primary_continent": "Arcaelis",
+        "description": "Magical energy drawn from the world's mana veins and ambient sources. Powers spellcasting, enchantments, and arcane constructs."
+      },
+      {
+        "id": "aura",
+        "name": "Aura",
+        "domain": "Physical Mastery",
+        "primary_continent": "Valkryn",
+        "description": "Life force manifested through discipline. External expression \u2014 enhances weapons, body, and creates combat domains."
+      },
+      {
+        "id": "qi",
+        "name": "Qi",
+        "domain": "Internal Cultivation",
+        "primary_continent": "Valkryn",
+        "description": "Internal energy cultivated through training, meditation, and near-death experiences. Sect-exclusive system refined within the self.",
+        "relationship_to_aura": "Aura is force imposed on the world. Qi is force refined within the self."
+      },
+      {
+        "id": "primal_essence",
+        "name": "Primal Essence",
+        "domain": "Nature / Beast Evolution",
+        "primary_continent": "Thrynthal",
+        "description": "The raw essence of nature and beasts. Powers totem-based systems, shapeshifting, and sentient ecosystems."
+      }
+    ]
+  },
+  "continents": {
+    "main": [
+      {
+        "id": "arcaelis",
+        "name": "Arcaelis",
+        "title": "The Mana Dominion",
+        "motto": "Where knowledge is power, and power corrupts reality.",
+        "energy": "Mana",
+        "overview": "A fractured continent of independent magical nations, unstable mana zones, and ancient consequences. No empire rules \u2014 only competing powers, hidden agendas, and dangerous knowledge.",
+        "dominant_culture": "Mages & Scholars",
+        "unique_twist": "Magic is overused, causing mana storms, reality distortions, and forbidden zones called 'Fractures'.",
+        "cultural_themes": {
+          "elves": "Preservation vs Corruption",
+          "humans": "Control vs Chaos",
+          "dwarves": "Stability vs Progress",
+          "mages": "Knowledge vs Consequence",
+          "undead": "Life vs Death imbalance"
+        },
+        "races": [
+          {
+            "id": "high_elves",
+            "name": "High Elves",
+            "home_region": "Mythsylva",
+            "capital": "Lunareth",
+            "traits": "Guardians of Yggdrasil, pure mana users"
+          },
+          {
+            "id": "dark_elves",
+            "name": "Dark Elves",
+            "home_region": "Blightroot Forest",
+            "capital": "Noctyra Dominion (underground)",
+            "traits": "Underground dwellers, corrupted magic"
+          },
+          {
+            "id": "dwarves",
+            "name": "Dwarves (Runic Engineers)",
+            "home_region": "Thaldrim Peaks",
+            "capital": "Runekar Deep",
+            "traits": "Rune forges, anti-magic architecture, stability keepers"
+          },
+          {
+            "id": "vampires",
+            "name": "Vampires",
+            "home_region": "Various",
+            "traits": "Blood magic aristocrats"
+          },
+          {
+            "id": "undead",
+            "name": "Undead",
+            "home_region": "Necroth",
+            "capital": "Morthalis",
+            "traits": "Cursed remnants of war, sentient & feral variants"
+          },
+          {
+            "id": "slimes",
+            "name": "Slimes",
+            "home_region": "Mycelara",
+            "traits": "Adaptive magical organisms, used as containers, experiment tools, living weapons"
+          },
+          {
+            "id": "spirits",
+            "name": "Spirits",
+            "home_region": "Mythsylva (deeper layers)",
+            "traits": "Invisible energy beings"
+          },
+          {
+            "id": "humans_arcaelis",
+            "name": "Humans",
+            "home_region": "Solvara / Various",
+            "capital": "Solvaris",
+            "traits": "Reject extreme magic dependence, tactical warfare, arcane restraint"
+          },
+          {
+            "id": "werewolves",
+            "name": "Werewolves",
+            "home_region": "Mythsylva (outer borders)",
+            "traits": "Forest border guardians"
+          },
+          {
+            "id": "necromancers",
+            "name": "Necromancers",
+            "home_region": "Necroth",
+            "traits": "Death mana wielders"
+          }
+        ],
+        "regions": [
+          {
+            "id": "thaldrim_peaks",
+            "name": "Thaldrim Peaks",
+            "location": "North",
+            "type": "Mountain Range",
+            "description": "A massive mountain wall separating Arcaelis from the unknown north.",
+            "civilization": {
+              "name": "Kharad-Thal Dominion",
+              "ruling_race": "Dwarves",
+              "capital": "Runekar Deep",
+              "details": [
+                "Cities carved vertically into mountains",
+                "Rune forges powered by magma + mana veins",
+                "Anti-magic architecture (stable zones in unstable continent)",
+                "Deep tunnels rumored to reach pre-Fracture civilizations"
+              ]
+            }
+          },
+          {
+            "id": "aetherplateau",
+            "name": "Aetherplateau",
+            "location": "Below mountains, top-left of the Trilake",
+            "type": "Plateau",
+            "description": "Elevated landmass hosting multiple nations.",
+            "nations": [
+              {
+                "id": "velmoran_ascendancy",
+                "name": "Velmoran Ascendancy",
+                "type": "Mage Nation",
+                "location": "Below Trilake",
+                "capital": "Velmora Spire",
+                "capital_description": "Floating towers orbiting a volatile mana core",
+                "society": [
+                  "Divided into Mage Houses (like noble families)",
+                  "Knowledge = currency",
+                  "Spying, sabotage, and magical espionage common"
+                ]
+              },
+              {
+                "id": "solvara",
+                "name": "Solvara",
+                "type": "Human Nation",
+                "motto": "Balance before brilliance.",
+                "location": "East of Key Forest (Golems live), east to mountains",
+                "capital": "Solvaris",
+                "identity": [
+                  "Humans who reject extreme magic dependence",
+                  "Controlled spellcasting",
+                  "Enchanted weapons",
+                  "Tactical warfare"
+                ],
+                "culture": [
+                  "Military academies + arcane restraint training",
+                  "Anti-corruption laws against reckless magic"
+                ],
+                "role": "Stabilizing political force against mage chaos"
+              },
+              {
+                "id": "nation_3",
+                "name": "Unknown Nation 3",
+                "location": "West of Thorny Canyon",
+                "status": "Needs development"
+              }
+            ]
+          },
+          {
+            "id": "mythsylva",
+            "name": "Mythsylva (Forest of Myths)",
+            "location": "East of Plateau, above Trilake",
+            "type": "Ancient Forest",
+            "description": "Sacred forest built around the World Tree Yggdrasil.",
+            "civilization": {
+              "name": "Lunareth Enclave",
+              "ruling_race": "High Elves",
+              "capital": "Lunareth",
+              "details": "Built around branches of Yggdrasil"
+            },
+            "key_locations": [
+              {
+                "name": "Yggdrasil (World Tree)",
+                "description": "Source of pure mana. Stabilizes mana across Arcaelis. Roots extend beneath entire continent.",
+                "secret": "Damage to Yggdrasil = continent-wide magical collapse"
+              },
+              {
+                "name": "Temple of Aeralith (Lost Temple)",
+                "description": "Sealed ancient magic, possibly pre-Fracture civilization."
+              }
+            ],
+            "outer_regions": {
+              "inhabitants": [
+                "Werewolves guard forest borders",
+                "Spirits inhabit deeper layers"
+              ]
+            }
+          },
+          {
+            "id": "vorthal_canyon",
+            "name": "Vorthal Canyon",
+            "location": "East of Trilake, river flows between this canyon",
+            "type": "Canyon",
+            "description": "A massive canyon dividing the land.",
+            "features": {
+              "river": {
+                "name": "Serpentis Flow",
+                "direction": "North \u2192 South"
+              },
+              "golden_mountain": {
+                "description": "A time dragon lives here, below mountain range"
+              },
+              "titan_spine": {
+                "name": "The Titan Spine",
+                "description": "A colossal dragon skeleton stretching across the canyon, parallel to the river.",
+                "details": [
+                  "Bones infused with ancient mana",
+                  "Some ribs act as natural bridges",
+                  "Scholars believe: 'The creature is not fully dead.'"
+                ]
+              }
+            }
+          },
+          {
+            "id": "astryx_lake",
+            "name": "Astryx Lake (Trilake)",
+            "location": "West of the River",
+            "type": "Lake System",
+            "description": "A rare natural wonder shaped like a bird in flight (3 connected lakes).",
+            "structure": {
+              "head_lake": {
+                "position": "North",
+                "traits": "Clear, calm"
+              },
+              "wing_lake_east": {
+                "position": "East",
+                "traits": "Turbulent, magical"
+              },
+              "wing_lake_west": {
+                "position": "West",
+                "traits": "Turbulent, magical"
+              },
+              "connection": "Connected by flowing channels"
+            },
+            "civilization": {
+              "name": "Aurelios Port City",
+              "location": "Southern edge of lake",
+              "description": "Richest trade city in Arcaelis. Connects continents via sea routes.",
+              "culture": [
+                "Merchant guilds dominate",
+                "Information trading more valuable than goods",
+                "Neutral ground for all factions"
+              ]
+            },
+            "surroundings": [
+              "Small human settlements",
+              "Mixed-race communities (rare coexistence zone)"
+            ]
+          },
+          {
+            "id": "necroth",
+            "name": "Necroth \u2013 Land of the Dead",
+            "location": "West of Plateau",
+            "type": "Cursed Region",
+            "description": "A cursed region where death is not the end. A broken afterlife gateway.",
+            "civilization": {
+              "name": "Graveveil Dominion",
+              "capital": "Morthalis"
+            },
+            "hidden_location": {
+              "name": "Lost City of Gold",
+              "location": "Center of Necroth",
+              "status": "Hidden"
+            },
+            "inhabitants": [
+              "Undead (sentient & feral)",
+              "Necromancers",
+              "Spirit-bound entities"
+            ],
+            "details": [
+              "Sky permanently dim",
+              "Ground saturated with death mana",
+              "Souls cannot fully leave",
+              "Bodies reanimate naturally"
+            ]
+          },
+          {
+            "id": "mycelara",
+            "name": "Mycelara",
+            "location": "Right of Gold Mountain",
+            "type": "Mushroom Forest / Alchemical Ecosystem",
+            "description": "Dense mushroom forests and alchemical ecosystems.",
+            "key_location": {
+              "name": "Elixhaven",
+              "title": "Potionist Capital",
+              "details": [
+                "Entire city built around living labs",
+                "Slimes used as containers, experiment tools, living weapons"
+              ]
+            },
+            "unique_effects": [
+              "Air filled with spores affecting mind, mana flow, and emotions"
+            ]
+          },
+          {
+            "id": "nyxveil_mistlands",
+            "name": "Nyxveil Mistlands",
+            "location": "Right of Mushroom Forest",
+            "type": "Mysterious Zone",
+            "description": "Permanently covered in sentient mist.",
+            "effects": [
+              "Distorts perception",
+              "Alters time sense",
+              "Creates illusions from memories"
+            ],
+            "unknown": [
+              "No confirmed civilization",
+              "Some believe a hidden ancient race exists",
+              "OR it is a living fracture entity"
+            ]
+          },
+          {
+            "id": "kashirin_desert",
+            "name": "Kashirin Desert",
+            "location": "Right of the huge skeleton (Titan Spine)",
+            "type": "Desert / Wasteland",
+            "description": "Mana-scorched wasteland.",
+            "civilizations": [
+              {
+                "name": "Ashkar Nomads",
+                "traits": [
+                  "Anti-magic warriors",
+                  "Use relic weapons instead"
+                ]
+              },
+              {
+                "name": "Kashirin Tribe",
+                "traits": [
+                  "Believe in Dakota prophecy",
+                  "Protect the desert for it"
+                ]
+              }
+            ],
+            "details": [
+              "Sand turned to glass in places",
+              "Buried ruins from destroyed cities"
+            ]
+          },
+          {
+            "id": "thornbound_reach",
+            "name": "Thornbound Reach",
+            "location": "Between Nation 3 & Coast",
+            "type": "Natural Barrier",
+            "description": "Dense, mana-draining vegetation. Acts as a natural border barrier."
+          },
+          {
+            "id": "voltyra_exclusion_zone",
+            "name": "Voltyra Exclusion Zone",
+            "location": "Southwest of Blightroot Forest",
+            "type": "Exclusion Zone",
+            "description": "Constant lightning storms. Failed experiment by Velmoran mages.",
+            "details": [
+              "Sky permanently cracked",
+              "Mana behaves like electricity",
+              "Entering = instant death (almost)"
+            ]
+          },
+          {
+            "id": "blightroot_forest",
+            "name": "Blightroot Forest",
+            "location": "End of River \u2013 South",
+            "type": "Corrupted Forest",
+            "description": "Final destination of Serpentis Flow. Poisoned, necrotic ecosystem.",
+            "civilization": {
+              "name": "Noctyra Dominion",
+              "ruling_race": "Dark Elves",
+              "structure": "Underground cities beneath forest"
+            },
+            "details": [
+              "Poisoned, necrotic ecosystem",
+              "Water turns black near this region"
+            ],
+            "inhabitants": [
+              "Corrupted beasts",
+              "Failed magical experiments"
+            ]
+          }
+        ],
+        "history": [
+          {
+            "era": "Age of Roots",
+            "description": "Yggdrasil stabilizes entire continent. Magic safe and balanced."
+          },
+          {
+            "era": "Age of Titans",
+            "description": "Titan Wyrm (now Titan Spine) ruled mana flow. Slain by combined races.",
+            "result": "Mana destabilization begins."
+          },
+          {
+            "era": "Arcane Schism",
+            "description": "Elves vs Human mages. Forbidden magic spreads."
+          },
+          {
+            "era": "Death Fracture Event",
+            "description": "Necroth created. Souls trapped \u2192 undead rise."
+          },
+          {
+            "era": "Fracture Era (Current)",
+            "description": "Mana instability increasing. Nations competing for control. Ancient zones awakening."
+          }
+        ]
+      },
+      {
+        "id": "valkryn",
+        "name": "Valkryn",
+        "title": "The Aura Dominion",
+        "motto": "Strength defines truth. Weakness defines fate.",
+        "energy": "Aura / Qi",
+        "overview": "A war-forged continent where Aura \u2014 the manifestation of life force through discipline \u2014 reigns supreme. Magic is rare and distrusted; the body and weapon are everything. Strength isn't just respected \u2014 it is law, currency, and identity.",
+        "dominant_culture": "Warriors, honor-based",
+        "unique_twist": "Aura users can break physical laws \u2014 speed beyond sound, weapon techniques that cut mountains.",
+        "races": [
+          {
+            "id": "orcs",
+            "name": "Orcs",
+            "traits": "Honor-bound clans, dominate Drakthar Hold"
+          },
+          {
+            "id": "goblins",
+            "name": "Goblins",
+            "traits": "Trappers & scouts in Skyreach"
+          },
+          {
+            "id": "hobgoblins",
+            "name": "Hobgoblins",
+            "traits": "Strategists in Dravokar Corelands"
+          },
+          {
+            "id": "ogres",
+            "name": "Ogres",
+            "traits": "Solitary giants in Grimfang Highlands"
+          },
+          {
+            "id": "trolls",
+            "name": "Trolls",
+            "traits": "Regenerative beasts, lava-adapted variants in south"
+          },
+          {
+            "id": "centaurs",
+            "name": "Centaurs",
+            "traits": "Fastest land warriors, Veltorn Plains"
+          },
+          {
+            "id": "harpies",
+            "name": "Harpies",
+            "traits": "Aerial hunters in Skyreach Canopies"
+          },
+          {
+            "id": "kobolds",
+            "name": "Tree Kobolds",
+            "traits": "Engineers & ambushers, agile"
+          },
+          {
+            "id": "humans_valkryn",
+            "name": "Humans",
+            "traits": "Aura elites, weapon masters"
+          }
+        ],
+        "regions": [
+          {
+            "id": "grimfang_highlands",
+            "name": "Grimfang Highlands",
+            "location": "North",
+            "type": "Mountain Range",
+            "description": "Harsh mountains, thin air, extreme cold nights. Natural training ground for elite warriors.",
+            "dominant_races": [
+              "Ogres",
+              "Trolls"
+            ],
+            "key_location": {
+              "name": "Kraghollow Bastion",
+              "description": "Built inside a hollowed mountain",
+              "arena": "Blood Crucible",
+              "structure": "Vertical city, rank floors (stronger = higher level access)"
+            },
+            "culture": "Strength-based hierarchy. Leaders earn rank through combat, not lineage."
+          },
+          {
+            "id": "dravokar_corelands",
+            "name": "Dravokar Corelands",
+            "location": "Central East Mainland",
+            "type": "Rocky Plains",
+            "description": "Heart of warriors, rulers, and structured civilization.",
+            "capital": "Drakthar Hold",
+            "inhabitants": [
+              "Humans (Aura elites)",
+              "Orc clans (honor-bound)",
+              "Hobgoblins (strategists)"
+            ],
+            "features": [
+              "Grand Arena of Drakthar \u2014 rank determines status",
+              "Military academies",
+              "Weapon forging capitals"
+            ],
+            "culture": "Strict honor code. Duels settle disputes. Weak are either trained\u2026 or erased."
+          },
+          {
+            "id": "veltorn_plains",
+            "name": "Veltorn Plains",
+            "location": "Central West",
+            "type": "Open Plains",
+            "description": "Vast open lands, perfect for cavalry and large battles.",
+            "dominant_races": [
+              "Humans (weapon masters)",
+              "Centaurs (fastest land warriors)"
+            ],
+            "key_locations": [
+              {
+                "name": "Ironmarch Citadel",
+                "description": "Military headquarters"
+              },
+              {
+                "name": "The Endless Arena Fields",
+                "description": "Battlefield tournaments"
+              }
+            ],
+            "culture": "Strategy + strength balance. War academies train children from young age."
+          },
+          {
+            "id": "skyreach_canopies",
+            "name": "Skyreach Canopies",
+            "location": "East",
+            "type": "Massive Elevated Forests",
+            "description": "Massive forests with towering trees reaching clouds.",
+            "dominant_races": [
+              "Harpies (aerial hunters)",
+              "Goblins (trappers & scouts)",
+              "Tree Kobolds (engineers & ambushers)"
+            ],
+            "key_locations": [
+              {
+                "name": "Aeralis Nests",
+                "description": "Floating wooden cities"
+              },
+              {
+                "name": "Whisperroot Maze",
+                "description": "Living forest that shifts paths"
+              }
+            ],
+            "culture": "Guerrilla warfare, trap-based combat."
+          },
+          {
+            "id": "feral_veil",
+            "name": "Feral Veil",
+            "location": "Central South",
+            "type": "Untamed Jungle",
+            "description": "Untamed land where only beast riders survive. Dense forests, massive creatures, hidden tribes.",
+            "inhabitants": [
+              "Beast Riders",
+              "Kobolds (trap engineers)"
+            ],
+            "features": [
+              "Bonding Ritual Grounds",
+              "Alpha Beast Territories",
+              "Living jungles that react to Aura"
+            ],
+            "beast_rider_system": {
+              "bond_mechanic": "Beast Riders form soul contracts",
+              "rules": [
+                "If beast dies \u2192 rider weakens permanently",
+                "If rider evolves \u2192 beast mutates"
+              ]
+            }
+          },
+          {
+            "id": "emberclaw_badlands",
+            "name": "Emberclaw Badlands",
+            "location": "South",
+            "type": "Volcanic Terrain",
+            "description": "Volcanic terrain, ash storms, lava rivers. Most dangerous area.",
+            "dominant_races": [
+              "Troll variants (lava-adapted)",
+              "High Orc warbands (exiled factions)",
+              "Void Demon Sect"
+            ],
+            "key_locations": [
+              {
+                "name": "Ashen Spine Ridge",
+                "description": "Volcanic ridge"
+              },
+              {
+                "name": "Molgrath Pits",
+                "description": "Illegal combat zones"
+              }
+            ],
+            "culture": "Lawless. Survival of the strongest. Very few strong humans here."
+          },
+          {
+            "id": "sanctis_basin",
+            "name": "Sanctis Basin",
+            "location": "West",
+            "type": "Fertile Valley",
+            "description": "The only place where killing is forbidden. All major warriors eventually rely on Sanctis Vale for survival. Within the basin are 7 mountain plains: 6 are controlled by the 4 great clans, and 1 by Sanctis Vale (Medic Town). Legend speaks of 10 ancient sects, implying 3 plains remain hidden.",
+            "key_location": {
+              "name": "Sanctis Vale",
+              "title": "Medic Town",
+              "description": "Qi-based healing, later all kinds of medic treatments, now open for Aura users too."
+            },
+            "inhabitants": [
+              "Medics",
+              "Neutral monks",
+              "Refugees",
+              "Sects"
+            ],
+            "features": [
+              "Sanctis Academy of Restoration",
+              "Aura healing arts",
+              "Injury recovery from all regions"
+            ],
+            "protected_by": "Lotus Healing Sect",
+            "rule": "Breaking peace here results in ALL factions hunting you down.",
+            "culture": "Neutral ground. Even enemies respect its sanctity."
+          }
+        ],
+        "power_systems": {
+          "aura": {
+            "source": "Life force + physical will",
+            "expression": "External (weapons, body, domains)",
+            "used_by": [
+              "Warriors",
+              "Beast riders",
+              "Armies"
+            ],
+            "levels": [
+              {
+                "rank": 1,
+                "name": "Aura Reinforcement",
+                "description": "Enhances speed, reflex"
+              },
+              {
+                "rank": 2,
+                "name": "Aura Projection",
+                "description": "Channel Aura into weapons, shockwaves, ranged attacks"
+              },
+              {
+                "rank": 3,
+                "name": "Aura Domain",
+                "description": "Create a personal combat field (gravity shift, pressure zones, etc.)"
+              },
+              {
+                "rank": 4,
+                "name": "Law Break",
+                "description": "Move faster than sound, cut intangible objects, distort space slightly",
+                "limitations": [
+                  "Severe body damage",
+                  "Lifespan reduction",
+                  "Aura burnout (temporary cripple state)"
+                ]
+              }
+            ]
+          },
+          "qi": {
+            "source": "Internal energy cultivation",
+            "expression": "Internal \u2192 refined \u2192 precise techniques",
+            "used_by": "Sects only",
+            "cultivation_methods": [
+              "Training & Combat in areas with Qi",
+              "Meditation",
+              "Near-death experiences with Qi Accumulation"
+            ],
+            "abilities": [
+              "Attack internal organs",
+              "Bypass armor",
+              "Sense life force"
+            ],
+            "levels": [
+              {
+                "rank": 1,
+                "name": "Spark Initiate",
+                "description": "Qi sensing, minor enhancement, opening meridians"
+              },
+              {
+                "rank": 2,
+                "name": "Iron Vein",
+                "description": "Reinforced body, stable Qi circulation"
+              },
+              {
+                "rank": 3,
+                "name": "Core Awakening",
+                "description": "Formation of internal core / energy center, instinct sharpening"
+              },
+              {
+                "rank": 4,
+                "name": "War Aspect",
+                "description": "Unique combat identity (weapon style, aura, technique evolution)"
+              },
+              {
+                "rank": 5,
+                "name": "Domain Weaver",
+                "description": "Partial area influence, control over battlefield flow"
+              },
+              {
+                "rank": 6,
+                "name": "Domain Breaker",
+                "description": "Overwrites enemy domains, absolute pressure zone"
+              },
+              {
+                "rank": 7,
+                "name": "Mythic Ascendant",
+                "description": "Transcendent being, law-level influence (beyond normal Qi)"
+              }
+            ]
+          }
+        },
+        "sects": [
+          {
+            "id": "azure_wind_sect",
+            "name": "Azure Wind Sect",
+            "focus": "Extreme speed and Qinggong",
+            "territory": "Secret cove behind a waterfall near ancient ruins in Sanctis Basin",
+            "known_for": [
+              "Unmatched Qinggong",
+              "Speed-based combat"
+            ],
+            "status": "Newly emerging, secretly gathered by a young man who found ancient scrolls"
+          },
+          {
+            "id": "iron_body_sect",
+            "name": "Iron Body Sect",
+            "focus": "Physical durability",
+            "territory": "Mountain fortresses",
+            "known_for": [
+              "Skin like steel",
+              "Unbreakable stance"
+            ]
+          },
+          {
+            "id": "heavenly_blade_sect",
+            "name": "Heavenly Blade Sect",
+            "focus": "Sword mastery + precision Qi",
+            "territory": "Cliffside monasteries",
+            "signature": [
+              "Cuts that travel miles",
+              "Invisible blade waves"
+            ]
+          },
+          {
+            "id": "heavenly_fist_sect",
+            "name": "Heavenly Fist Sect",
+            "focus": "Fist mastery + precision Qi",
+            "territory": "Cliffside monasteries",
+            "signature": [
+              "Invisible fist waves"
+            ]
+          },
+          {
+            "id": "void_demon_sect",
+            "name": "Void Demon Sect",
+            "focus": "Forbidden arts (corrupted Qi)",
+            "territory": "Emberclaw Badlands",
+            "abilities": [
+              "Berserk transformations",
+              "Life-draining Qi deviation",
+              "Shadow-step movement"
+            ],
+            "status": "Feared and hunted \u2014 but powerful"
+          },
+          {
+            "id": "lotus_healing_sect",
+            "name": "Lotus Healing Sect",
+            "focus": "Healing & restoration",
+            "territory": "Sanctis Vale",
+            "abilities": [
+              "Regeneration Qi",
+              "Poison cleansing",
+              "Life extension"
+            ],
+            "status": "Neutral in all wars"
+          }
+        ],
+        "beast_rider_system": {
+          "bond_types": [
+            {
+              "type": "Dominance Bond",
+              "description": "Beast is forced to obey"
+            },
+            {
+              "type": "Mutual Bond",
+              "description": "Equal partnership (rare, strongest)"
+            },
+            {
+              "type": "Soul Bind",
+              "description": "Life linked (if one dies, both die)"
+            }
+          ],
+          "famous_beasts": [
+            "Thunder Wyverns",
+            "Ironhide Rhinos",
+            "Flame Tigers"
+          ],
+          "rules": "Not all beasts can be tamed \u2014 depends on tamer's skills. Only bonded beasts accept coexistence. Wild beasts remain hostile and far stronger."
+        },
+        "political_structure": {
+          "type": "Power balance system (no single ruler)",
+          "powers": [
+            {
+              "name": "Drakthar Hold",
+              "dominance": "Orc dominance"
+            },
+            {
+              "name": "Ironmarch Citadel",
+              "dominance": "Human command"
+            },
+            {
+              "name": "Skyreach Tribes",
+              "dominance": "Independent"
+            },
+            {
+              "name": "Sanctis Vale",
+              "dominance": "Neutral"
+            }
+          ],
+          "council": {
+            "name": "Council of Fist & Blades",
+            "description": "Representatives from each race/sect"
+          }
+        },
+        "history": [
+          {
+            "era": "The Age of Fracture",
+            "description": "Once ruled by a single war emperor. Aura overuse caused land destruction."
+          },
+          {
+            "era": "The Age of Blood Trials",
+            "description": "Endless wars between species. No unity."
+          },
+          {
+            "era": "The Void Incident",
+            "description": "Void Demon Sect nearly destroyed Valkryn. Led to banning forbidden Aura arts."
+          },
+          {
+            "era": "Fractured Strength (Current)",
+            "description": "Alliances exist \u2014 but fragile. War can start anytime."
+          }
+        ],
+        "current_conflicts": [
+          "Void Demon Sect secretly rising again",
+          "Beast Riders losing control over stronger creatures",
+          "Tension between Orc dominance & Human strategy factions",
+          "Sanctis Vale under threat (if it falls \u2192 chaos)"
+        ]
+      },
+      {
+        "id": "thrynthal",
+        "name": "Thrynthal",
+        "title": "The Primal Wilds",
+        "motto": "Nature is not kind \u2014 it is absolute.",
+        "energy": "Primal Essence",
+        "overview": "A continent of Birdmen, Beastmen, and shapeshifters where nature itself is alive and absolute.",
+        "dominant_culture": "Nature-bound tribes and sentient ecosystems",
+        "races": [
+          "Birdmen",
+          "Beastmen",
+          "Shapeshifters"
+        ],
+        "features": [
+          "Living forests",
+          "Sentient ecosystems",
+          "Totem-based power system"
+        ],
+        "status": "Needs further development"
+      }
+    ],
+    "special_regions": [
+      {
+        "id": "atlanthys",
+        "name": "Atlanthys (The Sunken Empire)",
+        "type": "Underwater Kingdom",
+        "description": "A vast underwater domain surrounding the submerged island of Atlan. Three sea tribes \u2014 Mermans, Whale-men, and Sea Beastmen \u2014 guard its waters with fierce territorial control.",
+        "reveal_after_chapter": 0,
+        "inhabitants": [
+          "Mermans",
+          "Whale-men",
+          "Sea Beastmen"
+        ],
+        "sub_locations": [
+          {
+            "name": "Atlan",
+            "type": "Submerged Human Island",
+            "description": "Once a flourishing human civilization that maintained trade and friendship with the Mermans. 3,000 years ago, during an attempt to stabilize the world's mana balance, they nearly succeeded \u2014 but a traitor's influence caused a catastrophe that destroyed Atlan entirely. All inhabitants perished. The traitor is now sealed within the ruins \u2014 the sole human remaining on Atlan.",
+            "reveal_after_chapter": 15
+          }
+        ],
+        "seal": {
+          "description": "The Mermans sealed the rift that formed underwater by creating powerful whirlpools surrounding Atlan. The entire area is marked as a restricted zone, strictly guarded as sacred duty by all three sea tribes.",
+          "reveal_after_chapter": 15
+        },
+        "legend": {
+          "public_knowledge": "A legend says that once, mermaids were friends with humans. Now the sea tribes consider humans enemies and refuse all contact.",
+          "reveal_after_chapter": 5
+        },
+        "secret": "Atlan was once one of the world's greatest human civilizations. A traitor sealed within caused its fall. The mermans guard the ruins to prevent anyone from reaching the sealed traitor.",
+        "secret_reveal_after_chapter": 20
+      },
+      {
+        "id": "shattered_veil",
+        "name": "The Shattered Veil (Archipelago)",
+        "type": "Portal Archipelago",
+        "description": "Portal islands connecting continents. Ancient teleportation ruins. Neutral trading zone.",
+        "reveal_after_chapter": 0,
+        "features": [
+          "Black market",
+          "Smugglers",
+          "Lost technologies"
+        ]
+      },
+      {
+        "id": "bloodtide_isles",
+        "name": "The Bloodtide Isles (Pirate Islands)",
+        "type": "Pirate Territory",
+        "description": "No laws. Only power.",
+        "reveal_after_chapter": 0,
+        "islands": [
+          {
+            "name": "Skullreach",
+            "description": "Pirate capital"
+          },
+          {
+            "name": "Gravewake",
+            "description": "Ship graveyard"
+          },
+          {
+            "name": "Emberfang Cay",
+            "description": "Volcano island"
+          },
+          {
+            "name": "Siren's Hollow",
+            "description": "Illusion traps"
+          }
+        ]
+      },
+      {
+        "id": "aerelion",
+        "name": "Aerelion \u2013 The Floating Kingdom",
+        "type": "Floating Landmass",
+        "description": "A landmass held by ancient anti-gravity magic cores.",
+        "reveal_after_chapter": 0,
+        "inhabitants": [
+          "High mages",
+          "Angelic envoys"
+        ],
+        "secret": "If it falls \u2192 global destruction.",
+        "secret_reveal_after_chapter": 12
+      },
+      {
+        "id": "nimboria",
+        "name": "Nimboria \u2013 The Cloud Kingdom",
+        "type": "Cloud Kingdom",
+        "description": "A kingdom of peace, literally built on clouds. A legend that most people believe exists but no one has ever seen. The landmass was placed in the sky 5,000 years ago by the titan Hazin, who was magically enlarged by Dakota to the size of a continent to physically lift it.",
+        "reveal_after_chapter": 0,
+        "inhabitants": [
+          "Light-based beings",
+          "Wind monks"
+        ],
+        "legend": {
+          "public_knowledge": "A legend of a kingdom in the clouds \u2014 no one alive has seen it, but it is believed to be there.",
+          "reveal_after_chapter": 0
+        },
+        "history": {
+          "description": "5,000 years ago, the landmass of Pirion and the future Cloud Kingdom were one \u2014 created by the god Aetherion himself. Constant wars ravaged the land. Dakota, a supremely powerful magician, split the landmass to end the fighting. But the separated piece could not remain on the surface. Years later, Dakota used enhancing magic to grow Hazin \u2014 already the largest Titan ever born \u2014 to the size of a continent. Hazin physically lifted the landmass into the clouds, where it became Nimboria. He became known as 'The Giant Who Touched the Sky.'",
+          "reveal_after_chapter": 8
+        }
+      },
+      {
+        "id": "pirion",
+        "name": "Pirion \u2013 The Square-Shaped Island",
+        "type": "Cursed Island",
+        "description": "The remaining half of a landmass split by Dakota 5,000 years ago. Once joined with what became Nimboria, Pirion was called the Kingdom of Ruins after the split. Now cursed and home to shapeshifters.",
+        "reveal_after_chapter": 0,
+        "inhabitants": [
+          "Shapeshifters",
+          "Doppelgangers"
+        ],
+        "features": [
+          "Curses",
+          "Ruins of the original unified landmass"
+        ],
+        "history": {
+          "description": "Originally one landmass with Nimboria, created by Aetherion. Constant wars led Dakota to split it 5,000 years ago. Pirion remained behind while the other half was lifted to the clouds by Hazin. After the split, Pirion decayed into a cursed ruin.",
+          "reveal_after_chapter": 8
+        },
+        "secret": "The original unified landmass was created by the god Aetherion. Its division was one of Dakota's greatest acts of power.",
+        "secret_reveal_after_chapter": 12
+      }
+    ],
+    "extreme_continents": [
+      {
+        "id": "titanor",
+        "name": "Titanor \u2013 Land of Giants",
+        "description": "Home to Titans and Colossi. Mountains are the ancient bodies of fallen giants. Hazin, the greatest Titan ever born, came from here \u2014 so large that other Titans looked small beside him.",
+        "reveal_after_chapter": 0,
+        "inhabitants": [
+          "Titans",
+          "Colossi"
+        ],
+        "notable_figures": []
+      },
+      {
+        "id": "seraphis",
+        "name": "Seraphis \u2013 Angel Continent",
+        "description": "Divine beings. Law, order, judgment.",
+        "inhabitants": [
+          "Angels",
+          "Divine beings"
+        ]
+      },
+      {
+        "id": "infernax",
+        "name": "Infernax \u2013 Demon Continent",
+        "description": "Chaos, evolution through destruction.",
+        "inhabitants": [
+          "Demons"
+        ]
+      },
+      {
+        "id": "yokaishi",
+        "name": "Yokaishi \u2013 Spirit World",
+        "description": "Ghosts, Yokai, cursed beings. Time flows differently.",
+        "inhabitants": [
+          "Ghosts",
+          "Yokai",
+          "Cursed beings"
+        ]
+      },
+      {
+        "id": "glaciera",
+        "name": "Glaciera \u2013 Frozen Continent",
+        "description": "Icy wasteland of ancient power.",
+        "inhabitants": [
+          "Yetis",
+          "Ice Elves",
+          "Frost Giants",
+          "Crystal Dragons",
+          "Frozen Undead",
+          "Blizzard Spirits"
+        ]
+      },
+      {
+        "id": "primordia",
+        "name": "Primordia \u2013 Dino World",
+        "description": "Dinosaurs + advanced tribal humans. Most intelligent but primitive-looking.",
+        "inhabitants": [
+          "Dinosaurs",
+          "Advanced tribal humans"
+        ]
+      },
+      {
+        "id": "saurix",
+        "name": "Saurix \u2013 Dino-men Continent",
+        "description": "Evolved dinosaur humanoids. Highly strategic civilization.",
+        "inhabitants": [
+          "Dinosaur humanoids"
+        ]
+      },
+      {
+        "id": "mechanis",
+        "name": "Mechanis \u2013 Human Tech Continent",
+        "motto": "Science has surpassed magic.",
+        "description": "Cyber cities, AI systems, anti-magic weapons.",
+        "inhabitants": [
+          "Humans (tech-focused)"
+        ],
+        "conflict": "They want to dominate all magic users."
+      },
+      {
+        "id": "mythara",
+        "name": "Mythara \u2013 Mythical Creatures",
+        "description": "Wild magic concentration.",
+        "inhabitants": [
+          "Phoenix",
+          "Griffins",
+          "Chimera"
+        ]
+      },
+      {
+        "id": "faeloria",
+        "name": "Faeloria \u2013 Fairy Kingdom",
+        "description": "Pure magic realm. Time distortion.",
+        "inhabitants": [
+          "Fairies"
+        ]
+      },
+      {
+        "id": "serpenthis",
+        "name": "Serpenthis \u2013 Snake Continent",
+        "description": "Reptilian races. Constant tension with fairies.",
+        "inhabitants": [
+          "Snake-men",
+          "Lizardfolk",
+          "Crocodilians",
+          "Frogmen"
+        ],
+        "surrounds": "Faeloria"
+      }
+    ]
+  },
+  "characters": {
+    "main": [
+      {
+        "id": "zillian",
+        "name": "Zillian",
+        "role": "Main Character (MC)",
+        "reveal_after_chapter": 0,
+        "description": [
+          {
+            "text": "Young man with sharp, observant eyes. Travels light \u2014 worn coat, minimal gear, built for speed not comfort.",
+            "reveal_after_chapter": 0
+          }
+        ],
+        "traits": [
+          {
+            "text": "Guarded, deliberate, reveals nothing unintentionally.",
+            "reveal_after_chapter": 0
+          },
+          {
+            "text": "Recognizes names and events he shouldn't know.",
+            "reveal_after_chapter": 1
+          },
+          {
+            "text": "Carries a crystal shard pointing east and an ancient coin.",
+            "reveal_after_chapter": 2
+          }
+        ],
+        "current_location": [
+          {
+            "location": "Halwen village",
+            "context": "Last seen",
+            "reveal_after_chapter": 1
+          }
+        ],
+        "affiliations": "Unknown",
+        "secrets": [
+          {
+            "text": "Carries artifacts tied to pre-Fracture civilization.",
+            "reveal_after_chapter": 2
+          }
+        ],
+        "secrets_reveal_after_chapter": 1
+      }
+    ],
+    "story_npcs": [
+      {
+        "id": "garret",
+        "name": "Garret",
+        "role": "Shopkeeper \u2014 Garret's Provisions, Halwen village",
+        "reveal_after_chapter": 1,
+        "description": [
+          {
+            "text": "Old man with white hair pulled back, spectacles on a twice-broken nose.",
+            "reveal_after_chapter": 1
+          }
+        ],
+        "traits": [
+          {
+            "text": "Measured, talkative when comfortable, trades in information as much as goods. Perceptive \u2014 notices more than he lets on.",
+            "reveal_after_chapter": 1
+          }
+        ],
+        "current_location": [
+          {
+            "location": "Halwen village, Solvara",
+            "context": "Shopkeeper",
+            "reveal_after_chapter": 1
+          }
+        ],
+        "status": [
+          {
+            "text": "Alive",
+            "reveal_after_chapter": 1
+          }
+        ]
+      },
+      {
+        "id": "sera",
+        "name": "Sera",
+        "role": "Mysterious traveler",
+        "reveal_after_chapter": 2,
+        "description": [
+          {
+            "text": "Tall woman in well-worn traveler's leathers, carrying a staff wrapped in dark cloth. Unusually pale for a road-dweller.",
+            "reveal_after_chapter": 2
+          }
+        ],
+        "traits": [
+          {
+            "text": "Confident, composed, observant. Commands respect in Halwen \u2014 given free drinks at The Dry Creek. Speaks with precision.",
+            "reveal_after_chapter": 2
+          }
+        ],
+        "current_location": [
+          {
+            "location": "Halwen village",
+            "context": "Last seen",
+            "reveal_after_chapter": 2
+          }
+        ],
+        "status": [
+          {
+            "text": "Alive",
+            "reveal_after_chapter": 2
+          }
+        ],
+        "secrets": [
+          {
+            "text": "Knows about the sealed entity beneath the Titan Spine. Background unknown.",
+            "reveal_after_chapter": 2
+          }
+        ],
+        "secrets_reveal_after_chapter": 2
+      },
+      {
+        "id": "ren_azure_wind",
+        "name": "Azure Wind Sect Leader",
+        "role": "Sect Leader / Founder",
+        "reveal_after_chapter": 0,
+        "appearance": "A promising young man with a swift and light-footed bearing.",
+        "traits": "Ambitious and resourceful. Found a secret cove behind a waterfall containing combat scrolls from a lost ancient sect.",
+        "current_location": "Secret Cove, Valkryn",
+        "secrets": "He claims to have found one of the 3 missing 'Legendary 10 Sects' of Sanctis. Only he knows the true history from the scrolls he recovered.",
+        "secrets_reveal_after_chapter": 0
+      }
+    ],
+    "legends": [],
+    "deities": [
+      {
+        "id": "aetherion",
+        "name": "Aetherion",
+        "role": "Creator God",
+        "reveal_after_chapter": 10,
+        "description": "The god who created the world of Zephyr. His power was singular and absolute. When he was struck down by a powerful outer god, his death shattered the one landmass into the continents that exist today, and his one power fractured into three separate energies: Mana, Aura, and Qi.",
+        "status": "Dead \u2014 his followers seek to resurrect him",
+        "connections": [
+          "Created the unified landmass including Pirion-Nimboria",
+          "His death caused the continental split and the birth of the three energies",
+          "His followers form a secret faction working toward resurrection"
+        ]
+      },
+      {
+        "id": "outer_god",
+        "name": "The Outer God",
+        "role": "World-Ender / Sealed Entity",
+        "reveal_after_chapter": 15,
+        "description": "A powerful entity from beyond the world that struck down Aetherion. Now sealed somewhere in Zephyr. Its location is one of the world's greatest secrets.",
+        "status": "Sealed \u2014 location unknown",
+        "connections": [
+          "Killed Aetherion with a single strike",
+          "Sealed by unknown forces after Aetherion's death",
+          "Its prison's location is the most dangerous secret in the world"
+        ]
+      },
+      {
+        "id": "kaleris",
+        "name": "Kaleris",
+        "role": "Mage God / Protector Legend",
+        "reveal_after_chapter": 3,
+        "description": "A legendary mage god said to have helped humanity 8,000 years ago during a catastrophic event. The details are lost to time, but Kaleris is the most widely followed deity across all races. Most temples, academies, and magical institutions invoke his name.",
+        "status": "Legend \u2014 worshipped by most civilizations",
+        "public_knowledge": true,
+        "connections": [
+          "Helped humanity survive an ancient catastrophe 8,000 years ago",
+          "Most widely worshipped deity across all races",
+          "Connection to Aetherion is unknown"
+        ]
+      }
+    ]
+  },
+  "races": {
+    "human": {
+      "name": "Human",
+      "families": [
+        {
+          "id": "delmart",
+          "name": "Delmart Family"
+        }
+      ],
+      "tribes": [
+        {
+          "id": "el_tribe",
+          "name": "El Tribe"
+        }
+      ],
+      "presence": [
+        "Arcaelis (Solvara)",
+        "Valkryn (Dravokar Corelands, Veltorn Plains)"
+      ]
+    },
+    "elves": {
+      "name": "Elves",
+      "subtypes": [
+        "High Elves (Lunareth Enclave)",
+        "Dark Elves (Noctyra Dominion)"
+      ],
+      "presence": [
+        "Arcaelis"
+      ]
+    },
+    "dragon": {
+      "name": "Dragon",
+      "note": "Time Dragon lives at Golden Mountain in Vorthal Canyon. Titan Wyrm (deceased) forms the Titan Spine."
+    },
+    "goblin": {
+      "name": "Goblin",
+      "presence": [
+        "Valkryn (Skyreach Canopies)"
+      ]
+    },
+    "hobgoblin": {
+      "name": "Hobgoblin",
+      "presence": [
+        "Valkryn (Dravokar Corelands)"
+      ]
+    },
+    "orc": {
+      "name": "Orc",
+      "presence": [
+        "Valkryn (Dravokar Corelands, Emberclaw Badlands)"
+      ]
+    },
+    "ogre": {
+      "name": "Ogre",
+      "presence": [
+        "Valkryn (Grimfang Highlands)"
+      ]
+    },
+    "troll": {
+      "name": "Troll",
+      "presence": [
+        "Valkryn (Grimfang Highlands, Emberclaw Badlands)"
+      ]
+    },
+    "kobold": {
+      "name": "Kobold (Tree Kobold)",
+      "presence": [
+        "Valkryn (Skyreach Canopies, Feral Veil)"
+      ]
+    },
+    "centaur": {
+      "name": "Centaur",
+      "presence": [
+        "Valkryn (Veltorn Plains)"
+      ]
+    },
+    "harpy": {
+      "name": "Harpy",
+      "presence": [
+        "Valkryn (Skyreach Canopies)"
+      ]
+    },
+    "vampire": {
+      "name": "Vampire",
+      "presence": [
+        "Arcaelis"
+      ]
+    },
+    "undead": {
+      "name": "Undead",
+      "presence": [
+        "Arcaelis (Necroth)"
+      ]
+    },
+    "slime": {
+      "name": "Slime",
+      "presence": [
+        "Arcaelis (Mycelara)"
+      ]
+    },
+    "spirit": {
+      "name": "Spirit",
+      "presence": [
+        "Arcaelis (Mythsylva)"
+      ]
+    },
+    "werewolf": {
+      "name": "Werewolf",
+      "presence": [
+        "Arcaelis (Mythsylva borders)"
+      ]
+    },
+    "dwarf": {
+      "name": "Dwarf",
+      "presence": [
+        "Arcaelis (Thaldrim Peaks)"
+      ]
+    }
+  },
+  "power_systems": {
+    "mana": {
+      "name": "Mana",
+      "type": "External magical energy",
+      "continent": "Arcaelis",
+      "fields": [
+        "Mage"
+      ]
+    },
+    "qi": {
+      "name": "Qi",
+      "type": "Internal energy cultivation",
+      "continent": "Valkryn (Sects only)",
+      "fields": [
+        "Martial Artist"
+      ]
+    },
+    "aura": {
+      "name": "Aura",
+      "type": "Life force projection",
+      "continent": "Valkryn",
+      "fields": [
+        "Swordsman",
+        "Spearman",
+        "Bowsman",
+        "Warriors",
+        "Knights"
+      ]
+    },
+    "primal_essence": {
+      "name": "Primal Essence",
+      "type": "Nature / Beast power",
+      "continent": "Thrynthal",
+      "fields": [
+        "Totem users",
+        "Shapeshifters"
+      ]
+    }
+  },
+  "fields": [
+    {
+      "id": "mage",
+      "name": "Mage",
+      "power_source": "Mana",
+      "primary_continent": "Arcaelis"
+    },
+    {
+      "id": "swordsman",
+      "name": "Swordsman",
+      "power_source": "Aura",
+      "primary_continent": "Valkryn"
+    },
+    {
+      "id": "spearman",
+      "name": "Spearman",
+      "power_source": "Aura",
+      "primary_continent": "Valkryn"
+    },
+    {
+      "id": "bowsman",
+      "name": "Bowsman",
+      "power_source": "Aura",
+      "primary_continent": "Valkryn"
+    },
+    {
+      "id": "martial_artist",
+      "name": "Martial Artist",
+      "power_source": "Qi",
+      "primary_continent": "Valkryn"
+    }
+  ],
+  "story_locations": [
+    {
+      "id": "Halwen",
+      "name": "Halwen",
+      "type": "Village",
+      "location": "Eastern edge of Solvara, near trade roads to Aurelios Port",
+      "description": "A small border village of about two hundred souls, nestled along a dried creek bed. The kind of place that exists between maps. Home to Garret's Provisions and The Dry Creek tavern.",
+      "reveal_after_chapter": 1
+    },
+    {
+      "id": "Solvara-Republic",
+      "name": "Solvara",
+      "type": "Human Nation",
+      "location": "Aetherplateau, Arcaelis",
+      "description": "A stabilizing political force that rejects extreme magic dependence. Uses controlled spellcasting, enchanted weapons, and tactical warfare. Military academies train arcane restraint.",
+      "reveal_after_chapter": 0
+    },
+    {
+      "id": "Arcaelis",
+      "name": "Arcaelis \u2014 The Mana Dominion",
+      "type": "Main Continent",
+      "location": "Western Zephyr",
+      "description": "A fractured continent of independent magical nations, unstable mana zones, and ancient consequences. No empire rules \u2014 only competing powers, hidden agendas, and dangerous knowledge.",
+      "reveal_after_chapter": 0
+    },
+    {
+      "id": "Vorthal-Canyon",
+      "name": "Vorthal Canyon",
+      "type": "Canyon",
+      "location": "East of Astryx Lake",
+      "description": "A massive canyon dividing the land. The Serpentis Flow runs through it. The colossal Titan Spine stretches across it \u2014 a dragon skeleton infused with ancient mana. Something beneath it may still live.",
+      "reveal_after_chapter": 1
+    },
+    {
+      "id": "Serpentis-Flow",
+      "name": "Serpentis Flow / Serpentis Road",
+      "type": "River & Trade Route",
+      "location": "Through Vorthal Canyon, North \u2192 South",
+      "description": "The primary river running through Vorthal Canyon and the trade road alongside it. Three caravans have vanished without trace on this route recently.",
+      "reveal_after_chapter": 1
+    },
+    {
+      "id": "Kashirin",
+      "name": "Kashirin Desert",
+      "type": "Desert / Wasteland",
+      "location": "East of the Titan Spine",
+      "description": "Mana-scorched wasteland. Home to the Ashkar Nomads (anti-magic warriors) and the Kashirin Tribe, who believe in the Dakota prophecy and guard the desert.",
+      "reveal_after_chapter": 1
+    },
+    {
+      "id": "Mythsylva",
+      "name": "Mythsylva \u2014 Forest of Myths",
+      "type": "Ancient Forest",
+      "location": "East of Plateau, above Trilake",
+      "description": "Sacred forest built around Yggdrasil, the World Tree. Home to the Lunareth Enclave of High Elves. The enclave has gone silent \u2014 no messengers for weeks. Leaves turning silver.",
+      "reveal_after_chapter": 1
+    },
+    {
+      "id": "Yggdrasil",
+      "name": "Yggdrasil \u2014 The World Tree",
+      "type": "Landmark / Power Source",
+      "location": "Heart of Mythsylva",
+      "description": "Source of pure mana. Stabilizes mana across the entire continent of Arcaelis. Roots extend beneath the full landmass. Damage to Yggdrasil would cause continent-wide magical collapse. Leaves are turning silver.",
+      "reveal_after_chapter": 1
+    },
+    {
+      "id": "Lunareth-Enclave",
+      "name": "Lunareth Enclave",
+      "type": "High Elf Nation",
+      "location": "Within Mythsylva",
+      "description": "High Elf civilization built around the branches of Yggdrasil. Capital: Lunareth. Recently gone completely silent \u2014 no trade or messengers.",
+      "reveal_after_chapter": 1
+    },
+    {
+      "id": "Titan-Spine",
+      "name": "The Titan Spine",
+      "type": "Ancient Landmark",
+      "location": "Spanning Vorthal Canyon",
+      "description": "A colossal dragon skeleton stretching across the canyon. Bones infused with ancient mana, some ribs serve as natural bridges. Recent reports of breathing sounds underneath. Something is sealed beneath it \u2014 older than the Wyrm itself.",
+      "reveal_after_chapter": 1
+    },
+    {
+      "id": "Aurelios",
+      "name": "Aurelios Port City",
+      "type": "Trade City",
+      "location": "Southern edge of Astryx Lake",
+      "description": "Richest trade city in Arcaelis. Connects continents via sea routes. Merchant guilds dominate. Information trading more valuable than goods. Neutral ground for all factions.",
+      "reveal_after_chapter": 0
+    },
+    {
+      "id": "Velmoran-Ascendancy",
+      "name": "Velmoran Ascendancy",
+      "type": "Mage Nation",
+      "location": "Below Astryx Lake, Aetherplateau",
+      "description": "Powerful mage nation with capital Velmora Spire \u2014 floating towers orbiting a volatile mana core. Divided into Mage Houses. Currently downplaying mana instability.",
+      "reveal_after_chapter": 0
+    },
+    {
+      "id": "Aetherplateau",
+      "name": "Aetherplateau",
+      "type": "Plateau Region",
+      "location": "Below Thaldrim Peaks, Arcaelis",
+      "description": "Elevated landmass hosting the Velmoran Ascendancy, Solvara, and other nations. Political heart of Arcaelis.",
+      "reveal_after_chapter": 0
+    }
+  ],
+  "world_secrets": [
+    {
+      "id": "aetherion_death",
+      "name": "The Death of Aetherion",
+      "description": "The god <a href=\"#aetherion\">Aetherion</a> created the world and all its lands. He was struck down by a powerful <a href=\"#outer_god\">outer god</a>. His death shattered the one landmass into continents and fractured his singular power into <a href=\"#mana\">Mana</a>, <a href=\"#aura\">Aura</a>, and <a href=\"#qi\">Qi</a>.",
+      "reveal_after_chapter": 10
+    },
+    {
+      "id": "outer_god_sealed",
+      "name": "The Outer God is Sealed",
+      "description": "The <a href=\"#outer_god\">outer god</a> that killed <a href=\"#aetherion\">Aetherion</a> is sealed somewhere in Zephyr. Its prison's location is the most dangerous secret in the world.",
+      "reveal_after_chapter": 15
+    },
+    {
+      "id": "aetherion_resurrection",
+      "name": "Aetherion's Followers",
+      "description": "A secret faction of <a href=\"#aetherion\">Aetherion</a>'s followers is actively working to resurrect the creator god.",
+      "reveal_after_chapter": 12
+    },
+    {
+      "id": "whithir_collapse",
+      "name": "The Whithir Collapse",
+      "description": "All continents were once one landmass, shattered when <a href=\"#aetherion\">Aetherion</a> died \u2014 his power splitting into <a href=\"#mana\">Mana</a>, <a href=\"#aura\">Aura</a>, and <a href=\"#qi\">Qi</a>.",
+      "reveal_after_chapter": 10
+    },
+    {
+      "id": "hazin_sky_legend",
+      "name": "The Giant Who Touched the Sky",
+      "description": "<a href=\"#hazin\">Hazin</a>, a Titan from Titanor, was enhanced by <a href=\"#dakota\">Dakota</a>'s magic to the size of a continent. He physically lifted the separated landmass into the clouds, creating <a href=\"#locations-nimboria\">Nimboria</a> \u2014 the Cloud Kingdom.",
+      "reveal_after_chapter": 8
+    },
+    {
+      "id": "dakota_landmass_split",
+      "name": "Dakota Split the Land",
+      "description": "5,000 years ago, <a href=\"#dakota\">Dakota</a> \u2014 a supremely powerful magician \u2014 split the <a href=\"#locations-pirion\">Pirion</a>-<a href=\"#locations-nimboria\">Nimboria</a> landmass in two to end constant wars. The divided piece was later placed in the clouds by <a href=\"#hazin\">Hazin</a>.",
+      "reveal_after_chapter": 8
+    },
+    {
+      "id": "atlan_catastrophe",
+      "name": "The Fall of Atlan",
+      "description": "3,000 years ago, the human island Atlan attempted to stabilize the world's mana balance. They nearly succeeded, but a traitor's influence caused a catastrophe that destroyed the entire civilization. The traitor is sealed within the ruins \u2014 the sole human remaining on Atlan.",
+      "reveal_after_chapter": 15
+    },
+    {
+      "id": "merman_seal",
+      "name": "The Merman Seal",
+      "description": "After Atlan's fall, the Mermans sealed the underwater rift with whirlpools surrounding the ruins. All three sea tribes (Mermans, Whale-men, Sea Beastmen) guard it as a restricted zone. They lost friendship with humans and now consider them enemies.",
+      "reveal_after_chapter": 15
+    },
+    {
+      "id": "mermaid_human_friendship",
+      "name": "Mermaids Were Once Friends",
+      "description": "A legend persists that once, mermaids and humans were allies and friends. The sea tribes now deny this and view all humans with hostility.",
+      "reveal_after_chapter": 5
+    },
+    {
+      "id": "yggdrasil_vulnerability",
+      "name": "Yggdrasil Vulnerability",
+      "description": "Damage to Yggdrasil = continent-wide magical collapse across Arcaelis.",
+      "reveal_after_chapter": 2
+    },
+    {
+      "id": "titan_spine_alive",
+      "name": "Titan Spine Lives",
+      "description": "The Titan Wyrm skeleton stretching across Vorthal Canyon may not be fully dead.",
+      "reveal_after_chapter": 1
+    },
+    {
+      "id": "necroth_gateway",
+      "name": "Necroth \u2013 Broken Afterlife",
+      "description": "Necroth is not just a cursed region \u2014 it is a broken afterlife gateway.",
+      "reveal_after_chapter": 6
+    },
+    {
+      "id": "aerelion_fall",
+      "name": "Aerelion Destruction",
+      "description": "If the floating kingdom Aerelion falls \u2192 global destruction.",
+      "reveal_after_chapter": 12
+    },
+    {
+      "id": "atlantis_origin",
+      "name": "Atlan Was a Great Civilization",
+      "description": "Atlan was once a flourishing human civilization that maintained trade and friendship with Mermans. Its destruction is one of the world's greatest tragedies.",
+      "reveal_after_chapter": 8
+    },
+    {
+      "id": "necroth_gold_city",
+      "name": "Lost City of Gold",
+      "description": "A hidden lost city of Gold exists in the center of Necroth.",
+      "reveal_after_chapter": 10
+    },
+    {
+      "id": "time_dragon",
+      "name": "Time Dragon",
+      "description": "A time dragon lives at the Golden Mountain below the mountain range in Vorthal Canyon.",
+      "reveal_after_chapter": 6
+    },
+    {
+      "id": "void_demon_rising",
+      "name": "Void Demon Sect Rising",
+      "description": "The Void Demon Sect is secretly rising again in Valkryn.",
+      "reveal_after_chapter": 4
+    },
+    {
+      "id": "dakota_prophecy",
+      "name": "Dakota Prophecy",
+      "description": "The Kashirin Tribe believes in and protects the desert for the Dakota prophecy.",
+      "reveal_after_chapter": 1
+    },
+    {
+      "id": "kaleris_legend",
+      "name": "Kaleris \u2014 The Mage God",
+      "description": "A mage god said to have helped humanity 8,000 years ago in a catastrophic event. A legend, but most people follow him as a deity. The most worshipped figure across all civilizations.",
+      "reveal_after_chapter": 3
+    },
+    {
+      "id": "cloud_kingdom_legend",
+      "name": "The Cloud Kingdom Legend",
+      "description": "A legend of a kingdom in the clouds \u2014 no one living has seen it, but it is believed to exist. In truth, it is Nimboria, placed there by Hazin 5,000 years ago.",
+      "reveal_after_chapter": 0
+    },
+    {
+      "id": "lost_sanctis_sects",
+      "name": "The Lost Sects of Sanctis",
+      "description": "Legend states there were 10 great ancient sects. In Sanctis Basin, only 7 mountain plains are known (6 used by clans, 1 by medic town). A young man recently found one of the missing 3 in a secret cove behind a waterfall forming the new Azure Wind Sect. The remaining 2 ancient sect locations are still completely hidden, their ruins and scrolls lost to time.",
+      "reveal_after_chapter": 0
+    }
+  ]
+}

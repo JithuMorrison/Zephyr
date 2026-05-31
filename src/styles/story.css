@@ -1,0 +1,649 @@
+/* ── STORY PAGE STYLES ── */
+.story-page {
+  /* CSS VARIABLES */
+  --bg: #0d0b08;
+  --bg2: #111009;
+  --bg3: #181510;
+  --bg4: #1e1a13;
+  --surface: #221e16;
+  --gold: #c8a84b;
+  --gold2: #e8c97a;
+  --gold-dim: #8a7030;
+  --red: #8b2020;
+  --red2: #c23030;
+  --shadow: #1a0a0a;
+  --text: #d4c9b0;
+  --text2: #a89880;
+  --text3: #6e5e48;
+  --border: rgba(200, 168, 75, 0.15);
+  --border2: rgba(200, 168, 75, 0.3);
+
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 18px;
+  line-height: 1.85;
+  font-weight: 300;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* NOISE OVERLAY */
+.story-page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.4;
+}
+
+/* TITLE SCREEN */
+.story-page .title-screen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4rem 2rem;
+  position: relative;
+  background: radial-gradient(
+    ellipse 80% 60% at 50% 40%,
+    #1a0a0a 0%,
+    #0d0b08 70%
+  );
+}
+
+.story-page .title-screen::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  background: linear-gradient(transparent, var(--bg));
+  pointer-events: none;
+}
+
+.story-page .title-emblem {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+}
+
+.story-page .series-label {
+  font-family: "Cinzel Decorative", serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.4em;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.story-page .main-title {
+  font-family: "Cinzel Decorative", serif;
+  font-size: clamp(2.4rem, 6vw, 4.5rem);
+  color: var(--gold);
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 60px rgba(200, 168, 75, 0.2);
+}
+
+.story-page .subtitle {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--text2);
+  letter-spacing: 0.1em;
+  margin-bottom: 1.5rem;
+}
+
+.story-page .divider-gold {
+  width: 120px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--gold-dim),
+    transparent
+  );
+  margin: 1.5rem auto;
+}
+
+.story-page .world-tag {
+  font-family: "Cinzel Decorative", serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.3em;
+  color: var(--gold2);
+  margin-bottom: 1.5rem;
+}
+
+.story-page .title-action-btn {
+  font-family: "Cinzel Decorative", serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  padding: 0.8rem 2rem;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  background: rgba(200, 168, 75, 0.1);
+  border: 1px solid var(--gold-dim);
+  color: var(--gold);
+  display: inline-block;
+  text-align: center;
+}
+
+.story-page .title-action-btn:hover {
+  background: rgba(200, 168, 75, 0.2);
+  border-color: var(--gold);
+  color: var(--gold2);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(200, 168, 75, 0.15);
+}
+
+.story-page .title-action-btn.secondary {
+  background: transparent;
+  border-color: rgba(200, 168, 75, 0.3);
+  color: var(--text2);
+}
+
+.story-page .title-action-btn.secondary:hover {
+  border-color: var(--gold-dim);
+  color: var(--gold);
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* NAVIGATION */
+.story-page .chapter-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(13, 11, 8, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+  padding: 0.75rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.story-page .nav-title {
+  font-family: "Cinzel Decorative", serif;
+  font-size: 0.7rem;
+  color: var(--gold-dim);
+  letter-spacing: 0.25em;
+  white-space: nowrap;
+}
+
+.story-page .chapter-list {
+  display: flex;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.story-page .ch-btn {
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--text2);
+  font-family: "Cinzel Decorative", serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.story-page .ch-btn:hover,
+.story-page .ch-btn.active {
+  color: var(--gold);
+  border-color: var(--border2);
+  background: rgba(200, 168, 75, 0.05);
+}
+
+/* MAIN CONTENT */
+.story-page .novel-body {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* CHAPTER */
+.story-page .chapter {
+  padding: 5rem 0 2rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
+}
+
+.story-page .chapter.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.story-page .chapter-header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.story-page .chapter-number {
+  font-family: "Cinzel Decorative", serif;
+  font-size: 0.6rem;
+  letter-spacing: 0.4em;
+  color: var(--gold-dim);
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.story-page .chapter-title {
+  font-family: "Cinzel Decorative", serif;
+  font-size: clamp(1.4rem, 3vw, 2.2rem);
+  color: var(--gold);
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+.story-page .chapter-epigraph {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--text3);
+  max-width: 420px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.story-page .chapter-divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 2.5rem 0;
+}
+
+.story-page .chapter-divider::before,
+.story-page .chapter-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border2));
+}
+.story-page .chapter-divider::after {
+  background: linear-gradient(270deg, transparent, var(--border2));
+}
+
+.story-page .chapter-divider span {
+  font-size: 0.6rem;
+  color: var(--gold-dim);
+  letter-spacing: 0.3em;
+}
+
+/* PROSE */
+.story-page .prose p {
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.story-page .prose .img-float-left {
+  float: left;
+  max-width: 40%;
+  margin: 0.5rem 1.5rem 1rem 0;
+  border-radius: 4px;
+  border: 1px solid var(--border2);
+}
+
+.story-page .prose .img-float-right {
+  float: right;
+  max-width: 40%;
+  margin: 0.5rem 0 1rem 1.5rem;
+  border-radius: 4px;
+  border: 1px solid var(--border2);
+}
+
+.story-page .prose p:first-child::first-letter {
+  font-family: "Cinzel Decorative", serif;
+  font-size: 4.5rem;
+  float: left;
+  line-height: 0.8;
+  margin: 0.1em 0.12em 0 0;
+  color: var(--gold);
+  text-shadow: 0 0 30px rgba(200, 168, 75, 0.3);
+}
+
+.story-page .prose em {
+  font-style: italic;
+  color: var(--text2);
+  font-weight: 300;
+}
+
+.story-page .prose strong {
+  font-weight: 600;
+  color: var(--gold2);
+  letter-spacing: 0.02em;
+}
+
+/* SCENE BREAK */
+.story-page .scene-break {
+  text-align: center;
+  margin: 2.5rem 0;
+  color: var(--gold-dim);
+  letter-spacing: 0.4em;
+  font-size: 0.7rem;
+}
+
+/* NARRATION BOX */
+.story-page .narration {
+  border-left: 2px solid var(--gold-dim);
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  margin: 2rem 0;
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  color: var(--text2);
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+/* DIALOGUE */
+.story-page .dialogue {
+  margin: 1.5rem 0 1.5rem 1.5rem;
+  padding: 0.25rem 0 0.25rem 1.2rem;
+  border-left: 1px solid var(--border2);
+  color: var(--text);
+  font-style: normal;
+}
+
+.story-page .speaker {
+  display: block;
+  font-family: "Cinzel Decorative", serif;
+  font-size: 0.6rem;
+  letter-spacing: 0.25em;
+  color: var(--gold-dim);
+  margin-bottom: 0.3rem;
+}
+
+/* MEMORY FLASH */
+.story-page .memory {
+  background: rgba(30, 26, 19, 0.6);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 1.5rem 2rem;
+  margin: 2.5rem 0;
+  position: relative;
+  font-style: italic;
+  color: var(--text2);
+}
+
+.story-page .memory::before {
+  content: "— Memory Fragment —";
+  position: absolute;
+  top: -0.6rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--bg);
+  padding: 0 0.75rem;
+  font-family: "Cinzel Decorative", serif;
+  font-size: 0.55rem;
+  letter-spacing: 0.3em;
+  color: var(--gold-dim);
+  white-space: nowrap;
+}
+
+/* TENSION BOX */
+.story-page .tension {
+  text-align: center;
+  padding: 2rem;
+  margin: 2.5rem 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  font-size: 1.3rem;
+  color: var(--text2);
+  line-height: 1.6;
+}
+
+/* SFX */
+.story-page .sfx {
+  font-family: "Cinzel Decorative", serif;
+  font-size: 1.4rem;
+  color: var(--red2);
+  letter-spacing: 0.1em;
+  display: block;
+  text-align: center;
+  margin: 1rem 0;
+  text-shadow: 0 0 20px rgba(194, 48, 48, 0.3);
+}
+
+/* CHAPTER END */
+.story-page .chapter-end {
+  text-align: center;
+  margin: 4rem 0 6rem;
+  padding: 2rem;
+}
+
+.story-page .chapter-end-divider {
+  width: 200px;
+  margin: 0 auto 1.5rem;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--gold-dim),
+    transparent
+  );
+}
+
+.story-page .end-word {
+  font-family: "Cinzel Decorative", serif;
+  font-size: 0.6rem;
+  letter-spacing: 0.4em;
+  color: var(--text3);
+}
+
+/* FOOTER */
+.story-page footer {
+  text-align: center;
+  padding: 4rem 2rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem;
+  color: var(--text3);
+  letter-spacing: 0.05em;
+}
+
+/* WORLD INTRO */
+.story-page .world-intro {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  padding: 3rem;
+  margin: 4rem 0;
+  position: relative;
+}
+
+.story-page .world-intro-label {
+  position: absolute;
+  top: -0.65rem;
+  left: 3rem;
+  background: var(--bg);
+  padding: 0 1rem;
+  font-family: "Cinzel Decorative", serif;
+  font-size: 0.55rem;
+  letter-spacing: 0.3em;
+  color: var(--gold-dim);
+}
+
+.story-page .world-intro h3 {
+  font-family: "Cinzel Decorative", serif;
+  font-size: 1rem;
+  color: var(--gold);
+  margin-bottom: 0.75rem;
+}
+
+.story-page .world-intro p {
+  color: var(--text2);
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+/* PREV / NEXT NAVIGATION BUTTONS (ADDED) */
+.story-page .chapter-nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 2rem 0 4rem;
+}
+
+.story-page .chapter-nav-btn {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  color: var(--gold-dim);
+  background: transparent;
+  border: 1px solid var(--border);
+  padding: 0.75rem 2rem;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.2s;
+}
+
+.story-page .chapter-nav-btn:hover:not(:disabled) {
+  color: var(--gold);
+  border-color: var(--border2);
+  background: rgba(200, 168, 75, 0.05);
+}
+
+.story-page .chapter-nav-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* ENTITY LINK DIALOG (ADDED) */
+.story-page .entity-dialog-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(13, 11, 8, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.story-page .entity-dialog {
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  border-radius: 4px;
+  padding: 2.5rem;
+  max-width: 400px;
+  text-align: center;
+}
+
+.story-page .entity-dialog h3 {
+  font-family: 'Cinzel Decorative', serif;
+  color: var(--gold);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.story-page .entity-dialog p {
+  font-family: 'Cormorant Garamond', serif;
+  color: var(--text2);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.story-page .entity-dialog-btn {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 0.6rem;
+  letter-spacing: 0.15em;
+  padding: 0.6rem 1.5rem;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin: 0 0.5rem;
+}
+
+.story-page .entity-dialog-btn.primary {
+  background: rgba(200, 168, 75, 0.15);
+  border: 1px solid var(--gold);
+  color: var(--gold);
+}
+
+.story-page .entity-dialog-btn.primary:hover {
+  background: rgba(200, 168, 75, 0.25);
+}
+
+.story-page .entity-dialog-btn.secondary {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text3);
+}
+
+.story-page .entity-dialog-btn.secondary:hover {
+  color: var(--text2);
+  border-color: var(--border2);
+}
+
+/* ENTITY LINK IN TEXT (ADDED) */
+.story-page .entity-link {
+  color: var(--gold2);
+  cursor: pointer;
+  border-bottom: 1px dashed var(--gold-dim);
+  transition: color 0.2s;
+}
+
+.story-page .entity-link:hover {
+  color: var(--gold);
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .story-page {
+    font-size: 16px;
+  }
+  .story-page .novel-body {
+    padding: 0 1.25rem;
+  }
+  .story-page .prose p:first-child::first-letter {
+    font-size: 3.5rem;
+  }
+  .story-page .chapter {
+    padding: 3rem 0 1rem;
+  }
+  .story-page .chapter-nav {
+    padding: 0.6rem 1rem;
+  }
+  .story-page .world-intro {
+    padding: 2rem 1.5rem;
+  }
+  .story-page .chapter-nav-buttons {
+    flex-direction: column;
+  }
+}
