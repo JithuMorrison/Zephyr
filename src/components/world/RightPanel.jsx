@@ -39,14 +39,6 @@ const RightPanel = ({ entity, onNavigate, maxRead }) => {
         >
           Info
         </div>
-        {entity.port_details && (
-          <div 
-            className={`rp-tab ${activeTab === 'port' ? 'active' : ''}`}
-            onClick={() => setActiveTab('port')}
-          >
-            Port
-          </div>
-        )}
       </div>
 
       {activeTab === 'info' && (
@@ -96,6 +88,33 @@ const RightPanel = ({ entity, onNavigate, maxRead }) => {
                 <span className="rp-field-val">{censor('inhabitants', entity.inhabitants)}</span>
               </div>
             )}
+            
+            {/* Catch-all for any other fields like port_details */}
+            {Object.entries(entity).map(([k, v]) => {
+              const skipKeys = ['id', 'name', 'epithet', 'category', 'description', 'sections', 'links', 'tags', 'img', 'type', 'race', 'status', 'location', 'inhabitants', 'era', 'visibility'];
+              if (skipKeys.includes(k) || !v) return null;
+              
+              if (typeof v === 'object' && !Array.isArray(v)) {
+                return (
+                  <div className="rp-section" key={k} style={{marginTop: '1rem', borderTop: '1px dashed var(--border)', paddingTop: '0.5rem'}}>
+                    <div className="rp-section-label" style={{textTransform: 'capitalize'}}>{k.replace('_', ' ')}</div>
+                    {Object.entries(v).map(([subK, subV]) => (
+                      <div className="rp-field" key={subK}>
+                        <span className="rp-field-key" style={{textTransform: 'capitalize'}}>{subK.replace('_', ' ')}</span>
+                        <span className="rp-field-val">{typeof subV === 'object' ? JSON.stringify(subV) : subV}</span>
+                      </div>
+                    ))}
+                  </div>
+                );
+              }
+              
+              return (
+                <div className="rp-field" key={k}>
+                  <span className="rp-field-key" style={{textTransform: 'capitalize'}}>{k.replace('_', ' ')}</span>
+                  <span className="rp-field-val">{v}</span>
+                </div>
+              );
+            })}
           </div>
 
           {entity.tags && entity.tags.length > 0 && isVisible('tags') && (
@@ -125,17 +144,7 @@ const RightPanel = ({ entity, onNavigate, maxRead }) => {
         </>
       )}
 
-      {activeTab === 'port' && entity.port_details && (
-        <div className="rp-section">
-          <div className="rp-section-label">Port Details</div>
-          {Object.entries(entity.port_details).map(([k, v]) => (
-            <div className="rp-field" key={k}>
-              <span className="rp-field-key" style={{textTransform: 'capitalize'}}>{k.replace('_', ' ')}</span>
-              <span className="rp-field-val">{v}</span>
-            </div>
-          ))}
-        </div>
-      )}
+
     </aside>
   );
 };

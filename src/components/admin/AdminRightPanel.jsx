@@ -123,6 +123,20 @@ const AdminRightPanel = ({ entity, editMode, setDraftEntity, onNavigate, worldDa
               {Object.entries(entity).map(([k, v]) => {
                 const skipKeys = ['id', 'name', 'epithet', 'category', 'description', 'sections', 'links', 'tags', 'img', 'type', 'race', 'status', 'location', 'inhabitants', 'era', 'visibility'];
                 if (skipKeys.includes(k) || !v) return null;
+                if (typeof v === 'object' && !Array.isArray(v)) {
+                  return (
+                    <div className="rp-section" key={k} style={{marginTop: '1rem'}}>
+                      <div className="rp-section-label" style={{textTransform: 'capitalize'}}>{k.replace('_', ' ')}</div>
+                      {Object.entries(v).map(([subK, subV]) => (
+                        <div className="rp-field" key={subK}>
+                          <span className="rp-field-key" style={{textTransform: 'capitalize'}}>{subK.replace('_', ' ')}</span>
+                          <span className="rp-field-val">{typeof subV === 'object' ? JSON.stringify(subV) : subV}</span>
+                        </div>
+                      ))}
+                    </div>
+                  );
+                }
+                
                 return (
                   <div className="rp-field" key={k}>
                     <span className="rp-field-key" style={{textTransform: 'capitalize'}}>{k.replace('_', ' ')}</span>
