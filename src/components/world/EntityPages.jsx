@@ -136,18 +136,21 @@ export const EntityDisplay = ({ entity, onNavigate, maxRead }) => {
 
   return (
     <div className="page active">
-      {entity.category === 'characters' && (
+      {(entity.category === 'characters' || entity.category === 'monsters') && (
         <div className="char-header">
           <div className="char-portrait">
-            {entity.img ? <img src={entity.img} alt={entity.name} style={{width:'100%', height:'100%', objectFit:'cover'}}/> : '👤'}
+            {entity.img ? <img src={entity.img} alt={entity.name} style={{width:'100%', height:'100%', objectFit:'cover'}}/> : (entity.category === 'monsters' ? '🐙' : '👤')}
           </div>
           <div className="char-info-block">
             <h2 className="char-name">{censor('name', entity.name)}</h2>
             {entity.epithet && isVisible('epithet') && <div className="char-epithet">{entity.epithet}</div>}
             <div className="stat-pills">
               {entity.race && <div className="stat-pill">Race: <span>{censor('race', entity.race)}</span></div>}
+              {entity.type && <div className="stat-pill">Type: <span>{censor('type', entity.type)}</span></div>}
               {entity.status && <div className="stat-pill">Status: <span>{censor('status', entity.status)}</span></div>}
               {entity.era && <div className="stat-pill">Era: <span>{censor('era', entity.era)}</span></div>}
+              {entity.location && <div className="stat-pill">Location: <span>{censor('location', entity.location)}</span></div>}
+              {entity.danger_level && <div className="stat-pill">Danger: <span>{entity.danger_level}</span></div>}
             </div>
             {entity.tags && isVisible('tags') && (
               <div className="tags-wrap" style={{marginTop: '0.75rem'}}>
@@ -158,7 +161,7 @@ export const EntityDisplay = ({ entity, onNavigate, maxRead }) => {
         </div>
       )}
 
-      {entity.category !== 'characters' && (
+      {entity.category !== 'characters' && entity.category !== 'monsters' && (
         <>
           <h2 className="page-title">{censor('name', entity.name)}</h2>
           {entity.img && (
@@ -198,11 +201,12 @@ export const EntityDisplay = ({ entity, onNavigate, maxRead }) => {
 
 export const TemplatesPage = ({ onUseTemplate }) => {
   const templates = [
-    { type: 'location', name: 'Location', icon: '🗺️', desc: 'Cities, ruins, and regions.' },
     { type: 'character', name: 'Character', icon: '👤', desc: 'People and NPCs.' },
+    { type: 'monster', name: 'Creature / Monster', icon: '🐙', desc: 'Beasts and foes.' },
+    { type: 'power', name: 'Power / Ability', icon: '⚡', desc: 'Skills, spells, and abilities.' },
     { type: 'faction', name: 'Faction', icon: '⚑', desc: 'Groups and organizations.' },
+    { type: 'location', name: 'Location', icon: '🗺️', desc: 'Cities, ruins, and regions.' },
     { type: 'history', name: 'Historical Event', icon: '📜', desc: 'Wars and key events.' },
-    { type: 'monster', name: 'Creature / Monster', icon: '🐙', desc: 'Beasts and foes.' }
   ];
 
   return (
@@ -227,7 +231,10 @@ export const NewPageForm = ({ templateType, onCancel, onSave }) => {
   const [formData, setFormData] = useState({
     name: '',
     category: templateType ? `${templateType}s` : 'characters',
-    description: ''
+    description: '',
+    epithet: '',
+    race: '',
+    danger_level: '',
   });
 
   const handleChange = (e) => {
@@ -238,17 +245,61 @@ export const NewPageForm = ({ templateType, onCancel, onSave }) => {
     e.preventDefault();
     if (!formData.name.trim()) return;
     
-    // In a real app we'd construct the full object and save to backend
-    const newEntity = {
-      id: `${formData.category.slice(0,-1)}-${formData.name.toLowerCase().replace(/\s+/g, '-')}`,
+    const cat = formData.category;
+    const baseEntity = {
+      id: `${cat.slice(0,-1)}-${formData.name.toLowerCase().replace(/\s+/g, '-')}`,
       name: formData.name,
-      category: formData.category,
+      category: cat,
       description: formData.description,
-      type: 'New Entry'
     };
+
+    // Add category-specific default fields
+    if (cat === 'characters') {
+      Object.assign(baseEntity, {
+        epithet: formData.epithet || '',
+        type: 'New',
+        race: formData.race || '',
+        status: 'Active',
+        era: 'Current',
+        tags: [],
+        img: '',
+        sections: [
+          { heading: 'Biography', content: '' },
+          { heading: 'Powers', content: '' }
+        ],
+        links: [],
+      });
+    } else if (cat === 'monsters') {
+      Object.assign(baseEntity, {
+        type: formData.danger_level || 'Unknown',
+        location: '',
+        tags: [],
+        img: '',
+        sections: [
+          { heading: 'Description', content: '' },
+          { heading: 'Abilities', content: '' }
+        ],
+        links: [],
+      });
+    } else if (cat === 'powers') {
+      Object.assign(baseEntity, {
+        type: 'Ability',
+        tags: [],
+        img: '',
+        sections: [
+          { heading: 'Overview', content: '' },
+          { heading: 'Mechanics', content: '' }
+        ],
+        links: [],
+      });
+    } else {
+      baseEntity.type = 'New Entry';
+    }
     
-    onSave(newEntity);
+    onSave(baseEntity);
   };
+
+  const cat = formData.category;
 
   return (
     <div className="page active">
@@ -270,13 +321,34 @@ export const NewPageForm = ({ templateType, onCancel, onSave }) => {
         <div className="form-group">
           <label>Category</label>
           <select name="category" value={formData.category} onChange={handleChange}>
-            <option value="locations">Locations</option>
             <option value="characters">Characters</option>
-            <option value="factions">Factions</option>
-            <option value="history">History</option>
             <option value="monsters">Monsters</option>
+            <option value="powers">Powers</option>
+            <option value="factions">Factions</option>
+            <option value="locations">Locations</option>
+            <option value="history">History</option>
           </select>
         </div>
+
+        {cat === 'characters' && (
+          <>
+            <div className="form-group">
+              <label>Epithet / Title</label>
+              <input type="text" name="epithet" value={formData.epithet} onChange={handleChange} placeholder="e.g. The Shadow Bearer" />
+            </div>
+            <div className="form-group">
+              <label>Race</label>
+              <input type="text" name="race" value={formData.race} onChange={handleChange} placeholder="e.g. Human, Elf, Tabaxi" />
+            </div>
+          </>
+        )}
+
+        {cat === 'monsters' && (
+          <div className="form-group">
+            <label>Creature Type</label>
+            <input type="text" name="danger_level" value={formData.danger_level} onChange={handleChange} placeholder="e.g. Deep-sea Predator, Shadow Beast" />
+          </div>
+        )}
         
         <div className="form-group">
           <label>Short Description</label>

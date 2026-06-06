@@ -24,6 +24,11 @@
       "id": "monsters",
       "label": "Monsters",
       "icon": "🐙"
+    },
+    {
+      "id": "powers",
+      "label": "Powers",
+      "icon": "⚡"
     }
   ],
   "entries": [
@@ -676,7 +681,8 @@
           "label": "Location",
           "relationship": "Habitat"
         }
-      ]
+      ],
+      "img": ""
     },
     {
       "id": "character-mir",
@@ -709,7 +715,8 @@
       "name": "Tir",
       "category": "characters",
       "description": "Ha",
-      "type": "New Entry"
+      "type": "NPC",
+      "race": "Human"
     }
   ],
   "subfolders": {
@@ -737,7 +744,8 @@
     ],
     "factions": [],
     "history": [],
-    "monsters": []
+    "monsters": [],
+    "powers": []
   },
   "world": {
     "name": "Zephyr",

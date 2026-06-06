@@ -296,14 +296,16 @@ const AdminEntityDisplay = ({ entity, editMode, setDraftEntity, onNavigate }) =>
   const inputStyle = { background: 'var(--surface2)', border: '1px dashed var(--border3)', color: 'inherit', font: 'inherit', width: '100%', boxSizing: 'border-box', padding: '2px' };
   const textareaStyle = { ...inputStyle, padding: '8px', minHeight: '120px', resize: 'vertical' };
 
-  const isCharacter = entity.id ? entity.id.startsWith('char-') : entity.category === 'characters';
+  const isCharacter = entity.category === 'characters';
+  const isMonster = entity.category === 'monsters';
+  const usePortraitLayout = isCharacter || isMonster;
   
-  if (isCharacter) {
+  if (usePortraitLayout) {
     return (
       <div className="page active">
         <div className="char-header">
           <div className="char-portrait" style={{position:'relative'}}>
-              {entity.img ? <img src={entity.img} alt={entity.name} style={{width:'100%', height:'100%', objectFit:'cover'}}/> : '👤'}
+              {entity.img ? <img src={entity.img} alt={entity.name} style={{width:'100%', height:'100%', objectFit:'cover'}}/> : (isMonster ? '🐙' : '👤')}
               {editMode && (
                 <div style={{position:'absolute', inset:0, background:'rgba(0,0,0,0.5)', display:'flex', flexDirection:'column', gap:'8px', alignItems:'center', justifyContent:'center'}}>
                   <label style={{cursor:'pointer', color:'#fff', background:'rgba(0,0,0,0.8)', padding:'4px 8px', borderRadius:'4px', fontSize:'12px'}}>
@@ -331,11 +333,12 @@ const AdminEntityDisplay = ({ entity, editMode, setDraftEntity, onNavigate }) =>
                     onChange={e => handleChange('category', e.target.value)}
                     style={{...inputStyle, width:'120px'}}
                   >
-                    <option value="locations">Locations</option>
                     <option value="characters">Characters</option>
-                    <option value="factions">Factions</option>
-                    <option value="history">History</option>
                     <option value="monsters">Monsters</option>
+                    <option value="powers">Powers</option>
+                    <option value="factions">Factions</option>
+                    <option value="locations">Locations</option>
+                    <option value="history">History</option>
                   </select>
                   <input type="number" placeholder="Ch." title="Unlock Chapter" value={entity.visibility?.name || ''} onChange={e => handleVisibilityChange('name', e.target.value)} style={{...inputStyle, width:'60px'}} />
                 </div>
@@ -350,7 +353,7 @@ const AdminEntityDisplay = ({ entity, editMode, setDraftEntity, onNavigate }) =>
                     onChange={e => handleChange('epithet', e.target.value)}
                     className="char-epithet" 
                     style={{...inputStyle, background:'var(--surface)', color:'var(--text2)', flex:1}}
-                    placeholder="Epithet"
+                    placeholder={isMonster ? "Creature subtype" : "Epithet"}
                   />
                   <input type="number" placeholder="Ch." title="Unlock Chapter" value={entity.visibility?.epithet || ''} onChange={e => handleVisibilityChange('epithet', e.target.value)} style={{...inputStyle, width:'60px'}} />
                 </div>
@@ -361,10 +364,12 @@ const AdminEntityDisplay = ({ entity, editMode, setDraftEntity, onNavigate }) =>
               <div className="stat-pills" style={{marginTop:'auto'}}>
                 {editMode ? (
                   <>
-                    <div style={{display:'flex', alignItems:'center', gap:'2px'}}>
-                      <input value={entity.race || ''} onChange={e => handleChange('race', e.target.value)} className="stat-pill" placeholder="Race" style={{...inputStyle, width:'90px'}} />
-                      <input type="number" placeholder="Ch." title="Unlock Chapter" value={entity.visibility?.race || ''} onChange={e => handleVisibilityChange('race', e.target.value)} style={{...inputStyle, width:'40px', fontSize:'10px'}} />
-                    </div>
+                    {isCharacter && (
+                      <div style={{display:'flex', alignItems:'center', gap:'2px'}}>
+                        <input value={entity.race || ''} onChange={e => handleChange('race', e.target.value)} className="stat-pill" placeholder="Race" style={{...inputStyle, width:'90px'}} />
+                        <input type="number" placeholder="Ch." title="Unlock Chapter" value={entity.visibility?.race || ''} onChange={e => handleVisibilityChange('race', e.target.value)} style={{...inputStyle, width:'40px', fontSize:'10px'}} />
+                      </div>
+                    )}
                     <div style={{display:'flex', alignItems:'center', gap:'2px'}}>
                       <input value={entity.status || ''} onChange={e => handleChange('status', e.target.value)} className="stat-pill" placeholder="Status" style={{...inputStyle, width:'90px'}} />
                       <input type="number" placeholder="Ch." title="Unlock Chapter" value={entity.visibility?.status || ''} onChange={e => handleVisibilityChange('status', e.target.value)} style={{...inputStyle, width:'40px', fontSize:'10px'}} />
@@ -373,12 +378,26 @@ const AdminEntityDisplay = ({ entity, editMode, setDraftEntity, onNavigate }) =>
                       <input value={entity.era || ''} onChange={e => handleChange('era', e.target.value)} className="stat-pill" placeholder="Era" style={{...inputStyle, width:'90px'}} />
                       <input type="number" placeholder="Ch." title="Unlock Chapter" value={entity.visibility?.era || ''} onChange={e => handleVisibilityChange('era', e.target.value)} style={{...inputStyle, width:'40px', fontSize:'10px'}} />
                     </div>
+                    {isMonster && (
+                      <div style={{display:'flex', alignItems:'center', gap:'2px'}}>
+                        <input value={entity.location || ''} onChange={e => handleChange('location', e.target.value)} className="stat-pill" placeholder="Location" style={{...inputStyle, width:'90px'}} />
+                        <input type="number" placeholder="Ch." title="Unlock Chapter" value={entity.visibility?.location || ''} onChange={e => handleVisibilityChange('location', e.target.value)} style={{...inputStyle, width:'40px', fontSize:'10px'}} />
+                      </div>
+                    )}
+                    {isMonster && (
+                      <div style={{display:'flex', alignItems:'center', gap:'2px'}}>
+                        <input value={entity.danger_level || ''} onChange={e => handleChange('danger_level', e.target.value)} className="stat-pill" placeholder="Danger Level" style={{...inputStyle, width:'90px'}} />
+                      </div>
+                    )}
                   </>
                 ) : (
                   <>
                     {entity.race && <div className="stat-pill">Race: <span>{entity.race}</span></div>}
+                    {entity.type && <div className="stat-pill">Type: <span>{entity.type}</span></div>}
                     {entity.status && <div className="stat-pill">Status: <span>{entity.status}</span></div>}
                     {entity.era && <div className="stat-pill">Era: <span>{entity.era}</span></div>}
+                    {entity.location && <div className="stat-pill">Location: <span>{entity.location}</span></div>}
+                    {entity.danger_level && <div className="stat-pill">Danger: <span>{entity.danger_level}</span></div>}
                   </>
                 )}
               </div>
@@ -438,11 +457,12 @@ const AdminEntityDisplay = ({ entity, editMode, setDraftEntity, onNavigate }) =>
             onChange={e => handleChange('category', e.target.value)}
             style={{...inputStyle, width:'120px', marginBottom:0}}
           >
-            <option value="locations">Locations</option>
             <option value="characters">Characters</option>
-            <option value="factions">Factions</option>
-            <option value="history">History</option>
             <option value="monsters">Monsters</option>
+            <option value="powers">Powers</option>
+            <option value="factions">Factions</option>
+            <option value="locations">Locations</option>
+            <option value="history">History</option>
           </select>
           <input type="number" placeholder="Ch." title="Unlock Chapter" value={entity.visibility?.name || ''} onChange={e => handleVisibilityChange('name', e.target.value)} style={{...inputStyle, width:'60px', marginBottom:0}} />
         </div>
