@@ -80,7 +80,8 @@
           "relationship": "Traveling companion"
         }
       ],
-      "location": "Halwen"
+      "location": "Halwen",
+      "subfolderId": "folder-main"
     },
     {
       "id": "char-garret",
@@ -109,7 +110,8 @@
           "label": "Location",
           "relationship": "Resident"
         }
-      ]
+      ],
+      "subfolderId": "folder-1780333544182"
     },
     {
       "id": "char-sera",
@@ -142,7 +144,8 @@
       "visibility": {
         "epithet": 2,
         "race": 4
-      }
+      },
+      "subfolderId": "folder-1780333544182"
     },
     {
       "id": "char-voryn",
@@ -216,7 +219,8 @@
           "label": "Character",
           "relationship": "Daughter"
         }
-      ]
+      ],
+      "subfolderId": "folder-legends"
     },
     {
       "id": "char-tora",
@@ -317,6 +321,8 @@
       "category": "locations",
       "name": "Saltstead",
       "type": "Colony / Port City",
+      "locationType": "city",
+      "parentId": "loc-crystal",
       "location": "Crystal Waters archipelago",
       "tags": [
         "port",
@@ -325,6 +331,17 @@
       ],
       "img": "https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?q=80&w=800&auto=format&fit=crop",
       "description": "A thriving neutral port city built on a series of interconnected atolls.",
+      "geo": {
+        "lat": -18.5,
+        "lng": 42.3,
+        "width": 3,
+        "height": 2,
+        "elevation": 5,
+        "direction": "SE"
+      },
+      "nearby": [
+        "loc-crystal"
+      ],
       "sections": [
         {
           "heading": "Description",
@@ -360,12 +377,26 @@
       "category": "locations",
       "name": "Crystal Waters",
       "type": "Region",
+      "locationType": "region",
+      "parentId": "loc-aegir",
       "location": "Aegir Ocean",
       "tags": [
         "ocean",
         "archipelago"
       ],
       "description": "A massive archipelago known for its unnaturally clear waters and treacherous submerged reefs.",
+      "geo": {
+        "lat": -20,
+        "lng": 40,
+        "width": 80,
+        "height": 50,
+        "elevation": 0,
+        "direction": "E"
+      },
+      "nearby": [
+        "loc-aegir",
+        "loc-saltstead"
+      ],
       "sections": [
         {
           "heading": "Overview",
@@ -385,12 +416,23 @@
       "category": "locations",
       "name": "Aegir Ocean",
       "type": "Ocean",
+      "locationType": "ocean",
+      "parentId": null,
       "location": "Eastern Hemisphere",
       "tags": [
         "ocean",
         "vast"
       ],
       "description": "The largest body of water in the known world.",
+      "geo": {
+        "lat": -10,
+        "lng": 35,
+        "width": 500,
+        "height": 300,
+        "elevation": 0,
+        "direction": "E"
+      },
+      "nearby": [],
       "sections": [
         {
           "heading": "Overview",
@@ -404,12 +446,23 @@
       "category": "locations",
       "name": "Thibis",
       "type": "City-State",
+      "locationType": "city",
+      "parentId": "loc-arcaelis",
       "location": "Mainland Coast",
       "tags": [
         "mainland",
         "city"
       ],
       "description": "A powerful militaristic city-state on the mainland coast.",
+      "geo": {
+        "lat": 12,
+        "lng": -5,
+        "width": 8,
+        "height": 6,
+        "elevation": 45,
+        "direction": "W"
+      },
+      "nearby": [],
       "sections": [
         {
           "heading": "Overview",
@@ -423,6 +476,8 @@
       "category": "locations",
       "name": "Halwen",
       "type": "Village",
+      "locationType": "village",
+      "parentId": "loc-solvara",
       "location": "Solvara, Arcaelis",
       "tags": [
         "village",
@@ -430,6 +485,17 @@
         "arcaelis"
       ],
       "description": "A secluded village in a valley that 'breathes wrong'.",
+      "geo": {
+        "lat": 28.5,
+        "lng": -8.2,
+        "width": 1,
+        "height": 1,
+        "elevation": 320,
+        "direction": "NW"
+      },
+      "nearby": [
+        "loc-solvara"
+      ],
       "sections": [
         {
           "heading": "Overview",
@@ -454,12 +520,26 @@
       "category": "locations",
       "name": "Solvara",
       "type": "Region",
+      "locationType": "region",
+      "parentId": "loc-arcaelis",
       "location": "Arcaelis",
       "tags": [
         "region",
         "arcaelis"
       ],
       "description": "A diverse region on the continent of Arcaelis.",
+      "geo": {
+        "lat": 25,
+        "lng": -10,
+        "width": 120,
+        "height": 80,
+        "elevation": 200,
+        "direction": "N"
+      },
+      "nearby": [
+        "loc-halwen",
+        "loc-arcaelis"
+      ],
       "sections": [
         {
           "heading": "Overview",
@@ -469,6 +549,48 @@
       "links": [
         {
           "id": "loc-halwen",
+          "label": "Location",
+          "relationship": "Contains"
+        }
+      ]
+    },
+    {
+      "id": "loc-arcaelis",
+      "category": "locations",
+      "name": "Arcaelis",
+      "type": "Continent",
+      "locationType": "continent",
+      "parentId": null,
+      "location": "Western Hemisphere",
+      "tags": [
+        "continent",
+        "mana",
+        "magic"
+      ],
+      "description": "The Mana Dominion — a continent deeply developed with ancient ruins, high magic, and diverse races.",
+      "geo": {
+        "lat": 20,
+        "lng": -15,
+        "width": 400,
+        "height": 350,
+        "elevation": 0,
+        "direction": "W"
+      },
+      "nearby": [],
+      "sections": [
+        {
+          "heading": "Overview",
+          "content": "Arcaelis is the continent of magic. Its civilizations are built upon Mana, and its motto is: Knowledge is the purest currency."
+        }
+      ],
+      "links": [
+        {
+          "id": "loc-solvara",
+          "label": "Location",
+          "relationship": "Contains"
+        },
+        {
+          "id": "loc-thibis",
           "label": "Location",
           "relationship": "Contains"
         }
@@ -534,7 +656,7 @@
       "id": "character-mir",
       "name": "Mir",
       "category": "characters",
-      "description": "A Swordsman",
+      "description": "A Swordsman.",
       "type": "Support",
       "epithet": "Swords master",
       "race": "Human",
@@ -555,6 +677,33 @@
       "location": "Halwen"
     }
   ],
+  "subfolders": {
+    "characters": [
+      {
+        "id": "folder-main",
+        "name": "Main Characters",
+        "entries": []
+      },
+      {
+        "id": "folder-legends",
+        "name": "Legends",
+        "entries": []
+      },
+      {
+        "id": "folder-gods",
+        "name": "Gods & Beings",
+        "entries": []
+      },
+      {
+        "id": "folder-1780333544182",
+        "name": "Support",
+        "entries": []
+      }
+    ],
+    "factions": [],
+    "history": [],
+    "monsters": []
+  },
   "world": {
     "name": "Zephyr",
     "description": "Three dominions shape the known world. Magic, Aura, and Primal Essence form the foundation of power across the continents.",

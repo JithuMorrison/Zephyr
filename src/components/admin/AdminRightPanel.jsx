@@ -15,6 +15,13 @@ const AdminRightPanel = ({ entity, editMode, setDraftEntity, onNavigate, worldDa
     setDraftEntity(prev => ({ ...prev, [field]: value }));
   };
 
+  const handleGeoChange = (field, value) => {
+    setDraftEntity(prev => ({
+      ...prev,
+      geo: { ...(prev.geo || {}), [field]: value }
+    }));
+  };
+
   const handleTagsChange = (val) => {
     const tags = val.split(',').map(t => t.trim()).filter(t => t.length > 0);
     setDraftEntity(prev => ({ ...prev, tags }));
@@ -157,6 +164,81 @@ const AdminRightPanel = ({ entity, editMode, setDraftEntity, onNavigate, worldDa
                 </div>
               </div>
             ))}
+
+            {worldData.subfolders && worldData.subfolders[entity.category] && (
+              <div className="rp-field" style={{flexDirection:'column', alignItems:'flex-start', gap:'4px', marginBottom:'8px'}}>
+                <span className="rp-field-key">Subfolder</span>
+                <select value={entity.subfolderId || ''} onChange={e => handleChange('subfolderId', e.target.value)} style={{...inputStyle, width:'100%'}}>
+                  <option value="">(Uncategorized)</option>
+                  {worldData.subfolders[entity.category].map(folder => (
+                    <option key={folder.id} value={folder.id}>{folder.name}</option>
+                  ))}
+                </select>
+              </div>
+            )}
+            
+            {entity.category === 'locations' && (
+              <>
+                <div className="rp-section" style={{marginTop:'1.5rem', marginBottom:'1rem', borderTop:'1px solid var(--border)', paddingTop:'1rem'}}>
+                  <div className="rp-section-label">Hierarchy & Map</div>
+                  
+                  <div className="rp-field" style={{flexDirection:'column', alignItems:'flex-start', gap:'4px', marginBottom:'8px'}}>
+                    <span className="rp-field-key">Location Type</span>
+                    <select value={entity.locationType || 'region'} onChange={e => handleChange('locationType', e.target.value)} style={{...inputStyle, width:'100%'}}>
+                      <option value="world">World</option>
+                      <option value="continent">Continent</option>
+                      <option value="ocean">Ocean</option>
+                      <option value="region">Region</option>
+                      <option value="city">City / City-State</option>
+                      <option value="town">Town</option>
+                      <option value="village">Village</option>
+                      <option value="forest">Forest</option>
+                      <option value="mountain">Mountain</option>
+                      <option value="plains">Plains</option>
+                      <option value="island">Island</option>
+                    </select>
+                  </div>
+                  
+                  <div className="rp-field" style={{flexDirection:'column', alignItems:'flex-start', gap:'4px', marginBottom:'8px'}}>
+                    <span className="rp-field-key">Parent Location</span>
+                    <select value={entity.parentId || ''} onChange={e => handleChange('parentId', e.target.value)} style={{...inputStyle, width:'100%'}}>
+                      <option value="">None (Root Level)</option>
+                      {worldData.entries.filter(e => e.category === 'locations' && e.id !== entity.id).map(loc => (
+                        <option key={loc.id} value={loc.id}>{loc.name}</option>
+                      ))}
+                    </select>
+                  </div>
+
+                  <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:'8px', marginTop:'0.5rem'}}>
+                    <div style={{display:'flex', flexDirection:'column', gap:'4px'}}>
+                      <span className="rp-field-key" style={{fontSize:'0.7rem'}}>Latitude</span>
+                      <input type="number" step="any" value={entity.geo?.lat || ''} onChange={e => handleGeoChange('lat', parseFloat(e.target.value))} style={inputStyle} />
+                    </div>
+                    <div style={{display:'flex', flexDirection:'column', gap:'4px'}}>
+                      <span className="rp-field-key" style={{fontSize:'0.7rem'}}>Longitude</span>
+                      <input type="number" step="any" value={entity.geo?.lng || ''} onChange={e => handleGeoChange('lng', parseFloat(e.target.value))} style={inputStyle} />
+                    </div>
+                    <div style={{display:'flex', flexDirection:'column', gap:'4px'}}>
+                      <span className="rp-field-key" style={{fontSize:'0.7rem'}}>Width (km)</span>
+                      <input type="number" step="any" value={entity.geo?.width || ''} onChange={e => handleGeoChange('width', parseFloat(e.target.value))} style={inputStyle} />
+                    </div>
+                    <div style={{display:'flex', flexDirection:'column', gap:'4px'}}>
+                      <span className="rp-field-key" style={{fontSize:'0.7rem'}}>Height (km)</span>
+                      <input type="number" step="any" value={entity.geo?.height || ''} onChange={e => handleGeoChange('height', parseFloat(e.target.value))} style={inputStyle} />
+                    </div>
+                    <div style={{display:'flex', flexDirection:'column', gap:'4px'}}>
+                      <span className="rp-field-key" style={{fontSize:'0.7rem'}}>Elevation (m)</span>
+                      <input type="number" step="any" value={entity.geo?.elevation || ''} onChange={e => handleGeoChange('elevation', parseFloat(e.target.value))} style={inputStyle} />
+                    </div>
+                    <div style={{display:'flex', flexDirection:'column', gap:'4px'}}>
+                      <span className="rp-field-key" style={{fontSize:'0.7rem'}}>Direction</span>
+                      <input type="text" value={entity.geo?.direction || ''} onChange={e => handleGeoChange('direction', e.target.value)} style={inputStyle} placeholder="N, NE, SW..." />
+                    </div>
+                  </div>
+                </div>
+              </>
+            )}
+
             <div className="rp-section" style={{marginTop:'1rem'}}>
               <div className="rp-section-label">Tags (comma separated)</div>
               <div style={{display:'flex', width:'100%', gap:'4px', marginTop:'4px'}}>

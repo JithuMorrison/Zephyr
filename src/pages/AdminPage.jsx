@@ -126,6 +126,11 @@ const AdminPage = () => {
     }
   };
 
+  const handleUpdateSubfolders = async (newSubfolders) => {
+    const updatedData = { ...worldData, subfolders: newSubfolders };
+    await handleSaveData(updatedData);
+  };
+
   if (!isAuthenticated) {
     return (
       <div className="world-page">
@@ -183,8 +188,11 @@ const AdminPage = () => {
               </>
             )}
             
-            <Link to="/world" className="tb-btn" style={{textDecoration:'none', marginLeft:'1rem'}}>
+            <Link to="/world" className="tb-btn" style={{textDecoration:'none'}}>
               View Public Wiki
+            </Link>
+            <Link to="/map" className="tb-btn" style={{textDecoration:'none'}}>
+              🗺 World Map
             </Link>
           </div>
         </header>
@@ -193,7 +201,9 @@ const AdminPage = () => {
           currentEntityId={currentEntityId} 
           onSelect={handleSelectEntity}
           onNewPage={() => setViewState('templates')}
-          worldData={worldData} /* Note: sidebar usually imports worldData directly, but here we pass it */
+          worldData={worldData}
+          isAdmin={true}
+          onUpdateSubfolders={handleUpdateSubfolders}
         />
 
         <main className="main" id="main-content">

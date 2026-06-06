@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import worldData from '../../data/world_data.json';
 
-const RightPanel = ({ entity, onNavigate, maxRead }) => {
+const RightPanel = ({ entity, onNavigate, maxRead, worldData }) => {
   const [activeTab, setActiveTab] = useState('info');
   const [currentImageIdx, setCurrentImageIdx] = useState(0);
 

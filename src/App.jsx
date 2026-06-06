@@ -5,6 +5,8 @@ import WorldPage from './pages/WorldPage';
 
 import AdminPage from './pages/AdminPage';
 
+import MapPage from './pages/MapPage';
+
 function App() {
   return (
     <BrowserRouter>
@@ -12,6 +14,7 @@ function App() {
         <Route path="/" element={<StoryPage />} />
         <Route path="/world" element={<WorldPage />} />
         <Route path="/admin" element={<AdminPage />} />
+        <Route path="/map" element={<MapPage />} />
       </Routes>
     </BrowserRouter>
   );
