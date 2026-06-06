@@ -248,6 +248,33 @@
   margin-bottom: 3.5rem;
 }
 
+/* SIDE IMAGES */
+.story-page .side-image {
+  position: fixed;
+  z-index: 0;
+  opacity: 0.8;
+  max-width: calc((100vw - 800px) / 2 - 4rem); /* Reduced padding deduction to let it grow more */
+  max-height: 80vh;
+  pointer-events: none; /* So it doesn't interfere with clicks */
+  transition: opacity 0.5s ease;
+}
+
+.story-page .side-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+}
+
+.story-page .side-image.side-left {
+  left: -350px;
+}
+
+.story-page .side-image.side-right {
+  right: -350px;
+}
+
 .story-page .chapter-number {
   font-family: "Cinzel Decorative", serif;
   font-size: 0.6rem;

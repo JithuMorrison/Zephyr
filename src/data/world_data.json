@@ -47,14 +47,19 @@
         {
           "heading": "Biography",
           "content": "Zillian is the protagonist of Shadow Covenant. He bears the curse of the Shadow Tiger and must balance its hunger against his humanity.",
-          "layout": "2-col",
+          "layout": "1-col",
           "imgRight": "/images/characters/ChatGPT Image May 20, 2026, 09_48_31 PM.png",
           "blocksRight": [],
           "blocks": [
             {
               "type": "paragraph",
-              "content": "Zillian is the protagonist of Shadow Covenant. He bears the curse of the Shadow Tiger and must balance its hunger against his humanity.",
+              "content": "Zillian is the protagonist of Shadow Covenant.",
               "visibility": 1
+            },
+            {
+              "type": "paragraph",
+              "content": "He bears a Shadow Tiger",
+              "visibility": 9
             }
           ]
         },
@@ -101,7 +106,14 @@
       "sections": [
         {
           "heading": "Biography",
-          "content": "Garret is the pragmatic leader of Halwen. He orchestrated the deal with Baron Doren to protect the village from the corrupt god Voryn, even if it meant paying a heavy price."
+          "content": "Garret is the pragmatic leader of Halwen. He orchestrated the deal with Baron Doren to protect the village from the corrupt god Voryn, even if it meant paying a heavy price.",
+          "layout": "2-col",
+          "blocksRight": [
+            {
+              "type": "image",
+              "content": "/images/characters/char-garret/GarretProv.png"
+            }
+          ]
         }
       ],
       "links": [
@@ -220,7 +232,10 @@
           "relationship": "Daughter"
         }
       ],
-      "subfolderId": "folder-legends"
+      "subfolderId": "folder-legends",
+      "visibility": {
+        "name": 1000
+      }
     },
     {
       "id": "char-tora",
@@ -499,7 +514,14 @@
       "sections": [
         {
           "heading": "Overview",
-          "content": "Halwen was secretly subjected to a protection racket managed by Baron Doren, using a corrupted god as leverage."
+          "content": "Halwen was secretly subjected to a protection racket managed by Baron Doren, using a corrupted god as leverage.",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "content": "Halwen was secretly subjected to a protection racket managed by Baron Doren, using a corrupted god as leverage.",
+              "visibility": 6
+            }
+          ]
         }
       ],
       "links": [
@@ -513,7 +535,11 @@
           "label": "Location",
           "relationship": "Region"
         }
-      ]
+      ],
+      "img": "/images/locations/loc-halwen/Halwen.png",
+      "visibility": {
+        "sections_0": 6
+      }
     },
     {
       "id": "loc-solvara",
@@ -674,7 +700,16 @@
       "tags": [
         "Swordsmaster"
       ],
-      "location": "Halwen"
+      "location": "Halwen",
+      "img": "/images/characters/character-mir/Mir.png",
+      "subfolderId": "folder-1780333544182"
+    },
+    {
+      "id": "character-tir",
+      "name": "Tir",
+      "category": "characters",
+      "description": "Ha",
+      "type": "New Entry"
     }
   ],
   "subfolders": {

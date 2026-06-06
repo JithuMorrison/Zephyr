@@ -34,6 +34,13 @@ const ChapterReader = ({ chapter, currentIndex, totalChapters, onPrev, onNext, o
 
   return (
     <section className={`chapter ${isVisible ? 'visible' : ''}`} id={chapter.id}>
+      {/* Render Side Images */}
+      {chapter.sideImages && chapter.sideImages.map((img, idx) => (
+        <div key={idx} className={`side-image ${img.side === 'right' ? 'side-right' : 'side-left'}`} style={{ top: img.top || '10%' }}>
+          <img src={img.url} alt={`Side illustration ${idx}`} />
+        </div>
+      ))}
+
       <div className="chapter-header">
         <span className="chapter-number">{chapter.numberText}</span>
         <h2 className="chapter-title">{chapter.title}</h2>

@@ -56,6 +56,9 @@ export const chapters = [
     numberText: "Chapter One",
     title: "The Valley That Breathes Wrong",
     epigraph: "             \"Every place has a heartbeat. You learn to feel it — the rhythm of             people going about their small, ordinary lives. Halwen had no             heartbeat. It had a held breath.\"           ",
+    sideImages: [
+      { url: '/images/characters/char-zillian/Zill.png', side: 'left', top: '25%' }
+    ],
     content: () => (
       <>
         
@@ -66,7 +69,7 @@ export const chapters = [
             Not the woodsmoke — that was normal. Not the animal dung or the
             wet-hay reek of the valley after last night's rain. What he smelled
             beneath all of that was something else entirely: the particular
-            staleness of air that had not been laughed into in a very long time.
+            staleness of air that had not been laughed into in a very long time.&nbsp;
             <span className="entity-link" data-entity="char-zillian">Zillian</span> paused at the crest of the hill, pack settled between his
             shoulder blades, and looked down at <span className="entity-link" data-entity="loc-halwen">Halwen</span>.
           </p>
@@ -80,12 +83,9 @@ export const chapters = [
           </p>
 <p>He had learned not to trust distance.</p>
 <p>
-            The shadow beneath his feet shifted. Not with the angle of the sun —
-            the sun had not moved — but on its own, a slow, liquid slide that
-            traced the outline of something heavier than a man. Zillian pressed
-            two fingers against the outside of his left forearm, where the
-            oldest scar ran, and felt the familiar pulse answering:
-            <em>still here, still hungry, still patient.</em>
+  The shadow beneath his feet shifted. Not with the movement of the sun—the sun stood exactly where it had a heartbeat ago—but with a slow, liquid ripple that seemed to remember the outline of something larger than a man. Zillian pressed two fingers against the oldest scar on his left forearm. The familiar pulse answered.&nbsp;<em>Still there. </em>A second pulse followed.&nbsp;
+
+  <em>Still waiting.</em>
 </p>
 <div className="narration">
             There is a category of wrong that the body recognizes before the
@@ -104,22 +104,77 @@ export const chapters = [
             or had something to protect its prosperity. Neither explained the
             held-breath smell.
           </p>
+<p>He walked into Halwen.</p>
+<p>People noticed him.</p>
+<p>A woman carrying a basket glanced up from across the road. Their eyes met for half a heartbeat before she looked away and quickened her pace.</p>
+
 <p>
-            Two men worked beside a broken cart near the gate. The wheel had
-            come loose from the axle; one man held it upright while the other
-            worked the pin. Normal labor. Zillian watched them as he approached,
-            cataloguing small things: the man holding the wheel had his jaw set
-            too tight for the task. The man working the pin kept glancing toward
-            the road without moving his head, tracking Zillian in peripheral
-            vision. A technique you learned when you needed to watch something
-            without being seen to watch it.
-          </p>
-<p>He stopped beside them. Let silence do the asking.</p>
-<p>The pin-worker looked up, then immediately back down.</p>
+  An old man sitting beneath the gate's shade stopped whittling long enough
+  to study him. Then, as if realizing he had been caught looking, he lowered
+  his gaze to the wood and refused to raise it again.
+</p>
+
+<p>
+  Beyond the gate, the village moved with the rhythm of ordinary life.
+  Laundry fluttered between houses. A blacksmith's hammer rang somewhere in
+  the distance. Merchants arranged crates outside their shops.
+</p>
+
+<p>Yet something about it felt rehearsed.</p>
+
+<p>
+  Conversations softened when he drew near. A group of women speaking beside
+  a well suddenly found urgent reasons to examine the water in their buckets.
+  A farmer leading a mule stepped aside to let him pass, but kept his eyes on
+  the road as though looking anywhere else might be dangerous.
+</p>
+
+<p>
+  A little girl peered around a fence post, openly curious. Before Zillian
+  could offer so much as a nod, a hand appeared from behind the fence and
+  gently pulled her out of sight. The fence gate clicked shut.
+</p>
+
+<p>No one stared for long.</p>
+
+<p>No one approached.</p>
+
+<p>Most strange of all, no one seemed surprised to see an armed traveler arrive alone.</p>
+
+<p>
+  Villages were curious places by nature. New faces became the day's
+  entertainment. Questions followed before introductions. Here, people seemed
+  determined not to know him.
+</p>
+
+<p>It was not indifference.</p>
+
+<p>Indifference was relaxed.</p>
+
+<p>This felt practiced.</p>
+
+<p>
+  Two men worked beside a broken cart near the gate. The wheel had come loose
+  from the axle; one man held it upright while the other worked the pin.
+  Normal labor. Zillian watched them as he approached, cataloguing small
+  things: the man holding the wheel had his jaw set too tight for the task.
+  The man working the pin kept glancing toward the road without moving his
+  head, tracking Zillian in peripheral vision. A technique you learned when
+  you needed to watch something without being seen to watch it.
+</p>
+
+<p>
+  He stopped beside them. Let silence do the asking.
+</p>
+
+<p>
+  The pin-worker looked up, then immediately back down.
+</p>
+
 <div className="dialogue">
-<span className="speaker">Zillian</span>
-            "Road ahead still passable?"
-          </div>
+  <span className="speaker">Zillian</span>
+  "Road ahead still passable?"
+</div>
 <p>
             A pause longer than the question warranted. The cart-holder's
             knuckles whitened around the wheel rim.
@@ -134,29 +189,17 @@ export const chapters = [
           </p>
 <div className="dialogue">
 <span className="speaker">Zillian</span>
-            "Through."
+            "Just passing through"
           </div>
 <div className="dialogue">
 <span className="speaker">Pin-Worker</span>
             "Then it's passable."
           </div>
-<p>He walked into Halwen.</p>
-<p>
-            The village saw him. He knew it because of how carefully it didn't
-            look. A woman with a basket paused mid-step, then continued walking
-            with the deliberate naturalness of someone very consciously
-            performing naturalness. A child in a doorway met his eyes for one
-            full second — that pure animal curiosity children have before they
-            learn to be afraid of being caught looking — and then a hand reached
-            out from inside the door and pulled the child back. The door did not
-            close. It just became slightly less open.
-          </p>
 <p>
             He had been in villages where they stared at outsiders with
             hostility. He had been in villages where they stared with hunger,
             hoping for news or trade. He had never been in a village where
-            everyone simultaneously decided, on some unspoken signal, that the
-            stranger passing through was not worth seeing.
+            everyone simultaneously decided, on some unspoken signal, that the stranger passing through was someone they preferred not to notice.
           </p>
 <p><em>They saw him, and chose not to see him.</em></p>
 <p>
@@ -175,13 +218,15 @@ export const chapters = [
     number: 2,
     numberText: "Chapter Two",
     title: "The Shop of Silence",
-    epigraph: "             \"A shopkeeper who watches strangers like a man counting what they             might cost — that is a shopkeeper with something to lose.\"           ",
+    epigraph: "\"A shopkeeper who watches strangers like a man counting what they might cost — that is a shopkeeper with something to lose.\"",
+    sideImages: [
+      { url: '/images/characters/char-garret/Garret.png', side: 'right', top: '6%' },
+      { url: '/images/characters/char-garret/GarretProv.png', side: 'left', top: '25%' }
+    ],
     content: () => (
       <>
-        
-
-<div className="prose">
-<p>
+        <div className="prose">
+          <p>
             The shop smelled of dried herbs and old wood and the specific kind
             of dust that accumulated only in places where people moved
             carefully, never letting themselves be careless. Candlelight made
@@ -192,16 +237,22 @@ export const chapters = [
             size, tools hanging at precise intervals on hooks along the far
             wall.
           </p>
-<p>
+          <p>
             Three other customers were present. <span className="entity-link" data-entity="char-zillian">Zillian</span> noted them the way he
             noted everything: a woman examining a bolt of cloth she had no
             intention of buying. An older man standing very still beside the
-            herb jars, not reading the labels. A younger man near the door, who
-            had come in before Zillian and had not moved since. None of them
-            spoke to each other. None of them spoke at all.
+            herb jars, not reading the labels. And in the far corner, half-swallowed
+            by shadow, a young man seated on a low stool with his back against
+            the wall. He had positioned himself where he could see the door without
+            being seen from it. A sword hung at his hip — not the kind a person
+            bought last season. The grip was worn dark from years of the same hand
+            closing around it, and the young man's posture had that particular
+            quality of stillness that was not rest but readiness. He was watching
+            the room the way someone watches a room they expect to change.
           </p>
-<p>The shop was full and it felt emptier than the road.</p>
-<p>
+          <p>None of them spoke to each other. None of them spoke at all.</p>
+          <p>The shop was full and it felt emptier than the road.</p>
+          <p>
             Behind the counter, <span className="entity-link" data-entity="char-garret">Garret</span> organized stock with the methodical
             movements of long habit. He was a large man gone soft in the middle
             but not in the hands — the hands were still a laborer's hands, broad
@@ -210,27 +261,30 @@ export const chapters = [
             He did not look up when Zillian approached the counter. He was
             demonstrating, with great precision, a complete lack of interest.
           </p>
-<p>
+          <p>
             Zillian scanned the shelves while he waited. Habit. His eyes moved
-            the way his mother had taught him they should move in unfamiliar
-            places: not fast, not pointed, but open, catching everything without
-            focusing on anything. He noticed the worn book with an eye symbol on
-            its spine — placed spine-inward, as though by accident. He noticed
-            the partial title visible on a lower shelf:
-            <em>Erost's Magic: A Practitioner's—</em> the rest hidden behind a
-            jar of dried rosehips. He noticed that the curtain behind the
-            counter moved slightly, though there was no draft.
+            the way his mother had taught him they should in unfamiliar places:
+            not fast, not pointed, but open, catching everything without focusing
+            on anything. The stock told a story if you knew how to read it — sacks
+            of millet and rye pushed to the back, the front shelves given over
+            almost entirely to salt, dried meat, hard-keeping provisions. The kind
+            of inventory a man stocked when he expected long interruptions to trade.
+            There were books too, wedged sideways between jars on the lower shelf —
+            not merchant's ledgers. Old things, worn dark at the spines, the kind
+            that ended up in out-of-the-way places because the people who had
+            carried them stopped needing them. He noticed that the curtain behind
+            the counter moved slightly, though there was no draft.
           </p>
-<p>
+          <p>
             Someone was in the back room. Someone who had gone quiet when the
             bell rang.
           </p>
-<p>He placed his copper coins on the counter.</p>
-<div className="dialogue">
-<span className="speaker">Zillian</span>
-            "Rations. Four days' worth."
+          <p>He placed four copper coins on the counter.</p>
+          <div className="dialogue">
+            <span className="speaker">Zillian</span>
+            "Rations. Enough for four days."
           </div>
-<p>
+          <p>
             Garret began gathering without comment. His hands moved quickly,
             selecting items with the efficiency of a man who had packed more
             traveling packs than he could count. Dried meat. Hard bread. A small
@@ -239,139 +293,183 @@ export const chapters = [
             counter with quiet precision, and not once did he look directly at
             Zillian's face.
           </p>
-<p>
-            Professionals, Zillian had learned, had tells. People pretending to
-            be professional had different ones. Garret moved like someone who
-            had been professional once and had learned since then that
-            professionalism attracted attention. He was performing the
-            simulacrum of indifference over something that was not indifferent
-            at all.
+          <p>
+            When the last item was set down, Garret counted the coins with
+            one hand and reached under the counter with the other. He placed
+            a copper and a handful of iron coins back on the wood — thin, dark, stamped with
+            a mark Zillian didn't recognize.
           </p>
-<div className="dialogue">
-<span className="speaker">Zillian</span>
+
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
+            "Four days won't cost you that much."
+          </div>
+          <p>
+            He said it the way he said everything — without looking up,
+            without pausing, the way a man recites something he stopped
+            thinking about long ago.
+          </p>
+          <p>
+            Professionals, Zillian had learned, had tells. People pretending to be one had different ones. Garret moved like someone who had once taken pride in his work and had learned since then that competence attracted attention. He was performing indifference over something that clearly wasn't indifferent.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Zillian</span>
+            "What's around this village? Where do the roads lead?"
+          </div>
+          <p>
+            Garret answered the way a man answers something he has been asked
+            a hundred times — not reluctantly, just carefully, the way you
+            choose which coins to put on the counter and which to keep in
+            your pocket.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
+            "East road takes you to <span className="entity-link" data-entity="loc-solvara">Solvara</span> eventually. Three, maybe four
+            weeks depending on pace. South goes out toward the Longhorn plains."
+          </div>
+          <p>He set the last bundle down.</p>
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
+            "That's the whole of it, as far as
+            roads are concerned."
+          </div>
+          <div className="dialogue">
+            <span className="speaker">Zillian</span>
             "Road ahead. Still usable?"
           </div>
-<div className="dialogue">
-<span className="speaker">Garret</span>
-            "Depends what you expect from a road."
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
+            "Depends what you expect from a road. If you expect to move goods,
+            maybe. If you expect to do it without difficulty —"
           </div>
-<div className="dialogue">
-<span className="speaker">Zillian</span>
+          <p>A pause. He straightened a jar that didn't need straightening.</p>
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
+            "That's a different question."
+          </div>
+          <div className="dialogue">
+            <span className="speaker">Zillian</span>
             "Bandits?"
           </div>
-<div className="dialogue">
-<span className="speaker">Garret</span>
-            "They exist."
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
+            "They exist. Same as they exist anywhere. Same as they've always
+            existed."
           </div>
-<p>A pause. Garret continued packing.</p>
-<div className="dialogue">
-<span className="speaker">Zillian</span>
+          <p>
+            He said it like a man reciting something. Like a man who had said
+            it enough times that the words had worn smooth, had stopped meaning
+            anything except <em>don't ask further</em>.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Zillian</span>
             "Organized?"
           </div>
-<p>The hands paused. A half-second, no more. Then continued.</p>
-<div className="dialogue">
-<span className="speaker">Garret</span>
+          <p>The hands paused. A half-second, no more. Then continued.</p>
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
             "Organized enough to choose when not to attack."
           </div>
-<p>
-            That was an interesting sentence. Bandits who chose not to attack
-            were not really bandits — they were workers. You chose not to attack
-            when you had instructions, when there was a plan, when attacking the
-            wrong person at the wrong time would cost you something. Zillian
-            filed the information away in the part of his mind where he kept
-            things that would matter later.
-          </p>
-<div className="dialogue">
-<span className="speaker">Zillian</span>
+          <p>Zillian said nothing. He looked at the counter.</p>
+          <div className="dialogue">
+            <span className="speaker">Zillian</span>
             "South road. Longhorn plains — still active?"
           </div>
-<p>
+          <p>
             This time the pause was longer. Garret's hands stilled entirely. He
             was looking at the dried meat he'd just set down, but not seeing it.
           </p>
-<div className="dialogue">
-<span className="speaker">Garret</span>
-            "Used to be."
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
+            "Used to be. Good trade road, once. Caravans running twice a month
+            in season."
           </div>
-<div className="dialogue">
-<span className="speaker">Zillian</span>
+          <div className="dialogue">
+            <span className="speaker">Zillian</span>
             "And now?"
           </div>
-<div className="dialogue">
-<span className="speaker">Garret</span>
+          <p>
+            Garret was quiet for a moment. When he spoke, it came out in
+            pieces, like a man being careful about how much weight he put
+            on each word.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
             "Fewer caravans."
           </div>
-<p>Silence.</p>
-<div className="dialogue">
-<span className="speaker">Garret</span>
+          <p>Silence.</p>
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
             "Fewer returns."
           </div>
-<p>
+          <p>
             More silence. The woman with the cloth had stopped pretending to
             examine it. The old man near the herbs was very carefully not
             breathing too loudly.
           </p>
-<div className="dialogue">
-<span className="speaker">Garret</span>
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
             "People don't favor that direction anymore."
           </div>
-<div className="dialogue">
-<span className="speaker">Zillian</span>
+          <div className="dialogue">
+            <span className="speaker">Zillian</span>
             "Then east. <span className="entity-link" data-entity="loc-solvara">Solvara</span>."
           </div>
-<div className="dialogue">
-<span className="speaker">Garret</span>
-            "You'll find roads there."
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
+            "You'll find roads there. Open ones. Busy enough that a traveler
+            doesn't draw much notice."
           </div>
-<p>
-            A pause. Garret looked, finally, at the pack he had assembled. Not
-            at Zillian.
+          <p>
+            A pause. Garret looked, finally, at the pack he had assembled.
+            Not at Zillian.
           </p>
-<div className="dialogue">
-<span className="speaker">Garret</span>
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
             "If you leave early enough."
           </div>
-<div className="dialogue">
-<span className="speaker">Zillian</span>
+          <div className="dialogue">
+            <span className="speaker">Zillian</span>
             "You talk like people get stuck here."
           </div>
-<p>
+          <p>
             Garret looked up. It was the first time their eyes met. Something in
             the shopkeeper's gaze was not afraid exactly — it was beyond fear,
             in that quieter territory fear reached when it had been lived with
             long enough to become simply the texture of daily life.
           </p>
-<div className="dialogue">
-<span className="speaker">Garret</span>
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
             "People who wander here don't always leave the same."
           </div>
-<p>Zillian opened his mouth to ask what that meant.</p>
-<p>Then he heard it.</p>
-<div className="narration">
+          <p>Zillian opened his mouth to ask what that meant.</p>
+          <p>Then he heard it.</p>
+          <div className="narration">
             ...thud.<br/>
             ...thud...thud...
           </div>
-<p>
+          <p>
             The woman dropped the cloth. The old man went utterly still. The
-            young man near the door took one silent step backward, away from it,
-            and that single movement — controlled, automatic, well-practiced —
-            told Zillian more than anything Garret had said. This was not the
-            reaction of people startled by approaching riders. This was the
-            reaction of people who had been rehearsing for exactly this moment.
+            young man in the corner did not reach for his sword — and that was
+            the telling thing. His hand moved toward the hilt and stopped, a
+            deliberate restraint, the gesture of someone who had already decided
+            that drawing steel in this moment would cost more than it solved.
+            His eyes went to the door and stayed there, flat and considering.
+            This was not the reaction of people startled by approaching riders.
+            This was the reaction of people who had been rehearsing for exactly
+            this moment.
           </p>
-<p>Garret's hand closed on Zillian's forearm.</p>
-<div className="dialogue">
-<span className="speaker">Garret</span>
+          <p>Garret's hand closed on Zillian's forearm hard enough to stop him before he had even realized he intended to move.</p>
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
             "Don't go outside."
           </div>
-<p>
+          <p>
             Through the small high window of the shop came the sound of many
             hooves on packed dirt.
           </p>
-<span className="sfx">HOOVES — MULTIPLE — HEAVY</span>
-</div>
-
-
+          <span className="sfx">HOOVES — MULTIPLE — HEAVY</span>
+        </div>
       </>
     )
   },
