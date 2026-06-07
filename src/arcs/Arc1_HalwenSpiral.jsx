@@ -478,141 +478,181 @@ export const chapters = [
     number: 3,
     numberText: "Chapter Three",
     title: "The Announcement",
-    epigraph: "             \"Authority that arrives on horseback and never raises its voice is             the most frightening kind. It has already decided you will comply.\"           ",
+    epigraph: "\"Authority that arrives on horseback and never raises its voice is the most frightening kind. It has already decided you will comply.\"",
     content: () => (
       <>
-        
-
-<div className="prose">
-<p>Six riders entered <span className="entity-link" data-entity="loc-halwen">Halwen</span> at a walk.</p>
-<p>
-            <span className="entity-link" data-entity="char-zillian">Zillian</span> watched from the narrow gap between the shop's curtain and
-            its frame, standing beside <span className="entity-link" data-entity="char-garret">Garret</span> in the dim interior, and he
-            counted: six riders, controlled horses, identical bearing. Deep
-            burgundy coats with polished brass buttons. Boots that had been
-            cleaned that morning — not field-worn, cleaned deliberately, which
-            meant this visit was considered formal enough to warrant clean
-            boots. On each rider's chest, a seal embossed in silver: a walled
-            keep above two crossed keys.
+        <div className="prose">
+          <p>
+            Six riders came into <span className="entity-link" data-entity="loc-halwen">Halwen</span> — down the road and
+            into the square like men returning from an errand, unhurried,
+            unbothered, with the ease of people who had never once considered
+            that their arrival might be unwelcome. The leader stepped down from
+            his saddle the way a man steps down outside his own house — one hand
+            on the pommel, one foot finding the ground, nothing ceremonial in
+            any of it. The remaining five stayed mounted, spreading loosely around the square's edge. Not a formation. Just — present. The way a closed door is present.
           </p>
-<p>He didn't recognize the seal. Filed it away.</p>
-<p>
+          <p>
+            <span className="entity-link" data-entity="char-zillian">Zillian</span> watched from the narrow gap between the shop's curtain
+            and its frame, standing beside <span className="entity-link" data-entity="char-garret">Garret</span> in the dim interior. He
+            counted without meaning to — six riders, controlled horses, identical
+            bearing. Deep burgundy coats with polished brass buttons. Boots that
+            had been cleaned that morning. Not worn clean from travel. Cleaned
+            deliberately, which meant this visit was considered formal enough to
+            warrant the gesture — a performance of authority rather than the
+            exercise of it. On each rider's chest, a seal embossed in silver: a
+            walled keep above two crossed keys.
+          </p>
+          <p>He didn't recognize the seal. He filed it away.</p>
+          <p>
             The leader was the oldest — a man of fifty or so, heavy-jawed, with
-            the kind of face that had started off handsome and had been worn by
-            years into something harder and more permanent. He rode with one
-            hand loose on the reins and one resting on his thigh, entirely at
-            ease, watching the village with the mild interest of a man who had
-            visited many times and expected nothing to have changed.
+            the kind of face that had started off handsome and been worn by years
+            into something harder and more permanent. He watched the village with
+            the mild interest of a man who had visited many times and expected
+            nothing to have changed.
           </p>
-<p>
+          <p>
             Villagers filled the square. They hadn't needed to be summoned —
             they had come out themselves, moving from doors and alleys in the
-            practiced silence of people who knew exactly where they were
-            supposed to be when the horses arrived. There was no shuffling. No
-            uncertainty. No one had to be told where to stand. They knew.
+            practiced silence of people who knew exactly where they were supposed
+            to be when the horses arrived. There was no shuffling. No uncertainty.
+            No one had to be told where to stand.
           </p>
-<div className="narration">
-            You could always tell, Zillian had found, the difference between a
-            crowd that had gathered and a crowd that had been assembled. A
-            gathered crowd leaned forward, pressed together, spoke. An assembled
-            crowd made space between itself. It kept its hands visible. It
-            looked at the ground.
+          <div className="narration">
+            You could tell, Zillian had found, the difference between a crowd
+            that had gathered and a crowd that had been assembled. A gathered
+            crowd leaned forward, pressed together, spoke. An assembled crowd
+            made space between itself. It kept its hands visible. It looked at
+            the ground in front of it rather than at the thing it feared, because
+            looking directly was a kind of acknowledgment, and acknowledgment
+            was a kind of participation, and participation meant you existed in
+            that moment in a way that might be noticed.
           </div>
-<p>This crowd had been assembled many times before.</p>
-<p>
+          <p>
             Inside the shop, the other customers hadn't moved. The woman had
-            pressed herself against the far wall, as far from the window as the
-            room allowed. The old man stood with his eyes closed. The young man
-            near the door had sat down on the floor with his back to the wall,
-            knees to his chest, in the posture of someone who had decided not to
-            be tall.
+            pressed herself against the far wall, arms folded across her chest —
+            not cold, just contained, making herself smaller in the way people
+            did when they had learned that smallness was a form of safety. The
+            old man stood with his eyes closed, breathing slowly through his
+            nose. The young man in the corner had not stood — had done the opposite, sliding down the wall until he was seated on the floor with his knees drawn up, the sword
+            now deliberately angled away from visibility. He was watching the gap
+            in the curtain the way a man watches something he has watched many
+            times and still hasn't found a way to stop watching.
           </p>
-<p>
-            Garret's grip was still on Zillian's forearm. Not restraining
-            anymore — he'd forgotten he was still holding on.
+          <p>
+            Garret's grip was still on Zillian's forearm. He hadn't realized he was still holding on.
           </p>
-<p>
-            In the square, the leader dismounted. One fluid movement, no
-            theatrics. He produced a roll of parchment from inside his coat,
-            unrolled it without looking at it — he had read it enough times that
-            he no longer needed to — and raised his voice to a carrying monotone
-            that showed no interest in the words it was producing.
+          <p>
+            In the square, the leader produced a roll of parchment from inside
+            his coat and unrolled it without looking at it — he had read it
+            enough times that the words lived behind his eyes rather than on the
+            page. When he spoke, his voice carried with the flat, practiced
+            projection of a man who had learned to fill a square without
+            shouting, because shouting would have suggested he needed something
+            from the people listening.
           </p>
-<div className="dialogue">
-<span className="speaker">Leader</span>
-            "Halwen Village will fulfill its obligation."
+          <div className="dialogue">
+            <span className="speaker">Leader</span>
+            "Halwen will fulfill its obligation."
           </div>
-<p>Silence. The kind of silence that had weight.</p>
-<div className="dialogue">
-<span className="speaker">Leader</span>
-            "One child."
+          <p>Silence. The kind that had weight in it.</p>
+          <div className="dialogue">
+            <span className="speaker">Leader</span>
+            "One child. Of sound health. To be kept ready before our next
+            visit."
           </div>
-<p>
+          <p>
             Not a ripple. Not a flinch. The assembled crowd absorbed it the way
             a stone wall absorbed rain — taking it in without visibly changing,
-            but changing nonetheless in ways too slow to see in the moment.
+            but changed nonetheless in ways too slow to see in the moment. A
+            man near the front balled his fist. Zillian could see the tendons
+            standing in the back of the hand from thirty feet away. Then, slowly,
+            deliberately, the hand opened again and hung at his side.
           </p>
-<div className="dialogue">
-<span className="speaker">Leader</span>
-            "This month."
+          <div className="dialogue">
+            <span className="speaker">Leader</span>
+            "This village has missed compliance twice in recent months."
           </div>
-<p>
+          <p>
+            He let the number sit. Two. As if the crowd might have forgotten.
+            As if anyone in that square had thought about anything else.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Leader</span>
+            "Baron Doren has extended patience where the law required none.
+            That patience has limits."
+          </div>
+          <p>A pause — not dramatic, just measured, the pause of a man reading items off a list.</p>
+          <div className="dialogue">
+            <span className="speaker">Leader</span>
+            "If this obligation is ignored again, his protection is withdrawn. What happens after that is not within his jurisdiction to prevent."
+          </div>
+          <p>
+            He said it the way a man reads an invoice. No raised voice. No
+            performance of menace. The words carried all of it themselves, worn
+            smooth from repetition into something more absolute than shouting
+            ever could have been. A threat delivered with feeling was a threat
+            from a person. This was something else. This was weather.
+          </p>
+          <p>
             He re-rolled the parchment. Tucked it back into his coat. Looked
-            over the crowd with that mild, administrative gaze.
+            over the crowd once — not searching for faces, just confirming that
+            the shape of it was what it ought to be — and remounted.
           </p>
-<div className="dialogue">
-<span className="speaker">Leader</span>
-            "You have failed compliance in recent months. Continued failure will
-            not be overlooked." A pause. Not dramatic — just measured. "If this
-            obligation is ignored again, Baron Doren will withdraw his
-            protection."
+          <p>Zillian watched the crowd.</p>
+          <p>
+            He had expected fear. What he found was more disturbing: the faces
+            of people who had been afraid for so long that they had misplaced the
+            original terror somewhere behind them and were living now only in its
+            residue. A woman was trembling but not moving, the tremble contained
+            and deliberate like pressure held inside something that had learned
+            not to break. A child gripped her mother's skirt and the mother did
+            not look down — not because she didn't feel it, but because looking
+            down would have required acknowledging that her child was frightened,
+            and she had no answer for that yet. An old man near the back was
+            staring at the seal on the nearest rider's chest with an expression
+            that had long since passed through anger and come out the other side
+            into something flat and permanent.
+          </p>
+          <p>This was not obedience.</p>
+          <p>
+            Obedience implied a choice that had been made. This was a village
+            that had learned, through years Zillian hadn't witnessed, that there
+            was a shape to survival here — and the shape required standing in the
+            square with your hands visible and your fist unclenched even when
+            every part of you wanted it otherwise.
+          </p>
+          <div className="narration">
+            But the fear wasn't of the riders. That was what Zillian kept
+            turning over as he watched. Six men in burgundy coats were
+            frightening, yes — but not like this. Not with this specific quality
+            of resignation. You feared men because of what they might do to you.
+            This crowd feared something older than these men. Something the men
+            in burgundy coats were, in some way Zillian couldn't yet name, a
+            solution to. As if the riders arriving meant, at minimum, that the
+            other thing had not.
           </div>
-<p>
-            He said it the way a man reads a repair invoice. No emphasis. No
-            threat in the voice, because the voice didn't need threat — the
-            words carried all of it on their own, worn smooth from repetition
-            into something more absolute than shouting.
+          <p>
+            The riders departed the way they had come — without hurry, without
+            a backward glance, already indifferent to whatever Halwen did next.
           </p>
-<p>Zillian watched the crowd.</p>
-<p>
-            He had expected fear. He found something more disturbing: the faces
-            of people who had already been afraid for so long that they had
-            misplaced the original terror and were living now only with its
-            residue. A man near the front had balled his fist — he could see the
-            tendons in the back of the hand — and then, slowly, deliberately,
-            unclenched it. A woman was trembling but not moving, not speaking,
-            the tremble contained and methodical like a controlled vibration in
-            a machine. A child gripped her mother's skirt and the mother did not
-            look down.
+          <p>
+            The square emptied in silence. Not quickly — steadily, each person
+            peeling away in ones and twos, returning to doors and alleys without
+            looking at each other.
           </p>
-<p>This wasn't obedience.</p>
-<p>This was fear.</p>
-<div className="narration">
-            But not of them — not of the six men in burgundy coats with their
-            clean boots and their administrative monotone. The fear was older
-            than these men. Zillian could feel it now, the way you felt a sound
-            that was too low to hear but which vibrated in the teeth anyway.
-            Something else frightened these people. Something that the men in
-            burgundy coats were, at best, a solution to.
-          </div>
-<p>
-            The riders mounted. Turned. Departed at the same controlled walk by
-            which they had arrived. Not a single backward glance. They had no
-            interest in how Halwen absorbed what had just been delivered to it.
-            They were already thinking about the next village.
+          <p>
+            Through the shop window, Zillian watched the last villager disappear.
+            The street stood empty. Smoke still rose from the chimneys. A dog
+            crossed the far end of the square, stopped to sniff at something,
+            moved on.
           </p>
-<p>The square emptied in silence.</p>
-<p>
-            Through the shop window, Zillian watched the last villager disappear
-            through a door. The street stood empty. The smoke still rose from
-            the chimneys. Everything looked identical to how it had looked
-            before the riders arrived.
+          <p>Everything looked exactly as it had before the riders arrived.</p>
+          <p>
+            And somewhere in this village, Zillian understood, a parent was
+            sitting very still in a quiet room, wondering which of their children
+            would still be here when the riders came back.
           </p>
-<p>They had come, and nothing had changed.</p>
-<p>Nothing visible.</p>
-</div>
-
-
+        </div>
       </>
     )
   },
@@ -837,7 +877,7 @@ export const chapters = [
           </p>
 <p>
             He thought:
-            <em>something doesn't add up, and the thing that doesn't add up is
+            <em> something doesn't add up, and the thing that doesn't add up is
               the part that matters most.</em>
 </p>
 </div>
@@ -851,14 +891,12 @@ export const chapters = [
     number: 5,
     numberText: "Chapter Five",
     title: "A Village That Waits",
-    epigraph: "             \"I have seen grief, and I have seen resignation. They look alike             from the outside. The difference is that grief still believes things             could have been otherwise.\"           ",
+    epigraph: "\"I have seen grief, and I have seen resignation. They look alike from the outside. The difference is that grief still believes things could have been otherwise.\"",
     content: () => (
       <>
-        
-
-<div className="prose">
-<p>He spent the following morning walking the village.</p>
-<p>
+        <div className="prose">
+          <p>He spent the following morning walking the village.</p>
+          <p>
             Not as a man mapping it — that would have drawn attention — but as a
             man who moved slowly because he had nowhere urgent to be, stopping
             occasionally at the well, watching from the slight elevation of the
@@ -866,15 +904,15 @@ export const chapters = [
             became structural, part of how he moved through space rather than
             something he had to remember to do.
           </p>
-<p>
+          <p>
             The village was alive in the technical sense. People moved. Commerce
             occurred in its minimal forms. Bread was baked and the smell of it
             was almost enough to make the street feel normal. But there was a
             quality to all of it — a thinness — like paint applied too lightly
             over a surface that kept bleeding through.
           </p>
-<p>No children played.</p>
-<p>
+          <p>No children played.</p>
+          <p>
             That was the most wrong thing, when he named it to himself. Not the
             silence exactly, or the downcast eyes, or the way two people who
             must have known each other all their lives could cross paths without
@@ -884,28 +922,53 @@ export const chapters = [
             play was not a choice they made — it was a pressure they exerted,
             like water finding the lowest available course.
           </p>
-<p>
+          <p>
             These children sat. Two of them near the dry fountain in the village
             center, close but not touching, not speaking. Their eyes carried the
             particular quietness of children who had been old for too long.
           </p>
-<div className="narration">
+          <div className="narration">
             A wooden toy lay in the dirt near the fountain steps. Dust had
             settled in its joints. It had not been played with recently. Perhaps
             not for weeks. A child had set it down and not come back for it, and
             no one had picked it up.
           </div>
-<div className="scene-break">✦</div>
-<p>
-            He found the anomaly at the northeast edge of the village, where the
-            houses thinned and the forest wall pressed closer than it did
-            anywhere else. The structure — what was left of one — sat apart from
-            its neighbors in a space cleared by the fire that had taken it.
-            Blackened stone foundations. Timber beams collapsed into a geometry
-            of ruin, colonized now by slow green growth that didn't soften the
-            destruction so much as make it patient-looking.
+          <div className="scene-break">✦</div>
+          <p>
+            By midday he was still without a roof. The village had an inn —
+            or had once. The sign still hung above the door on the main street,
+            paint faded to the point where the lettering was more suggestion
+            than word. He had knocked twice that morning and received no answer,
+            and the third time the door had opened a crack and a woman's eyes
+            had looked at him with the expression of someone who had decided,
+            before he could speak, that whatever he wanted was something she
+            couldn't afford to provide.
           </p>
-<p>
+          <p>
+            She had closed the door without a word.
+          </p>
+          <p>
+            He had moved on without pressing it. There were other doors on other
+            streets, and he had time, and pressing a frightened person never
+            produced anything useful.
+          </p>
+          <p>
+            It was while he was working his way toward the northeast edge of the
+            village — following a lane he hadn't yet walked, half-hoping it
+            would loop back toward something that resembled a place to sleep —
+            that the houses began to thin and the forest wall pressed closer
+            than it did anywhere else, and he found the ruin.
+          </p>
+          <p>
+            The structure — what was left of one — sat apart from its neighbors
+            in a space cleared by the fire that had taken it. Blackened stone
+            foundations. Timber beams collapsed into a geometry of ruin,
+            colonized now by slow green growth that didn't soften the
+            destruction so much as make it patient-looking. Whatever had burned
+            here had burned completely, and a long time ago, and the village had
+            simply built around the absence rather than filling it in.
+          </p>
+          <p>
             In the ash-stained earth beside the ruins, a stone slab had been set
             into the ground. Old — older than the fire, by the weathering of it.
             Carved with a symbol he didn't recognize: a stylized eye with lines
@@ -917,70 +980,168 @@ export const chapters = [
             time but the wear of use. Someone had placed something in that
             hollow many times.
           </p>
-<p>
+          <p>
             He crouched and examined the rune. The lines were not randomly
             placed. They described something. He wasn't a runic scholar but he
             had spent enough time in Arcaelis to recognize the bones of working
             magic versus the decorative imitation of it, and this was not
             imitation.
           </p>
-<p>
-            A villager appeared behind him. Not approaching — just present,
-            having materialized the way people did when they'd been watching
-            someone examine a thing they were ambivalent about being asked
-            about.
+          <p>
+            A voice came from behind him.
           </p>
-<div className="dialogue">
-<span className="speaker">Villager</span>
+          <div className="dialogue">
+            <span className="speaker">Young Villager</span>
             "That used to be someone's home."
           </div>
-<div className="dialogue">
-<span className="speaker"><span className="entity-link" data-entity="char-zillian">Zillian</span></span>
-            "When?"
-          </div>
-<div className="dialogue">
-<span className="speaker">Villager</span>
-            "Before I was born. They say a mage named Erica lived there."
-          </div>
-<p>
-            Zillian waited. The villager wanted to say more — you could see it
-            in the way he stood, leaning very slightly forward, the way you
-            leaned when you were about to speak.
+          <p>
+            He hadn't heard the approach. He turned. A young man — perhaps
+            twenty, with the lean look of someone who had grown up doing
+            physical work and hadn't had enough to eat while doing it — stood
+            a few feet back, not quite close enough to seem like he had
+            sought the conversation. He was looking at the ruin, not at
+            Zillian. The look of someone who had grown up with this view and
+            still hadn't made peace with it.
           </p>
-<div className="dialogue">
-<span className="speaker">Villager</span>
-            "They said she was a traitor. Kingdom soldiers came and destroyed
-            everything." He paused. "Said she was working on something
-            underground. Never told us what. Said she'd found something in the
-            old forest, before the god withdrew."
+          <div className="dialogue">
+            <span className="speaker"><span className="entity-link" data-entity="char-zillian">Zillian</span></span>
+            "When did it burn?"
           </div>
-<p>The hollow in the stone. Something removed. Something taken.</p>
-<div className="dialogue">
-<span className="speaker">Zillian</span>
-            "Did they find it?"
+          <div className="dialogue">
+            <span className="speaker">Young Villager</span>
+            "Before I was born. My father saw it. Said the soldiers came at
+            night — kingdom soldiers, not Doren's men, the real ones, from the
+            capital. Said they didn't explain themselves. Just went through the
+            house and then put fire to it."
           </div>
-<div className="dialogue">
-<span className="speaker">Villager</span>
-            "They found everything above ground." A pause that carried weight.
-            "They never found what was underneath."
+          <p>
+            He paused. His jaw worked slightly, the way it did when someone was
+            deciding how much of a thing to say.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Young Villager</span>
+            "A mage named Erica lived there. They called her a traitor. Said
+            she'd been working on something underground, something she'd kept
+            from the kingdom. That's all anyone told us."
           </div>
-<div className="scene-break">✦</div>
-<p>
+          <p>
+            Footsteps behind them. Slower ones — the careful, deliberate steps
+            of someone whose knees had given them trouble for years. Zillian
+            didn't turn immediately. He listened to them stop a few feet back.
+          </p>
+          <p>
+            An old man. Seventies, maybe older. The kind of face that had
+            recorded everything that had happened to it and chosen to display
+            none of it. He looked at the ruin with the specific quality of
+            someone who had a prior claim on the grief of it.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Old Villager</span>
+            "They called her a traitor. I never believed it."
+          </div>
+          <p>He said it quietly. Not to argue. Just to have it on record.</p>
+          <div className="dialogue">
+            <span className="speaker">Old Villager</span>
+            I was there when it happened. Twenty-nine years ago — I remember the smoke from my own doorstep. She kept a garden on the south side of that house, you can still see where the soil is different if you know to look. She treated people when they were sick. No coin asked, no favor expected. When the bandits came through the year before the soldiers did, she's the one who drove them off. Held the east road for three days with nothing but what she had in her.
+          </div>
+          <p>
+            The young man was very still. He had heard this before — you could
+            tell from the way he was listening, not with surprise but with the
+            careful attention of someone receiving something they wanted to
+            hold onto.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Old Villager</span>
+            "Then one day she was different. Quieter. She'd come back from the old forest — three days she'd been gone, and she came back looking like a woman who'd made a decision she hadn't wanted to make. Like something had been placed in her hands that she hadn't asked for and couldn't put down." He paused. "She wouldn't say what. Not to anyone. Just started spending all her time underground, in whatever she'd built beneath that house. Stopped taking visitors. Stopped sleeping, by the look of her the few times we saw her. Working. Always working."
+          </div>
+          <div className="dialogue">
+            <span className="speaker"><span className="entity-link" data-entity="char-zillian">Zillian</span></span>
+            "What did she find?"
+          </div>
+          <p>
+            The old man looked at him for the first time. His eyes were the
+            color of old wood — dark, patient, having decided long ago not to
+            be surprised by questions.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Old Villager</span>
+            "She never said. But I knew her well enough to know the difference between a woman who is afraid and a woman who is trying to stop something. Erica wasn't hiding. She was building toward something. Racing toward it, maybe. Whatever she found in that forest — she believed that if she didn't act on it, something far worse would follow." He looked back at the ruin. "The kingdom soldiers came within the month. Went through her house for two days before they burned it. We thought they were taking things. But I've wondered, for twenty-nine years, if they came because they found out what she was trying to prevent — and decided they'd rather bury it than let her finish."
+          </div>
+          <p>The hollow in the stone. Edges worn smooth with use. Something removed.</p>
+          <div className="dialogue">
+            <span className="speaker">Young Villager</span>
+            "My father said they never went underground."
+          </div>
+          <div className="dialogue">
+            <span className="speaker">Old Villager</span>
+            "They didn't." A long pause. "I don't know if they couldn't, or
+            if they decided they didn't want to know what was down there."
+          </div>
+          <p>
+            The three of them stood in front of the ruin for a moment. The
+            forest pressed at the edge of Zillian's vision, patient and dark,
+            the treeline beginning perhaps fifty yards from where they stood.
+          </p>
+          <div className="dialogue">
+            <span className="speaker"><span className="entity-link" data-entity="char-zillian">Zillian</span></span>
+            "The god that protected this village. When did it withdraw?"
+          </div>
+          <p>
+            The old man's expression shifted — not surprise, but a careful
+            recalibration, the look of someone reassessing who they were
+            talking to.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Old Villager</span>
+            "Around the same time the soldiers came." He said it simply, without
+            elaboration, as if the coincidence had long since stopped feeling
+            like one. "We didn't connect them at first. Why would we. A god
+            withdraws for its own reasons — that's what the old texts say.
+            But then Doren's men arrived, and the forest started changing,
+            and you spend enough years watching something get worse in the
+            same direction and you start to wonder if someone pulled something
+            out of the ground that was meant to stay in it."
+          </div>
+          <p>
+            He turned then and walked back the way he had come, slowly,
+            without farewell. The young man watched him go, then looked at
+            Zillian with an expression that held something he hadn't yet
+            found the language for.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Young Villager</span>
+            "He doesn't talk about it usually."
+          </div>
+          <p>Zillian looked back at the hollow stone.</p>
+          <div className="dialogue">
+            <span className="speaker"><span className="entity-link" data-entity="char-zillian">Zillian</span></span>
+            "Do you have a room to let?"
+          </div>
+          <p>
+            The young man blinked. Then, despite everything, the corner of his
+            mouth moved.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Young Villager</span>
+            "My mother might. Come on."
+          </div>
+          <div className="scene-break">✦</div>
+          <p>
             That evening, Zillian sat on the edge of the well in the village
             center and watched the light die over the western hills and thought
             about a mage named Erica and a hollow stone and a forest god that
             had stopped protecting a village at approximately the same time that
-            Baron Doren's men had arrived with a very convenient explanation.
+            kingdom soldiers had arrived and burned a house to the ground.
           </p>
-<p>
-            He thought about how a man who manufactured fear would also need to
-            control what explained that fear.
+          <p>
+            He thought about what a woman finds in an old forest that frightens
+            someone who doesn't frighten.
           </p>
-<p>
-            He thought about what might be underground that kingdom soldiers
-            hadn't been able to find.
+          <p>
+            He thought about what stays underground when soldiers decide not
+            to go looking.
           </p>
-<p>
+          <p>
             The shadow beneath him moved. Not on its own this time — he had
             moved it, slightly, unconsciously, the way you moved your hand when
             your mind was working hard. He looked down at it. The shape in the
@@ -989,23 +1150,21 @@ export const chapters = [
             the thing that had come to him three years ago and had not left
             since.
           </p>
-<p>He pressed his fingers to the scar on his forearm.</p>
-<p>
-<em>I know you're thinking about staying,</em> he didn't say to it,
+          <p>He pressed his fingers to the scar on his forearm.</p>
+          <p>
+            <em>I know you're thinking about staying,</em> he didn't say to it,
             because he didn't speak to his shadow in public.
-            <em>Don't make me regret the thought.</em>
-</p>
-<p>The shadow was still.</p>
-<p>
+            <em> Don't make me regret the thought.</em>
+          </p>
+          <p>The shadow was still.</p>
+          <p>
             Then, from somewhere across the village, he heard it — a low,
             resonant sound that traveled through the ground before it traveled
             through air. Not a horn. Not an animal. Something older than either.
           </p>
-<p>The forest, settling.</p>
-<p>Or the forest, beginning to wake.</p>
-</div>
-
-
+          <p>The forest, settling.</p>
+          <p>Or the forest, beginning to wake.</p>
+        </div>
       </>
     )
   },
@@ -1014,23 +1173,21 @@ export const chapters = [
     number: 6,
     numberText: "Chapter Six",
     title: "The Night Before",
-    epigraph: "             \"The most terrible night is not the night the storm arrives. It is             the one before, when the sky is still clear and the air smells clean             and you know anyway.\"           ",
+    epigraph: "\"The most terrible night is not the night the storm arrives. It is the one before, when the sky is still clear and the air smells clean and you know anyway.\"",
     content: () => (
       <>
-        
-
-<div className="prose">
-<p>The chosen house had a visible quality about it.</p>
-<p>
-            He had noticed it while mapping the village, the way certain
-            buildings emit a frequency — the subtle wrongness of a house that
-            has been marked. Nothing physical: the door was the same color as
-            the others, the garden equally untended. But people walking that
+        <div className="prose">
+          <p>The chosen house had a visible quality about it.</p>
+          <p>
+            He had noticed it while walking the village that afternoon, the way
+            certain buildings emit a frequency — the subtle wrongness of a house
+            that has been marked. Nothing physical: the door was the same color
+            as the others, the garden equally untended. But people walking that
             street bent their paths slightly, adding two or three steps to avoid
             passing too close to it, the way water moves around an obstacle
             without anything in the water deciding to do so.
           </p>
-<p>
+          <p>
             When he stood still long enough to watch properly, he saw a villager
             glance at the house and then away with the precise, overcontrolled
             casualness of someone who had decided not to look at a thing many
@@ -1038,110 +1195,343 @@ export const chapters = [
             straight ahead, the deliberate forward gaze of a man pretending not
             to notice something that was all he could notice.
           </p>
-<p>
+          <p>
             A door stood slightly open. From inside came the sound of soft
-            crying — not a child's crying this time, but an adult's, which is
-            quieter and somehow more absolute.
+            crying — not a child's crying, but an adult's, which is quieter and
+            somehow more absolute. The kind of crying that had given up on being
+            heard and was simply continuing because it had nowhere else to go.
           </p>
-<p>
-            <span className="entity-link" data-entity="char-zillian">Zillian</span> stood across the narrow street and felt the weight of the
-            ordinary that surrounded the extraordinary grief inside that
-            building. Someone's child had been chosen. The machinery of the
-            system had selected a number and that number corresponded to a
-            family, and the family was in there crying as quietly as they could
-            because loud grief would make it real in a way that quiet grief
-            could be managed.
+          <p>
+            <span className="entity-link" data-entity="char-zillian">Zillian</span> stood across the narrow street and did not move for
+            a long moment.
           </p>
-<p>He was still standing there when <span className="entity-link" data-entity="char-garret">Garret</span> found him.</p>
-<div className="dialogue">
-<span className="speaker">Garret</span>
-            "You shouldn't stand here long."
-          </div>
-<div className="dialogue">
-<span className="speaker">Zillian</span>
-            "Why not?"
-          </div>
-<div className="dialogue">
-<span className="speaker">Garret</span>
-            "Makes them feel watched. They need to feel invisible right now.
-            It's what they have left." He stood beside Zillian. "Besides.
-            Standing here doesn't help anything."
-          </div>
-<div className="dialogue">
-<span className="speaker">Zillian</span>
-            "What would?"
-          </div>
-<p>
-            Garret didn't answer. Which was, Zillian supposed, its own kind of
-            answer.
+          <p>
+            Then he saw the father.
           </p>
-<p>
+          <p>
+            The man was sitting on the low stone step beside the door — not
+            inside, not quite outside, caught in the narrow space between the
+            two. He was holding something in both hands. A wooden toy, small
+            enough to fit in a child's palm. He wasn't looking at it. He was
+            looking at the ground between his feet with the expression of a man
+            who had gone somewhere inside himself that he couldn't find his way
+            back from yet. The toy turned slowly in his fingers — not fidgeting,
+            just moving, the way hands moved when the rest of the body had
+            forgotten they were there.
+          </p>
+          <p>
+            From inside the house, a small voice. A younger child, by the sound
+            of it — five or six, maybe less.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Young Child</span>
+            "Papa. When is Mira coming back?"
+          </div>
+          <p>
+            The man on the step closed his eyes. His hands stilled around
+            the toy.
+          </p>
+          <p>
+            He didn't answer. Not because he hadn't heard. Because there was
+            no answer to give that the child was old enough to receive.
+          </p>
+          <p>
+            Zillian turned and walked away before he was noticed.
+          </p>
+          <div className="scene-break">✦</div>
+          <p>
+            The gathering was in the back room of the granary — a low space
+            with a packed earth floor and sacks stacked three deep along the
+            walls, lit by two lanterns hung from ceiling hooks. Seven or eight
+            villagers, most of them older, arranged in the loose, uncomfortable
+            formation of people who had not chosen to be in the same room but
+            had ended up there anyway. Zillian found a shadow near the door
+            and stayed in it.
+          </p>
+          <p>
+            Two men dominated the room. The first was broad-shouldered and
+            red-faced, with the blunt anger of someone who had held a position
+            long enough to have stopped questioning whether it was right.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Bren</span>
+            "We have no choice. We never had a choice. You stand here and talk
+            like there's something to decide, and there isn't. There hasn't
+            been for years. You give them what they ask for and your village
+            stands. You don't, and you've seen what happens to the ones
+            that don't."
+          </div>
+          <p>
+            The second man was younger — thirties, with the kind of controlled
+            fury that came from having been told there was no choice too many
+            times.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Corren</span>
+            "What I've seen is that we've given them what they asked for and
+            the village is still dying. Slower, maybe. But dying. We lose a
+            child and we call it survival. We lose another and we call it
+            survival again. At what point does survival stop being the word
+            for it?"
+          </div>
+          <div className="dialogue">
+            <span className="speaker">Bren</span>
+            "When the alternative is worse."
+          </div>
+          <div className="dialogue">
+            <span className="speaker">Corren</span>
+            "You keep saying that. What is the alternative? You've never
+            named it. You just hold it up like a shape in the dark and
+            expect us to be afraid of it."
+          </div>
+          <div className="dialogue">
+            <span className="speaker">Bren</span>
+            "The forest. That's the alternative. You want me to name it,
+            I've named it. Without Doren's riders keeping the roads clear,
+            we don't trade. Without trade, we don't eat. And without his
+            men on the perimeter at night —" He stopped. His voice had
+            gone somewhere flat. "You've heard the horn. Same as the
+            rest of us."
+          </div>
+          <p>
+            The room was quiet for a moment. Several people looked at the
+            floor. Whatever sound came from the hills at night, it carried
+            a weight in this room that the argument itself did not.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Corren</span>
+            "So we keep paying. Keep handing them children. Keep telling
+            ourselves Doren is protection and not just a different kind of
+            threat wearing a cleaner coat. And in ten years, what's left?
+            Who's left?"
+          </div>
+          <p>
+            No one answered him. Because he wasn't wrong, and they all
+            knew it, and knowing it changed nothing, which was the most
+            exhausting kind of being right.
+          </p>
+          <p>
+            Then <span className="entity-link" data-entity="char-garret">Garret</span> spoke.
+          </p>
+          <p>
+            He had been standing near the back wall — Zillian hadn't noticed
+            him when he came in. Garret hadn't moved or gestured for
+            attention. He had simply spoken, at a volume slightly below the
+            room's current pitch, and the room had adjusted itself downward
+            to hear him. That was not a thing you could learn. That was a
+            thing that accumulated over years of being the person a room
+            waited for.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
+            "Both of you are right. That's the problem."
+          </div>
+          <p>He let that sit.</p>
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
+            "Bren — you're right that we can't refuse them. Not tonight.
+            Not with what we have and what we don't have and what lives
+            in those trees after dark. And Corren — you're right that
+            this doesn't end. That there's no version of compliance that
+            leads somewhere better. You're both describing the same thing
+            from different ends of it."
+          </div>
+          <p>
+            Bren looked like he wanted to argue and found he had nothing
+            to argue against. Corren looked like he wanted to be told he
+            was wrong and wasn't getting that either.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
+            "So we do what we've always done. We get through tonight.
+            We get through the next visit. And we keep our eyes open for
+            the thing that changes the shape of the problem — because
+            that's the only thing that's ever actually changed anything.
+            Not arguing in granaries." He paused. "Getting through is not
+            the same as giving up. I need you both to remember that."
+          </div>
+          <p>
+            The room dispersed slowly, in ones and twos, people filing
+            out into the evening with the quiet of those who had not
+            resolved anything but had been reminded that they were not
+            alone in carrying it. Bren left without looking at Corren.
+            Corren stayed a moment longer, staring at the middle distance,
+            then followed.
+          </p>
+          <p>
+            Garret remained. He was looking at the space the argument had
+            occupied, the way you looked at a place where something heavy
+            had been set down and carried away and you could still see
+            the impression it had left.
+          </p>
+          <p>
+            He noticed Zillian then. His expression didn't change — which
+            was itself a kind of change, in a face that had just finished
+            the work of holding a room together.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
+            "How long were you standing there?"
+          </div>
+          <div className="dialogue">
+            <span className="speaker">Zillian</span>
+            "Long enough."
+          </div>
+          <p>Garret looked at him for a moment.</p>
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
+            "That happens every time. Different faces sometimes. Same
+            argument. Same ending." He moved toward the door. "Come on."
+          </div>
+          <div className="scene-break">✦</div>
+          <p>
             They walked back through the village in the falling dark. The
             evening star appeared over the eastern ridge, bright and
-            indifferent. Someone had lit a fire at the inn. The smell of cooking
-            meat came and went on a slight breeze from the south, and it made
-            the village feel, briefly, like a place where people ate dinner and
-            talked about ordinary things, and then the breeze stopped and it was
-            only a village at night where somewhere a parent was crying too
-            quietly for the neighbors to be too uncomfortable.
+            indifferent. Someone had lit a fire at the inn — the smell of
+            cooking meat came and went on a slight breeze from the south,
+            and it made the village feel, briefly, like a place where
+            people ate dinner and talked about ordinary things. Then the
+            breeze stopped and it was only a village at night, where
+            somewhere a man was sitting on a step holding a toy that
+            didn't belong to him anymore.
           </p>
-<div className="scene-break">✦</div>
-<p>The horn sounded at the edge of dark.</p>
-<p>
-            Not a signal horn — this was something older, a bull horn or
-            something made to sound like one, the deep bellow of it coming from
-            the hills northwest of the village and rolling over the walls in a
-            single long note that didn't so much end as it did fade, like a
-            stone dropped into deep water. Zillian stopped walking. Around him,
-            the village froze for three full seconds — that collective held
-            breath, that rehearsed stillness — and then exhaled and continued
-            moving with slightly more deliberateness, slightly more speed, as
-            though everyone had decided simultaneously that being indoors was
-            preferable to being out.
+          <div className="dialogue">
+            <span className="speaker">Zillian</span>
+            "You've been doing this a long time."
+          </div>
+          <p>
+            It wasn't a question. Garret walked three steps before
+            he answered.
           </p>
-<p>
-            After a long moment in which nothing further happened, the tension
-            dispersed by degrees. A dog barked once and fell silent. Light still
-            showed under the inn door.
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
+            "My father held this village together before me. His mother
+            before him. It's not a thing you choose so much as a thing
+            you find yourself doing and then can't stop, because stopping
+            means there's no one left to do it."
+          </div>
+          <div className="dialogue">
+            <span className="speaker">Zillian</span>
+            "Does it get easier?"
+          </div>
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
+            "No. You just get better at carrying it." A pause. "There's
+            a difference."
+          </div>
+          <p>
+            They walked without speaking for a while. The lane narrowed
+            toward the inn. Above them the stars had committed fully to
+            the sky, and the forest beyond the village wall was a dark
+            shape against a slightly less dark sky, and you could almost
+            forget, for a moment, what lived in it.
           </p>
-<div className="dialogue">
-<span className="speaker">Zillian</span>
+          <div className="scene-break">✦</div>
+          <p>The horn sounded at the edge of dark.</p>
+          <p>
+            Not a signal horn — something older, a deep resonant bellow
+            from the hills northwest of the village, rolling over the
+            walls in a single long note that didn't so much end as fade,
+            the way a stone dropped into deep water sends its last ripple
+            and then is simply gone. Zillian stopped walking. Around him,
+            the village froze — that collective held breath, that rehearsed
+            stillness — and then exhaled and continued moving with slightly
+            more deliberateness, slightly more speed, as though everyone
+            had decided simultaneously that being indoors was preferable
+            to being out.
+          </p>
+          <p>
+            A dog barked once and fell silent. Light still showed under
+            the inn door.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Zillian</span>
             "What was that?"
           </div>
-<div className="dialogue">
-<span className="speaker">Garret</span>
-            "Happens sometimes. Usually means nothing." He paused. "Usually."
+          <p>
+            Garret was looking at the treeline — at the specific point
+            where the forest wall met the hill's edge — in the way a man
+            looked at something he had looked at many times and had not
+            finished deciding what to think about it.
+          </p>
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
+            "It comes from the hills sometimes. We've learned it's not
+            always a warning. Sometimes it's just — noise. Things moving
+            in the dark that aren't moving toward us."
           </div>
-<p>
-            Zillian went to the inn and lay down in the room they gave him,
-            which was small and clean and smelled of cedar and old stone. He lay
-            with his eyes open and watched the ceiling and turned over the same
-            facts he had been turning over all day. The system had the shape of
-            something designed. The bandit attacks, the monster incursions, the
-            convenient arrival of protection, the children as payment — it was
-            too coherent to be coincidental, too elegant to be improvised.
-            Someone had constructed this. Someone understood the village's
-            psychology well enough to know exactly what fear to manufacture and
-            what solution to offer it.
+          <div className="dialogue">
+            <span className="speaker">Zillian</span>
+            "How do you tell the difference?"
+          </div>
+          <div className="dialogue">
+            <span className="speaker">Garret</span>
+            "If it sounds again, we worry. If it doesn't —" He turned
+            from the treeline. "We sleep."
+          </div>
+          <p>
+            The horn did not sound again. Garret said goodnight at the
+            inn door with the brevity of a man who had said goodnight
+            to enough difficult evenings that he no longer found ceremony
+            in it.
           </p>
-<p>
-            And under it all: a mage's ruins, a missing artifact, and a god that
-            hadn't died but had perhaps been <em>taken.</em>
-</p>
-<p>The shadow beneath his bed moved.</p>
-<p>
-            Not the shadow itself — shadows moved when light moved and there was
-            no light to move. This was the thing inside the shadow, which was
-            different. He felt its attention shift, the way you felt a large
-            animal shift its weight in the dark, becoming alert to something you
-            hadn't sensed yet.
+          <div className="scene-break">✦</div>
+          <p>
+            Zillian lay in the room they had given him — small and clean,
+            smelling of cedar and old stone — and watched the ceiling.
           </p>
-<p>He closed his eyes.</p>
-<p>The village calmed. Nothing further came in the night.</p>
-<p>But nothing had passed. He knew the difference.</p>
-</div>
-
-
+          <p>
+            He thought about the father on the step. The toy turning
+            in his hands. The younger child's voice from inside, asking
+            a question that would need to be answered eventually, in some
+            form, by someone.
+          </p>
+          <p>The father already knew the answer. That was the problem.</p>
+          <p>
+            He thought about Garret in the granary — the room lowering
+            its voice to hear him — and about a man whose mother and
+            father had done the same work before him in the same village,
+            holding the same people together against the same slow
+            erosion, and whether that was devotion or whether it was
+            simply what happened when there was no one else.
+          </p>
+          <p>
+            He was not certain, he realized, that Doren controlled
+            what came from the forest. He had assumed it — the shape
+            of the arrangement suggested it. But assuming and knowing
+            were different things, and he had seen enough arrangements
+            that looked designed from the outside turn out to be two
+            separate problems that had simply found each other.
+          </p>
+          <p>
+            It was possible that Doren was exactly what he claimed.
+            Protection. Imperfect, extractive, cruel in its terms —
+            but real. Which would mean the forest was its own problem
+            entirely, older than Doren, older than the offerings, older
+            than anything the Baron had constructed or could dismantle.
+          </p>
+          <p>
+            He held that thought and didn't like it. It was the less
+            satisfying explanation. It was also, he knew from experience,
+            the kind of thought worth keeping.
+          </p>
+          <p>
+            And under everything: a hollow stone. A woman underground,
+            racing toward something she hadn't been allowed to finish.
+            A god that had withdrawn the same year the soldiers came.
+          </p>
+          <p>The shadow beneath his bed shifted.</p>
+          <p>
+            Not the shadow itself — shadows moved when light moved and
+            there was no light to move. This was the thing inside the
+            shadow, which was different. He felt its attention shift the
+            way you felt a large animal shift its weight in the dark,
+            becoming alert to something you hadn't sensed yet.
+          </p>
+          <p>He closed his eyes.</p>
+          <p>The village calmed. Nothing further came in the night.</p>
+          <p>But nothing had passed. He knew the difference.</p>
+        </div>
       </>
     )
   },
@@ -1150,159 +1540,239 @@ export const chapters = [
     number: 7,
     numberText: "Chapter Seven",
     title: "Protection Withdrawn",
-    epigraph: "             \"A man who controls both the disease and the cure has perfect power.             The only mistake he can make is letting the disease get away from             him.\"           ",
+    epigraph: "\"A man who controls both the disease and the cure has perfect power. The only mistake he can make is letting the disease get away from him.\"",
     content: () => (
       <>
-        
-
-<div className="prose">
-<p>They came back the next morning.</p>
-<p>
-            The same six riders, the same controlled walk, the same formation.
-            The leader's boots were clean again. The village assembled in the
-            square again with the same practiced efficiency, only this time
-            there was something different in the air of it — a fracture line
-            running through the collected silence, a barely perceptible
-            distinction between the people who had decided and the people who
-            had not.
+        <div className="prose">
+          <p>They came back the next morning.</p>
+          <p>
+            The same six riders, the same controlled arrival, the same
+            formation fanning across the square without instruction. The
+            leader's boots were clean again. The village assembled with the
+            same practiced efficiency, only this time there was something
+            different in the air of it — a fracture line running through
+            the collected silence, a barely perceptible distinction between
+            the people who had decided and the people who had not.
           </p>
-<p>
-            The parent whose child had been chosen stood at the front of the
-            crowd.
+          <p>
+            The parent whose child had been chosen stood at the front of
+            the crowd.
           </p>
-<p>
-            The father: a broad, weathered man who looked like someone who had
-            been breaking stone for twenty years and had developed the same
-            hardness as what he broke. The mother: smaller, quieter, with the
-            specific stillness of a person who has made a decision and is
-            managing their terror about it. The child stood between them,
-            holding both their hands, not understanding.
+          <p>
+            The father: a broad, weathered man who looked like someone who
+            had been breaking stone for twenty years and had developed the
+            same hardness as what he broke. The mother: smaller, quieter,
+            with the specific stillness of a person who has made a decision
+            and is managing their terror about it. The child stood between
+            them, holding both their hands, not understanding.
           </p>
-<p>The leader dismounted. The parchment emerged.</p>
-<div className="dialogue">
-<span className="speaker">Leader</span>
+          <p>The leader dismounted. The parchment emerged.</p>
+          <div className="dialogue">
+            <span className="speaker">Leader</span>
             "<span className="entity-link" data-entity="loc-halwen">Halwen</span> Village will—"
           </div>
-<div className="dialogue">
-<span className="speaker">Father</span>
+          <div className="dialogue">
+            <span className="speaker">Father</span>
             "No."
           </div>
-<p>
-            The word fell into the square like a stone dropped into still water.
-            Ripples ran through the crowd — whispers, shuffling, the small
-            sounds of people recalibrating their assessment of the moment. The
-            leader looked at the father with the mild interest of a man
-            encountering a process variance. He finished unrolling the
-            parchment. He did not look at it.
+          <p>
+            The word fell into the square like a stone dropped into still
+            water. For a moment nothing moved. Then the ripples started —
+            a sharp intake of breath from somewhere in the middle of the
+            crowd, a woman's hand going to her mouth, a man taking one
+            involuntary step backward as though the word itself had
+            displaced him. The leader looked at the father with the mild
+            interest of a man encountering a process variance. He finished
+            unrolling the parchment. He did not look at it.
           </p>
-<div className="dialogue">
-<span className="speaker">Father</span>
+          <div className="dialogue">
+            <span className="speaker">Father</span>
             "No. Not this time. Not ever again."
           </div>
-<p>
-            His voice was steady. Terrifyingly steady, the steadiness of
+          <p>
+            His voice was steady. Terrifyingly steady — the steadiness of
             something that had been shaking for a long time and had finally
-            stopped because it had decided to be a wall instead of a man. Beside
-            him, his wife's hand tightened on the child's hand. She was not
-            looking at the riders. She was looking at the other villagers, going
-            from face to face, reading something there.
+            stopped because it had decided to be a wall instead of a man.
+            Beside him, his wife's hand tightened on the child's. She was
+            not looking at the riders. She was looking at the other
+            villagers, going from face to face, reading something there.
           </p>
-<p>Whatever she read made her expression close.</p>
-<p>
-            The crowd was not with them. Not openly. People were looking at
-            their feet. Looking at the buildings. Looking anywhere that wasn't
-            the father's face, because looking at his face meant encountering
-            either the courage they hadn't summoned or the future they didn't
-            want to contemplate.
+          <p>Whatever she read made her expression close.</p>
+          <p>
+            From somewhere near the back of the crowd, a voice — low,
+            urgent, not quite a whisper.
           </p>
-<p>The leader re-rolled the parchment.</p>
-<div className="dialogue">
-<span className="speaker">Leader</span>
+          <div className="dialogue">
+            <span className="speaker">Voice in the Crowd</span>
+            "Please. Don't do this."
+          </div>
+          <p>
+            The father didn't turn. Didn't acknowledge it. His eyes stayed
+            on the leader with the fixed quality of a man who had decided
+            that turning around was the one thing he couldn't afford.
+          </p>
+          <p>
+            The crowd was not with him. Not openly. People were looking at
+            their feet, at the buildings, anywhere that wasn't the father's
+            face — because looking at his face meant encountering either
+            the courage they hadn't summoned or the consequence they didn't
+            want to inherit.
+          </p>
+          <p>The leader re-rolled the parchment.</p>
+          <div className="dialogue">
+            <span className="speaker">Leader</span>
             "Then Halwen stands unprotected."
           </div>
-<p>
-            He said it without inflection. He gave a slight nod to one of his
-            riders, who raised a horn and blew a single long note across the
-            valley.
+          <p>
+            He said it without inflection. A slight nod to one of his
+            riders, who raised a horn and blew a single long note across
+            the valley.
           </p>
-<span className="sfx">HOOOOOOORN</span>
-<p>
-            The sound echoed from the hills and came back changed, flattened,
-            and when it had faded the morning felt emptier than it had before
-            the sound. The riders turned and rode out of Halwen at the same
-            controlled walk with which they had entered it. They did not look
-            back. They were already finished with this village.
+          <span className="sfx">HOOOOOOORN</span>
+          <p>
+            The sound echoed from the hills and came back changed,
+            flattened, and when it faded the morning felt emptier than
+            before the sound. The riders turned and rode out of Halwen
+            at the same controlled pace with which they had entered. They
+            did not look back. They were already finished with this village.
           </p>
-<p>The dust they raised settled slowly.</p>
-<p>
-            No one spoke. The father stood in the middle of the square with his
-            child's hand in both of his and watched the empty gate. His wife
-            pressed close to his side. The crowd began to disperse without word
-            or signal, filtering back to doors and alleys, and there was in the
-            movement of it a quality that <span className="entity-link" data-entity="char-zillian">Zillian</span> recognized as shame.
+          <p>The dust they raised settled slowly.</p>
+          <p>
+            No one spoke. The father stood in the middle of the square
+            with his child's hand in both of his and watched the empty
+            gate. His wife pressed close to his side. The crowd dispersed
+            without word or signal, filtering back to doors and alleys,
+            and there was in the movement of it a quality that
+            <span className="entity-link" data-entity="char-zillian">Zillian</span> recognized as shame.
           </p>
-<p>
-            Not everyone. Some faces showed something different: a slow, burning
-            anger that had been fed, unexpectedly, by the sight of a man who had
-            said no.
+          <p>
+            Not everyone. Some faces held something different — a slow,
+            burning thing that had been fed, unexpectedly, by the sight
+            of a man who had said no. But most of them were ashamed.
+            Because the father had done what they had never managed, and
+            now the protection was gone, and whatever came next they would
+            have to live through knowing which choice they had made when
+            the moment arrived.
           </p>
-<p>
-            But most of them were ashamed. Because the father had done what they
-            had never managed, and now the protection was gone, and whatever
-            came next they would have to live through knowing which choice they
-            had made when the moment arrived.
+          <div className="scene-break">✦</div>
+          <p>
+            Zillian walked slowly through the emptying village, his eyes
+            moving the way they always moved in places that didn't add up.
           </p>
-<div className="scene-break">✦</div>
-<p>They left too easily, Zillian thought.</p>
-<p>
-            Six armed riders, sent by a baron who depended on this arrangement
-            for income and leverage, and when refused they had simply departed.
-            No argument. No attempt at force. No demand for some other form of
-            compliance. They had blown the horn and left as though the horn was
-            the important part, not the refusal.
+          <p>
+            The bandits had come first. Decades ago — before the
+            offerings, before Doren, before any of it. Organized enough
+            to choose when not to attack. That detail had stayed with him
+            since the shop.
           </p>
-<p>As though the horn was a <em>signal.</em></p>
-<p>
-            He was turning this over when movement caught his eye at the village
-            entrance — not the direction the riders had gone, but the opposite
-            gate, which faced south. A lone figure walking in, unhurried, with
-            the particular self-possession of someone who had arrived exactly
-            when they intended to.
+          <div className="narration">
+            Bandits from decades ago. Then monsters — but only recently.
+            Five years, if the timeline held. Why the gap? If someone
+            had built this arrangement, why introduce the threats
+            separately? Why wait?
+          </div>
+          <p>
+            Unless only one had been introduced. Unless the other had
+            simply — arrived on its own.
           </p>
-<p>
-            A woman. Young — late twenties, perhaps — with the pointed ears and
-            faintly luminous quality of deep-forest elven heritage. She wore a
-            long green dress half-concealed by a traveling robe, the hood of
-            which she had not lowered despite being inside the walls. A mask
-            covered the upper half of her face: smooth, pale, carved with a
-            single horizontal line across the eye-level that might have been
-            decorative or might have been functional in ways he couldn't
-            determine from this distance.
+          <p>
+            He turned that over carefully, testing its weight.
           </p>
-<p>
-            She stopped at the center of the village square, let her gaze move
-            slowly around the empty space, and appeared unsurprised by
-            everything she saw.
+          <p>
+            If the monsters were real — not manufactured, not controlled —
+            then the bandits would have suffered from them too. Men living
+            near that forest, operating on those roads at night, would not
+            have come through five years of monster incursions unchanged.
+            They would be reduced. Worn down. The organized, disciplined
+            force that chose when not to attack would have become something
+            less reliable than that.
           </p>
-<p>
-            The wind, he noticed, moved differently around her than it moved
-            around everything else. As though it was aware of her and adjusting.
+          <div className="narration">
+            Which meant Doren might not control what he claims to control.
+            Or he did once — and doesn't anymore.
+          </div>
+          <p>
+            Several things added up, he thought. Just not to the same answer.
           </p>
-<p>
-            And then, from the hills to the northwest — the same hills the
-            horn's echo had come from — something moved. Something large, moving
-            fast, generating the kind of sound that arrived as vibration before
-            it arrived as noise.
+          <p>
+            The hollow stone. Erica underground, racing toward something
+            she never finished. A god that withdrew the same year the
+            soldiers came. The monster incursions beginning five years
+            after that — not immediately, but eventually, as though
+            something had been sealed and the seal was slowly failing.
           </p>
-<p>The animals in the village pens went silent simultaneously.</p>
-<p>The dog that had barked last night did not bark now.</p>
-<p>
-            Zillian's shadow spread two inches in every direction without any
-            change in the light.
+          <p>
+            He didn't have enough to connect it yet. But the shape of
+            it was there, at the edge of what he could see, the way a
+            coastline was there in fog — present, even when you couldn't
+            make out the details.
           </p>
-</div>
-
-
+          <div className="scene-break">✦</div>
+          <p>
+            He was still moving through the village when movement caught
+            his eye at the south gate — not the direction the riders had
+            gone, but the opposite entrance. A lone figure walking in,
+            unhurried, with the particular self-possession of someone who
+            had arrived exactly when they intended to.
+          </p>
+          <p>
+            A woman. Young — late twenties, perhaps — with the pointed
+            ears and faintly luminous quality of deep-forest elven
+            heritage. She wore a long green dress half-concealed by a
+            traveling robe, the hood not lowered despite being inside the
+            walls. A mask covered the upper half of her face: smooth,
+            pale, carved with a single horizontal line across the
+            eye-level that might have been decorative or might have been
+            functional in ways he couldn't determine from this distance.
+          </p>
+          <p>
+            She stopped at the center of the village square, let her gaze
+            move slowly around the empty space, and appeared unsurprised
+            by everything she saw.
+          </p>
+          <p>
+            The wind moved differently around her than it moved around
+            everything else. As though it was aware of her and adjusting.
+          </p>
+          <div className="scene-break">✦</div>
+          <p>
+            Then, from the hills to the northwest — the same hills the
+            horn's echo had rolled from — something moved.
+          </p>
+          <p>
+            Not the way animals moved, and not the way men moved. The
+            sound arrived as vibration before it arrived as noise — felt
+            in the soles of the feet first, then in the chest, then as
+            a low rhythmic impact with no clean source, as though the
+            hills themselves were shifting weight.
+          </p>
+          <p>The animals in the village pens went silent simultaneously.</p>
+          <p>The dog that had barked last night did not bark now.</p>
+          <p>
+            Zillian's shadow spread two inches in every direction without
+            any change in the light.
+          </p>
+          <p>
+            He looked at the treeline. The forest at the village's edge
+            was the same dark mass it had always been — same still canopy,
+            same wall of shadow between the trees. But something was
+            different, and it took him a moment to name it.
+          </p>
+          <div className="narration">
+            The forest hadn't gone silent.
+          </div>
+          <p>
+            The birdsong, the wind through leaves, the small constant
+            texture of living things going about their business — all of
+            it had simply stopped. Not sudden. Not frightened-quiet. Just
+            absent, the way a held breath was absent of sound, the way a
+            room went still when something entered it that hadn't been
+            invited.
+          </p>
+          <div className="narration">
+            It was waiting.
+          </div>
+        </div>
       </>
     )
   },
