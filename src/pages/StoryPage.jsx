@@ -3,15 +3,21 @@ import { useNavigate } from 'react-router-dom';
 import TitleScreen from '../components/story/TitleScreen';
 import ChapterReader from '../components/story/ChapterReader';
 import EntityLinkDialog from '../components/story/EntityLinkDialog';
-import { arcInfo, chapters, worldIntro as WorldIntro, TitleEmblem } from '../arcs/Arc1_HalwenSpiral';
+import { arcInfo as gravityArcInfo, chapters as gravityChapters, worldIntro as GravityWorldIntro } from '../arcs/Arc1_GravityArc';
+import { arcInfo as halwenArcInfo, chapters as halwenChapters } from '../arcs/Arc15_HalwenSpiral';
 import '../styles/story.css';
 
+const arcChapters = [
+  ...gravityChapters.map((chapter) => ({ ...chapter, arcInfo: gravityArcInfo })),
+  ...halwenChapters.map((chapter) => ({ ...chapter, arcInfo: halwenArcInfo })),
+];
 const StoryPage = () => {
   const navigate = useNavigate();
   const [started, setStarted] = useState(false);
   const [currentChapterIdx, setCurrentChapterIdx] = useState(() => {
-    const saved = localStorage.getItem('zephyr_last_chapter');
-    return saved ? parseInt(saved, 10) : 0;
+    const saved = Number.parseInt(localStorage.getItem('zephyr_last_chapter') || '0', 10);
+    const lastChapterIdx = Math.max(0, arcChapters.length - 1);
+    return Number.isFinite(saved) ? Math.min(Math.max(saved, 0), lastChapterIdx) : 0;
   });
   const [maxRead, setMaxRead] = useState(() => {
     const saved = localStorage.getItem('zephyr_max_chapter');
@@ -21,7 +27,7 @@ const StoryPage = () => {
 
   useEffect(() => {
     localStorage.setItem('zephyr_last_chapter', currentChapterIdx.toString());
-    const currentChapterNum = chapters[currentChapterIdx]?.number || (currentChapterIdx + 1);
+    const currentChapterNum = currentChapterIdx + 1;
     if (currentChapterNum > maxRead) {
       setMaxRead(currentChapterNum);
       localStorage.setItem('zephyr_max_chapter', currentChapterNum.toString());
@@ -56,11 +62,11 @@ const StoryPage = () => {
     return (
       <div className="story-page">
         <TitleScreen 
-          arcInfo={arcInfo} 
+          arcInfo={gravityArcInfo} 
           onBegin={handleBegin} 
-          totalChapters={chapters.length}
+          totalChapters={arcChapters.length}
           lastReadIdx={currentChapterIdx}
-          chapters={chapters}
+          chapters={arcChapters}
           maxRead={maxRead}
           setMaxRead={setMaxRead}
         />
@@ -68,7 +74,7 @@ const StoryPage = () => {
     );
   }
 
-  const currentChapter = chapters[currentChapterIdx];
+  const currentChapter = arcChapters[currentChapterIdx];
 
   return (
     <div className="story-page">
@@ -76,11 +82,11 @@ const StoryPage = () => {
         <button className="ch-btn" onClick={() => setStarted(false)} style={{marginRight: '1rem'}}>
           ← Title
         </button>
-        <div className="nav-title">{arcInfo.name}</div>
+        <div className="nav-title">{currentChapter.arcInfo.name}</div>
         <div className="chapter-list">
-          {chapters.map((ch, i) => (
+          {arcChapters.map((ch, i) => (
             <button
-              key={ch.id}
+              key={`${i}-${ch.id || ch.number}`}
               className={`ch-btn ${i === currentChapterIdx ? 'active' : ''}`}
               onClick={() => setCurrentChapterIdx(i)}
             >
@@ -94,14 +100,13 @@ const StoryPage = () => {
       </nav>
 
       <main className="novel-body">
-        {currentChapterIdx === 0 && <WorldIntro />}
-
+        {currentChapterIdx === 0 && <GravityWorldIntro />}
         <ChapterReader 
           chapter={currentChapter}
           currentIndex={currentChapterIdx}
-          totalChapters={chapters.length}
+          totalChapters={arcChapters.length}
           onPrev={() => setCurrentChapterIdx(prev => Math.max(0, prev - 1))}
-          onNext={() => setCurrentChapterIdx(prev => Math.min(chapters.length - 1, prev + 1))}
+          onNext={() => setCurrentChapterIdx(prev => Math.min(arcChapters.length - 1, prev + 1))}
           onEntityClick={handleEntityClick}
         />
       </main>

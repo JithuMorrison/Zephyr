@@ -41,13 +41,16 @@
 
 /* TITLE SCREEN */
 .story-page .title-screen {
-  min-height: 100vh;
+  height: 100vh;
+  height: 100svh;
+  min-height: 0;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 4rem 2rem;
+  padding: clamp(0.75rem, 2.5vh, 2rem) 1rem;
   position: relative;
   background: radial-gradient(
     ellipse 80% 60% at 50% 40%,
@@ -674,3 +677,14 @@
     flex-direction: column;
   }
 }
+
+/* Keep the opening title page within the visible viewport. */
+.story-page .title-screen .title-emblem { width: clamp(42px, 8vh, 68px); height: clamp(42px, 8vh, 68px); margin: 0 0 clamp(0.35rem, 1.2vh, 0.75rem); }
+.story-page .title-screen .series-label,
+.story-page .title-screen .subtitle,
+.story-page .title-screen .main-title { margin-bottom: clamp(0.25rem, 0.9vh, 0.65rem); }
+.story-page .title-screen .main-title { font-size: clamp(1.7rem, 5.5vw, 3.6rem); }
+.story-page .title-screen > div[style*="display: flex"] { margin-top: clamp(0.35rem, 1.2vh, 0.8rem) !important; margin-bottom: clamp(0.35rem, 1.2vh, 0.8rem) !important; gap: clamp(0.5rem, 3vw, 2rem) !important; }
+.story-page .title-screen .divider-gold { margin: clamp(0.35rem, 1.2vh, 0.8rem) auto; }
+.story-page .title-screen .world-tag { margin-bottom: 0.25rem; }
+.story-page .title-screen .title-action-btn { padding: 0.65rem clamp(0.75rem, 3vw, 1.5rem); font-size: clamp(0.6rem, 1.8vw, 0.75rem); }

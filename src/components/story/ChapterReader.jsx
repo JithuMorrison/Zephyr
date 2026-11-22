@@ -33,7 +33,7 @@ const ChapterReader = ({ chapter, currentIndex, totalChapters, onPrev, onNext, o
   }, [chapter.id, onEntityClick]);
 
   return (
-    <section className={`chapter ${isVisible ? 'visible' : ''}`} id={chapter.id}>
+    <section className={`chapter ${isVisible ? 'visible' : ''}`} id={chapter.id || `chapter-${chapter.number}`}>
       {/* Render Side Images */}
       {chapter.sideImages && chapter.sideImages.map((img, idx) => (
         <div key={idx} className={`side-image ${img.side === 'right' ? 'side-right' : 'side-left'}`} style={{ top: img.top || '10%' }}>

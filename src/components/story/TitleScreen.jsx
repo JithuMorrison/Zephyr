@@ -25,9 +25,7 @@ const TitleScreen = ({ arcInfo, onBegin, totalChapters, lastReadIdx, chapters, m
       
       <div className="series-label">{arcInfo.seriesLabel}</div>
       <h1 className="main-title">
-        Shadow
-        <br />
-        Covenant
+        {arcInfo.storyTitle}
       </h1>
       <div className="subtitle">{arcInfo.subtitle}</div>
       
@@ -58,8 +56,6 @@ const TitleScreen = ({ arcInfo, onBegin, totalChapters, lastReadIdx, chapters, m
 
       <div className="divider-gold"></div>
       <div className="world-tag">{arcInfo.worldTag}</div>
-      <br />
-      <br />
       <div style={{ display: 'flex', gap: '2rem', alignItems: 'center', position: 'relative', zIndex: 10, marginTop: '2rem' }}>
         <button className="title-action-btn" onClick={onBegin}>
           Start Reading
